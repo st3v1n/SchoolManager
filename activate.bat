@@ -1,0 +1,1 @@
+"C:\Users\USER\.virtualenvs\TFA-CBT-gduzXvim\Scripts\activate"

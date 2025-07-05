@@ -1,0 +1,23 @@
+<div>
+    <h2 class="text-xl font-semibold mb-4">Create Folder</h2>
+    <form class="space-y-4">
+        <div>
+            <label for="folderName" class="block text-sm font-medium text-gray-700">Folder Name:</label>
+            <input type="text" id="folderName" name="folderName" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+        </div>
+
+        {% if folders %}
+        <div>
+            <label for="folder" class="block text-sm font-medium text-gray-700">Add Parent Folder:</label>
+            <select name="folderParent" id="folder" aria-placeholder="folder" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+                <option value="">None</option>
+                {% for folder in folders %}
+                <option value="{{ folder.id }}">{{ folder.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        {% endif %}
+
+        <button type="submit" class="w-full py-2 px-4 bg-primary text-white rounded-md hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50">Submit</button>
+    </form>
+</div>

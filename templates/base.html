@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SMS</title>
+        <meta name="csrf-token" content="{{ csrf_token }}">
+        <script src="{% static 'lib/htmx.js' %}"></script>
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <link href="{% static 'css/tailwind.css' %}" rel="stylesheet">
+        
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <link rel="stylesheet" href="{% static 'css/mathquill.css' %}">
+        <link rel="stylesheet" href="{% static 'css/editor.css' %}">
+        {% block head %}
+        
+        {% endblock head %}
+    </head>
+    <body>
+
+        <div class="space-y-2 p-4 absolute z-10 top-[-10px]">
+            {% for message in messages %}
+                <div role="alert" class="p-2 rounded-lg flex items-center transition duration-300 ease-in-out hover:scale-105
+                    {% if message.tags == 'success' %}bg-green-100 border-green-500 text-green-900{% elif message.tags == 'info' %}bg-blue-100 border-blue-500 text-blue-900{% elif message.tags == 'warning' %}bg-yellow-100 border-yellow-500 text-yellow-900{% elif message.tags == 'error' %}bg-red-100 border-red-500 text-red-900{% endif %}">
+                    <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-5 w-5 flex-shrink-0 mr-2" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 16h-1v-4h1m0-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                    <p class="text-xs font-semibold">{{ message }}</p>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="popoverbackdrop hidden">
+            <dialog popover class="p-8 overflow-auto m-2" id="lepopover"></dialog>
+        </div>
+        
+        {% block content %}
+        {% endblock content %}
+        
+        
+    </body>
+<script src="{% static 'js/base.js' %}"></script>  
+</html>

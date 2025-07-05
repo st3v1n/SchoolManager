@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+    <title>Edit Exam</title>
+    <script src="{% static 'js/mathquill.js' %}"></script>
+    <script src="{% static 'js/editor.js' %}"></script>
+    
+{% endblock head %}
+
+{% block content %}
+<script>
+    const questions = [
+        {% for question in questions %}
+        {
+            id: "{{ question.id }}",
+            type: "{{ question.question_type }}",
+            content: `{{ question.question_text|escapejs }}`,
+            //marks: {{ question.marks }},
+            options: [
+                {% for option in question.options.all %}
+                {
+                    text: `{{ option.option_text|escapejs }}`,
+                    correct: {{ option.is_correct|yesno:"true,false" }}
+                },
+                {% endfor %}
+            ]
+        },
+        {% endfor %}
+    ];
+    document.addEventListener('DOMContentLoaded', ()=>{
+        window.editor = new Editor('editorContainer', questions);
+        const firstqcontainer = document.getElementsByClassName('questionbox').item(0).getAttribute('data-question-id')
+    })
+
+    const exam_id = "{{ exam.id }}";
+
+
+    function importQuestions(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            let type = file.type
+            const content = e.target.result;
+            const questions = parseQuestions(content, type);
+
+            // Loop through the questions and add them to the editor
+            questions.forEach(questionData => {
+                editor.loadQuestion(questionData);
+            });
+            editor.deleteQuestion(firstqcontainer)
+        };
+
+        reader.readAsText(file);
+
+    }
+    function parseQuestions(text, type) {
+        const questions = [];
+    
+        if (type === 'text/plain') {
+            const lines = text.split("\n");
+            let currentQuestion = null;
+            let i = 0;
+    
+            lines.forEach(line => {
+                i++;
+                line = line.trim();
+                if (!line) return;
+    
+                const questionMatch = line.match(/^(\d+)\.\s*(.*)$/);
+                if (questionMatch) {
+                    if (currentQuestion) questions.push(currentQuestion);
+    
+                    currentQuestion = {
+                        id: i,
+                        content: questionMatch[2],
+                        type: 'multiple_choice',
+                        options: []
+                    };
+                } else if (line.match(/^[A-D]\./)) {
+                    const optionsLine = line.split(/\s+(?=[A-D]\.)/);
+                    optionsLine.forEach(optionText => {
+                        const optionMatch = optionText.match(/^([A-D])\.\s*(.*)$/);
+                        if (optionMatch && currentQuestion) {
+                            currentQuestion.options.push({
+                                text: optionMatch[2].trim(),
+                                correct: false
+                            });
+                        }
+                    });
+                }
+            });
+    
+            if (currentQuestion) questions.push(currentQuestion);
+        }
+    
+        if (type === "application/json" || (type === "text/plain" && text.trim().startsWith("["))) {
+            try {
+                const parsedData = JSON.parse(text);
+                parsedData.forEach((q, index) => {
+                    let questionHTML = q.question_text || '';
+                    if (q.exam_year) {
+                        questionHTML += `<div class="exam-year">${q.exam_year}</div>`;
+                    }
+        
+                    const correctAnswers = q.correct_answers || [];
+        
+                    const options = Object.entries(q.options).map(([key, value]) => ({
+                        text: value,
+                        correct: correctAnswers.includes(key)
+                    }));
+        
+                    questions.push({
+                        id: index + 1,
+                        content: questionHTML,
+                        type: 'multiple_choice',
+                        options
+                    });
+                });
+            } catch (e) {
+                console.error("Failed to parse JSON content:", e);
+            }
+        }
+        
+        console.log(questions);
+        return questions;
+    }
+    
+</script>
+
+    <div class="sidebar">
+        <button 
+            popovertarget="lepopover"
+            hx-get="{% if exam.id %} {% url 'exam:save_exam' exam.id %} {% else %} {% url 'exam:create_exam' %} {% endif %}"
+            hx-target="#lepopover"
+            class="popovertrigger bg-green-500 text-white px-4 py-2 rounded m-2 hover:bg-green-600">
+                Save
+        </button>
+        <button onclick="editor.createQuestionBox()" class="bg-blue-500 text-white px-4 py-2 rounded m-2 hover:bg-blue-600">
+            + Add Question
+        </button>
+
+        <input type="file" id="questionFileInput" class="button" onchange="importQuestions(event)" />
+        
+    </div>
+    <div id="editorContainer"></div>
+    
+{% endblock content %}

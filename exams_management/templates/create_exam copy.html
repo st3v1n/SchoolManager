@@ -1,0 +1,34 @@
+    {% extends 'base.html' %}
+    {% load static %}
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question Editor</title>
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <link rel="stylesheet" href="{% static 'css/mathquill.css' %}">
+        <link rel="stylesheet" href="{% static 'css/editor.css' %}">
+
+    {% endblock head %}
+    {% block content %}
+        <button 
+        popovertarget="lepopover"
+        onclick="saveQuestion()" 
+        hx-get="{% url 'exam:save_exam' %}"
+        hx-target="#lepopover"
+        class="bg-green-500 text-white px-4 py-2 rounded m-2 hover:bg-green-600">
+            Save
+        </button>
+        <button onclick="editor.createQuestionBox()" class="bg-blue-500 text-white px-4 py-2 rounded m-2 hover:bg-blue-600">
+            + Add Question
+        </button>
+        <div id="editorContainer" class="container mx-auto p-4"></div>
+        <script src="{% static 'js/mathquill.js' %}"></script>
+        <script src="{% static 'js/editor.js' %}" ></script>
+        <script>
+            function saveQuestion(){
+
+                let questionsData = editor.getAllQuestions();
+                console.log(questionsData)
+            }
+        </script>
+    {% endblock content %}

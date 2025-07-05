@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Exam</title>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/mathquill.css' %}">
+    <link rel="stylesheet" href="{% static 'css/editor.css' %}">
+    <script>
+        // Convert Django context into a JavaScript array of questions
+        const questions = [
+            {% for question in questions %}
+            {
+                id: "{{ question.id }}",
+                type: "{{ question.question_type }}",
+                content: `{{ question.question_text|escapejs }}`,
+                marks: {{ question.marks }},
+                options: [
+                    {% for option in question.options.all %}
+                    {
+                        text: `{{ option.option_text|escapejs }}`,
+                        correct: {{ option.is_correct|yesno:"true,false" }}
+                    },
+                    {% endfor %}
+                ]
+            },
+            {% endfor %}
+        ];
+
+        console.log(questions); // For debugging: check the questions array in the console
+
+
+        function saveExam() {
+            if (editor && typeof editor.saveExam === "function") {
+                editor.saveExam();
+            } else {
+                console.error("saveExam function is not defined.");
+            }
+        }
+    </script>
+{% endblock head %}
+
+{% block content %}
+    <button 
+        onclick="saveExam()" 
+        class="bg-green-500 text-white px-4 py-2 rounded m-2 hover:bg-green-600">
+        Save Exam
+    </button>
+    <button onclick="editor.createQuestionBox()" class="bg-blue-500 text-white px-4 py-2 rounded m-2 hover:bg-blue-600">
+        + Add Question
+    </button>
+    <div id="editorContainer" class="container mx-auto p-4"></div>
+
+    <script src="{% static 'js/mathquill.js' %}"></script>
+    <script src="{% static 'js/editor.js' %}"></script>
+    <script>
+        const editor = new Editor('editorContainer', questions);
+    </script>
+    
+{% endblock content %}

@@ -1,0 +1,38 @@
+.editor-tool {
+    @apply p-2 hover:bg-gray-200 rounded cursor-pointer transition-colors;
+}
+.editor-tool.active {
+    @apply bg-blue-100 hover:bg-blue-200;
+}
+.divider {
+    @apply w-px h-6 bg-gray-300 mx-2;
+}
+[contenteditable][data-placeholder]:empty:before {
+    color: #888;
+}
+.editor-tool svg{
+    width: 30px;
+    height: 30px;
+}
+.error-container {
+    border: 1px solid #fecaca;
+    background: #fef2f2;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.editor-tool {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.editor-tool:hover {
+    background: #eee;
+}
+
+.toolbar-container button svg {
+    width: 20px;
+    height: 20px;
+}

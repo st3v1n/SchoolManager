@@ -1,0 +1,71 @@
+<div class="mx-auto">
+  <div class="flex justify-between">
+    <button class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark"
+            hx-get="{% url 'role_results' %}?user-types={{ form.role.value }}"
+            hx-target="#role-result">
+      Back
+    </button>
+    <h1 class="text-2xl font-semibold text-center">{% if is_editing %}Edit{% else %}Create{% endif %} {{ form.role.value|capfirst }}</h1>
+  </div>
+
+  <form hx-post="{% if is_editing %}{% url 'edit_user' form.role.value form.instance.id %}{% else %}{% url 'create_user' form.role.value %}{% endif %}"
+      hx-target="#role-result" 
+      hx-push-url="false" 
+      enctype="multipart/form-data">
+
+    {% csrf_token %}
+    {{ form.role }}
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Basic Information Section -->
+      <div>
+        <h2 class="text-xl font-semibold mb-4">Basic Information</h2>
+        {% for field in form %}
+          {% if field.name == 'first_name' or field.name == 'last_name' or field.name == 'email' or field.name == 'grade_level' or field.name == 'password1' or field.name == 'password2' %}
+            <div class="mb-4">
+              <label for="{{ field.id_for_label }}" class="block text-sm font-medium text-gray-700">
+                {{ field.label }}
+              </label>
+              {{ field }}
+              {% if field.errors %}
+                <div class="text-red-500 text-xs mt-1">
+                  {% for error in field.errors %}
+                    <p>{{ error }}</p>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- Additional Information Section -->
+      <div>
+        <h2 class="text-xl font-semibold mb-4">Additional Information</h2>
+        {% for field in form %}
+          {% if field.name == 'phone_number' or field.name == 'profile_picture' or field.name == 'children' or field.name == 'parents' or field.name == 'subjects' %}
+            <div class="mb-4">
+              <label for="{{ field.id_for_label }}" class="block text-sm font-medium text-gray-700">
+                {{ field.label }}
+              </label>
+              {{ field }}
+              {% if field.errors %}
+                <div class="text-red-500 text-xs mt-1">
+                  {% for error in field.errors %}
+                    <p>{{ error }}</p>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="flex justify-center mt-2">
+      <button type="submit" class="px-6 py-2 bg-primary text-white rounded-md shadow-md hover:bg-primary-dark focus:ring-2 focus:ring-primary focus:outline-none">
+        {% if is_editing %}Update{% else %}Create{% endif %} {{ role|capfirst }}
+      </button>
+    </div>
+  </form>
+</div>

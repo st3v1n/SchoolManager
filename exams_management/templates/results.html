@@ -1,0 +1,117 @@
+<div class="flex items-center justify-center">
+    <div class="bg-white rounded-2xl shadow-md">
+        <nav class="flex items-center bg-gray-100 rounded-xl px-3 py-2" aria-label="Pagination">
+            {% if results.has_previous %}
+                <a href="?page=1&search={{ result_search_query }}" 
+                   hx-get="/exam/results/?page=1&search={{ result_search_query }}" 
+                   hx-target="#result-board"
+                   class="relative inline-flex items-center justify-center w-9 h-9 mr-2 overflow-hidden rounded-lg bg-blue-400 text-white shadow-sm hover:bg-blue-500 transition-all duration-300">
+                    <span class="relative">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"></path>
+                        </svg>
+                    </span>
+                </a>
+                <a href="?page={{ results.previous_page_number }}&search={{ result_search_query }}" 
+                   hx-get="/exam/results/?page={{ results.previous_page_number }}&search={{ result_search_query }}" 
+                   hx-target="#result-board"
+                   class="relative inline-flex items-center justify-center h-9 px-4 mr-3 overflow-hidden rounded-lg bg-gray-200 text-gray-800 shadow-sm hover:bg-gray-300 transition-all duration-300">
+                    <span class="relative flex items-center">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        <span class="text-sm font-medium">Previous</span>
+                    </span>
+                </a>
+            {% else %}
+                <span class="relative inline-flex items-center justify-center w-9 h-9 mr-2 overflow-hidden rounded-lg bg-gray-200 text-gray-400 opacity-50 cursor-not-allowed">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"></path>
+                    </svg>
+                </span>
+                <span class="relative inline-flex items-center justify-center h-9 px-4 mr-3 overflow-hidden rounded-lg bg-gray-200 text-gray-400 opacity-50 cursor-not-allowed">
+                    <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                    <span class="text-sm font-medium">Previous</span>
+                </span>
+            {% endif %}
+
+            <!-- Current page indicator -->
+            <div class="relative flex items-center px-2 mx-1">
+                <span class="relative flex items-center justify-center min-w-[4rem] h-9 px-3 rounded-md bg-gray-300 text-gray-800 font-medium border border-gray-400">
+                    {{ results.number }} / {{ results.paginator.num_pages }}
+                </span>
+            </div>
+
+            {% if results.has_next %}
+                <a href="?page={{ results.next_page_number }}&search={{ result_search_query }}" 
+                   hx-get="/exam/results/?page={{ results.next_page_number }}&search={{ result_search_query }}" 
+                   hx-target="#result-board"
+                   class="relative inline-flex items-center justify-center h-9 px-4 ml-3 overflow-hidden rounded-lg bg-gray-200 text-gray-800 shadow-sm hover:bg-gray-300 transition-all duration-300">
+                    <span class="relative flex items-center">
+                        <span class="text-sm font-medium">Next</span>
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+                <a href="?page={{ results.paginator.num_pages }}&search={{ result_search_query }}" 
+                   hx-get="/exam/results/?page={{ results.paginator.num_pages }}&search={{ result_search_query }}" 
+                   hx-target="#result-board"
+                   class="relative inline-flex items-center justify-center w-9 h-9 ml-2 overflow-hidden rounded-lg bg-blue-400 text-white shadow-sm hover:bg-blue-500 transition-all duration-300">
+                    <span class="relative">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+            {% else %}
+                <span class="relative inline-flex items-center justify-center h-9 px-4 ml-3 overflow-hidden rounded-lg bg-gray-200 text-gray-400 opacity-50 cursor-not-allowed">
+                    <span class="text-sm font-medium">Next</span>
+                    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </span>
+                <span class="relative inline-flex items-center justify-center w-9 h-9 ml-2 overflow-hidden rounded-lg bg-gray-200 text-gray-400 opacity-50 cursor-not-allowed">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
+                    </svg>
+                </span>
+            {% endif %}
+        </nav>
+    </div>
+</div>
+
+<table class="table-auto w-full text-left mb-6">
+    <thead>
+        <tr>
+            {% if user.role == "admin" %}
+            <th class="px-4 py-2">Name</th>
+            {% endif %}
+            <th class="px-4 py-2">Type</th>
+            <th class="px-4 py-2">Subject</th>
+            <th class="px-4 py-2">Score</th>
+            <th class="px-4 py-2">Date</th>
+            <th class="px-4 py-2">view</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for result in results %}
+        <tr>
+            {% if user.role == "admin" %}
+            <td class="px-4 py-2">{{ result.student }}</td>
+            {% endif %}
+            <td class="px-4 py-2">{{ result.exam.paper_type }}</td>
+            <td class="px-4 py-2">{{ result.exam.subject }}</td>
+            <td class="px-4 py-2">{{ result.score }}</td>
+            <td class="px-4 py-2">{{ result.submitted_at }}</td>
+            <td class="px-4 py-2"><a class="text--primary-dark" href="{% url 'exam:exam_results' result.id %}">Check </a></td>
+        </tr> 
+        {% empty %}
+        <tr>
+            <td class="px-4 py-2 text-center col-span-4">No Results Recorderd, yet...</td>
+        </tr> 
+        {% endfor %}      
+    </tbody>
+</table>

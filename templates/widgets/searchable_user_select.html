@@ -1,0 +1,228 @@
+<div class="relative">
+    {% with widget.attrs.id as input_id %}
+        <div class="flex items-center space-x-2 mb-3">
+            <div class="relative flex-1">
+                <input
+                    type="text"
+                    id="{{ input_id }}-search"
+                    placeholder="Search users..."
+                    class="w-full pl-10 pr-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                    hx-get="/api/users/search/"
+                    hx-target="#{{ input_id }}-results"
+                    hx-trigger="input delay:300ms"
+                    name="q"
+                    hx-vals='{"field": "{{ widget.field_type|escapejs }}"}'
+                    autocomplete="off"
+                >
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div id="{{ input_id }}-results" class="z-10 w-full bg-white border border-gray-300 rounded-md shadow-lg max-h-60 overflow-y-auto"></div>
+
+        <div id="{{ input_id }}-list" class="flex flex-wrap gap-2">
+            {% for profile in widget.value %}
+                <div class="inline-flex items-center bg-primary/10 text-primary rounded-full px-3 py-1" data-selected-id="{{ profile.user.pk }}">
+                    <img src="{{ profile.user.profile_picture.url|default:'/static/images/default-avatar.png' }}" alt="avatar" class="w-6 h-6 rounded-full mr-2">
+                    <span>{{ profile.user.get_full_name }}</span>
+                    <button type="button" class="ml-2 text-red-500 hover:text-red-700" onclick="removeUser_{{ input_id }}('{{ profile.user.pk }}')">×</button>
+                </div>
+                <!-- Hidden inputs for pre-selected users -->
+                <input type="hidden" name="{{ widget.name }}" value="{{ profile.user.pk }}">
+            {% endfor %}
+        </div>
+    {% endwith %}
+</div>
+
+<script>
+(function() {
+    const inputId = "{{ widget.attrs.id }}";
+    const searchResults = document.getElementById(inputId + "-results");
+    const selectedUsersList = document.getElementById(inputId + "-list");
+    
+    function updateHiddenInputs() {
+        // Remove all hidden inputs for this field
+        document.querySelectorAll(`input[type="hidden"][name="{{ widget.name }}"]`).forEach(el => {
+            el.remove();
+        });
+    
+        // Add a new hidden input for each selected user
+        const selectedUsers = selectedUsersList.querySelectorAll('[data-selected-id]');
+        
+        if (selectedUsers.length > 0) {
+            selectedUsers.forEach(userDiv => {
+                const userId = userDiv.getAttribute('data-selected-id');
+                
+                // Only create inputs for valid numeric IDs
+                if (userId && /^\d+$/.test(userId)) {
+                    const input = document.createElement('input');
+                    input.type = 'hidden';
+                    input.name = "{{ widget.name }}";
+                    input.value = userId;
+                    selectedUsersList.appendChild(input);
+                }
+            });
+        }
+    }
+
+    searchResults.addEventListener('click', function(event) {
+        const target = event.target.closest('div[data-user-id]');
+        if (target) {
+            const userId = target.getAttribute('data-user-id');
+            const userName = target.getAttribute('data-user-name');
+            const userAvatar = target.getAttribute('data-user-avatar');
+
+            // Check if this is a valid numeric ID
+            if (/^\d+$/.test(userId) && !selectedUsersList.querySelector(`[data-selected-id="${userId}"]`)) {
+                const selectedUserDiv = document.createElement('div');
+                selectedUserDiv.classList.add('inline-flex', 'items-center', 'bg-primary/10', 'text-primary', 'rounded-full', 'px-3', 'py-1');
+                selectedUserDiv.setAttribute('data-selected-id', userId);
+                selectedUserDiv.innerHTML = `
+                    <img src="${userAvatar}" alt="avatar" class="w-6 h-6 rounded-full mr-2">
+                    <span>${userName}</span>
+                    <button type="button" class="ml-2 text-red-500 hover:text-red-700" onclick="removeUser_${inputId}('${userId}')">×</button>
+                `;
+                selectedUsersList.appendChild(selectedUserDiv);
+                
+                // Add a hidden input for this newly selected user
+                const input = document.createElement('input');
+                input.type = 'hidden';
+                input.name = "{{ widget.name }}";
+                input.value = userId;
+                selectedUsersList.appendChild(input);
+                
+                searchResults.innerHTML = '';
+                document.getElementById(inputId + "-search").value = '';
+            }
+        }
+    });
+
+    window["removeUser_" + inputId] = function(userId) {
+        const userToRemove = selectedUsersList.querySelector(`[data-selected-id="${userId}"]`);
+        if (userToRemove) {
+            userToRemove.remove();
+            
+            // Remove the corresponding hidden input
+            const inputs = selectedUsersList.querySelectorAll(`input[type="hidden"][name="{{ widget.name }}"][value="${userId}"]`);
+            inputs.forEach(input => input.remove());
+        }
+    };
+
+    // Initial update for server-rendered users
+    updateHiddenInputs();
+})();
+</script>
+
+<!-- <div class="relative">
+    {% with widget.attrs.id as input_id %}
+        <div class="flex items-center space-x-2 mb-3">
+            <div class="relative flex-1">
+                <input
+                    type="text"
+                    id="{{ input_id }}-search"
+                    placeholder="Search users..."
+                    class="w-full pl-10 pr-4 py-2 border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                    hx-get="/api/users/search/"
+                    hx-target="#{{ input_id }}-results"
+                    hx-trigger="input delay:300ms"
+                    name="q"
+                    hx-vals='{"field": "{{ widget.name|escapejs }}"}'
+                    autocomplete="off"
+                >
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div id="{{ input_id }}-results" class="z-10 w-full bg-white border border-gray-300 rounded-md shadow-lg max-h-60 overflow-y-auto"></div>
+
+        <div id="{{ input_id }}-list" class="flex flex-wrap gap-2">
+            {% for user in widget.value %}
+                <div class="inline-flex items-center bg-primary/10 text-primary rounded-full px-3 py-1" data-selected-id="{{ user.pk }}">
+                    <img src="{{ user.user.profile_picture.url }}" alt="avatar" class="w-6 h-6 rounded-full mr-2">
+                    <span>{{ user.user.get_full_name }}</span>
+                    <button type="button" class="ml-2 text-red-500 hover:text-red-700" onclick="removeUser_{{ input_id }}('{{ user.pk }}')">×</button>
+                </div>
+                <input type="hidden" name="{{ widget.name }}" value="{{ user.pk }}">
+            {% endfor %}
+        </div>
+    {% endwith %}
+</div>
+
+<script>
+(function() {
+    const inputId = "{{ widget.attrs.id }}";
+    const searchResults = document.getElementById(inputId + "-results");
+    const selectedUsersList = document.getElementById(inputId + "-list");
+    
+    function updateHiddenInputs() {
+        // Remove all hidden inputs for this field
+        document.querySelectorAll(`input[type="hidden"][name="{{ widget.name }}"]`).forEach(el => {
+            el.remove();
+        });
+    
+        // Add a new hidden input for each selected user
+        const selectedUsers = selectedUsersList.querySelectorAll('[data-selected-id]');
+        
+        if (selectedUsers.length > 0) {
+            selectedUsers.forEach(userDiv => {
+                const userId = userDiv.getAttribute('data-selected-id');
+                
+                // Only create inputs for valid numeric IDs
+                if (userId && /^\d+$/.test(userId)) {
+                    const input = document.createElement('input');
+                    input.type = 'hidden';
+                    input.name = "{{ widget.name }}";
+                    input.value = userId;
+                    selectedUsersList.appendChild(input);
+                }
+            });
+        } else {
+            // If no users selected, don't add any input
+            // Django will interpret this as an empty selection
+        }
+    }
+
+    searchResults.addEventListener('click', function(event) {
+        const target = event.target.closest('div[data-user-id]');
+        if (target) {
+            const userId = target.getAttribute('data-user-id');
+            const userName = target.getAttribute('data-user-name');
+            const userAvatar = target.getAttribute('data-user-avatar');
+
+            // Check if this is a valid numeric ID
+            if (/^\d+$/.test(userId) && !selectedUsersList.querySelector(`[data-selected-id="${userId}"]`)) {
+                const selectedUserDiv = document.createElement('div');
+                selectedUserDiv.classList.add('inline-flex', 'items-center', 'bg-primary/10', 'text-primary', 'rounded-full', 'px-3', 'py-1');
+                selectedUserDiv.setAttribute('data-selected-id', userId);
+                selectedUserDiv.innerHTML = `
+                    <img src="${userAvatar}" alt="avatar" class="w-6 h-6 rounded-full mr-2">
+                    <span>${userName}</span>
+                    <button type="button" class="ml-2 text-red-500 hover:text-red-700" onclick="removeUser_${inputId}('${userId}')">×</button>
+                `;
+                selectedUsersList.appendChild(selectedUserDiv);
+                updateHiddenInputs();
+                searchResults.innerHTML = '';
+            }
+        }
+    });
+
+    window["removeUser_" + inputId] = function(userId) {
+        const userToRemove = selectedUsersList.querySelector(`[data-selected-id="${userId}"]`);
+        if (userToRemove) {
+            userToRemove.remove();
+            updateHiddenInputs();
+        }
+    };
+
+    // Initial update for server-rendered users
+    updateHiddenInputs();
+})();
+</script> -->

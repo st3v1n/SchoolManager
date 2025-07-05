@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load custom_filters %}
+{% block head %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Review</title>
+{% endblock head %}
+
+{% block content %}
+<div class="flex min-h-screen bg-gray-100">
+    <main class="flex-1 p-4 overflow-y-auto space-y-8">
+        <div class="p-4 bg-white rounded-lg shadow-md">
+            <h1 class="text-2xl font-bold text-gray-800">{{ exam.title }} - Review</h1>
+            <p class="text-gray-600 mb-4">{{ exam.instructions }}</p>
+            <div class="flex items-center justify-between">
+                <div class="text-lg font-semibold">
+                    Score: <span class="text-primary-dark">{{ attempt.score }}/{{ exam.total_marks }}</span>
+                    <span class="ml-2 text-gray-600">({{ percentage|floatformat:1 }}%)</span>
+                </div>
+                <button
+                    class="bg-primary-light text-white py-2 px-4 rounded-lg hover:bg-primary-dark transition-colors"
+                    hx-get="{% url 'exam:take_exam' exam.id %}"
+                    hx-target="body"
+                    hx-swap="outerHTML"
+                    hx-push-url="true"
+                    hx-trigger="click"
+                >
+                    Retake Exam
+                </button>
+            </div>
+        </div>
+        
+        {% for question in exam.questions.all %}
+        <div class="question flex space-x-2" id="question-{{ question.id }}">
+            <div class="bg-primary-light text-white rounded-full w-10 h-10 flex items-center justify-center">
+                <span>{{ forloop.counter }}</span>
+            </div>
+            <div class="container bg-white p-4 w-full">
+                <div class="text-lg font-semibold text-gray-800">{{ question.question_text|safe }}</div>
+                <div class="mt-6 space-y-4">
+                    {% for option in question.options.all %}
+                        <div class="flex items-center space-x-2 p-2 rounded-lg {% if option.is_correct %}bg-green-100{% elif option.id|stringformat:'s' == user_answers|get_item:question.id|stringformat:'s' and not option.is_correct %}bg-red-100{% endif %}">
+                            <div class="h-5 w-5 {% if option.is_correct %}bg-green-500 text-white{% elif option.id|stringformat:'s' == user_answers|get_item:question.id|stringformat:'s' and not option.is_correct %}bg-red-500 text-white{% else %}border border-gray-300{% endif %} rounded-full flex items-center justify-center">
+                                {% if option.is_correct %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                {% elif option.id|stringformat:'s' == user_answers|get_item:question.id|stringformat:'s' and not option.is_correct %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                {% endif %}
+                            </div>
+                            <label class="text-gray-700 {% if option.is_correct %}font-semibold{% endif %}">
+                                {{ option.option_text }}
+                                {% if option.is_correct %}
+                                    <span class="text-green-600 ml-2">(Correct Answer)</span>
+                                {% elif option.id|stringformat:'s' == user_answers|get_item:question.id|stringformat:'s' and not option.is_correct %}
+                                    <span class="text-red-600 ml-2">(Your Answer)</span>
+                                {% endif %}
+                            </label>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        
+        <div class="flex justify-center mt-8 mb-12">
+            <button
+                class="bg-primary-dark text-white py-3 px-6 rounded-lg hover:bg-primary-darker transition-colors"
+                hx-get="{% url 'dashboard' %}"
+                hx-target="body"
+                hx-swap="outerHTML"
+                hx-push-url="true"
+            >
+                Return to Dashboard
+            </button>
+        </div>
+    </main>
+
+    <div class="w-64 bg-primary-light text-white p-6 flex flex-col">
+        <div class="space-y-4 mt-8">
+            <div class="p-4 bg-white rounded-lg">
+                <h3 class="text-primary-dark font-semibold text-lg mb-2">Performance Summary</h3>
+                <div class="text-gray-800">
+                    <p>Total Questions: {{ total_questions }}</p>
+                    <p>Correct Answers: {{ correct_answers }}</p>
+                    <p>Score: {{ attempt.score }}/{{ exam.total_marks }}</p>
+                    <p>Percentage: {{ percentage|floatformat:1 }}%</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="my-4">
+            <h2 class="text-lg font-semibold mb-4">Question Navigator</h2>
+            <div id="question-overview" class="grid grid-cols-3 gap-4">
+                {% for question in exam.questions.all %}
+                    <div class="question-overview-item text-center">
+                        <div class="p-2 rounded-lg cursor-pointer {% if question.id|stringformat:'s' in user_answers and question.options.filter(id=user_answers|get_item:question.id, is_correct=True).exists %}bg-green-500 text-white{% elif question.id|stringformat:'s' in user_answers %}bg-red-500 text-white{% else %}bg-gray-300 text-gray-600{% endif %}"
+                             hx-on:click="document.getElementById('question-{{ question.id }}').scrollIntoView({behavior: 'smooth'})">
+                            <span class="question-num">{{ forloop.counter }}</span>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

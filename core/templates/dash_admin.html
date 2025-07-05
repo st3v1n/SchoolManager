@@ -1,0 +1,323 @@
+{% load static %}
+<style>
+    .folder-content {
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out, opacity 0.2s ease-out;
+    }
+    input:checked ~ .folder-content {
+        max-height: 300px; 
+        opacity: 1;
+    }  
+</style>
+<section id="exams" class="section mb-10">
+    <h2 class="section-title text-3xl font-semibold text-gray-800 mb-6">Exams</h2>
+    <div class="container">
+        <div class="container-head flex justify-between mb-6">
+
+            <input name="search" hx-trigger="input" hx-get="/exam/search/" hx-target="#exam-display-area" type="search" placeholder="Search exams..." class="search-bar p-2 rounded-md border border-gray-300 w-1/3">
+
+            <a href="{% url 'exam:create_paper' %}" class="button">
+                <img src="{% static 'img/plus.svg' %}" alt="New Exam"> New Exam
+            </a>
+        </div>
+        <div class="exam-container flex space-x-8">
+            <div class="exam-folders w-1/4 bg-gray-100 p-6 rounded-md shadow-md">
+                <p class="folder-header text-lg font-semibold mb-4 flex justify-between items-center">
+                    Folders
+
+                    <button class="popovertrigger icon w-5 h-5 cursor-pointer" src="{% static 'img/folder-plus.svg' %}" title="New Folder"
+                    popovertarget="lepopover"
+                    hx-target="#lepopover"
+                    hx-get="{% url 'exam:create_folder' %}">
+                        <img src="{% static 'img/folder-plus.svg' %}" alt="New Folder">
+
+                    </button>
+                </p>
+                <div id="exam-folder-area" class="overflow-auto">
+                    <div id="folder-tree"></div>          
+                </div>
+            </div>
+            <div id="exam-display-area" class="flex-1 bg-white rounded-md overflow-auto"
+                 hx-trigger="load, reveal" hx-get="{% url 'exam:exam_list' %}">       
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="dashboard" class="section mb-10">
+    <h2 class="section-title text-3xl font-semibold text-gray-800 mb-6">Dashboard</h2>
+</section>
+
+<section id="courses" class="section mb-10">
+    <h2 class="section-title text-3xl font-semibold text-gray-800 mb-6">Courses</h2>
+    <div class="container">
+        <div class="container-head flex justify-between mb-6">
+            <input type="search" placeholder="Search courses..." class="search-bar p-2 rounded-md border border-gray-300 w-1/3">
+        </div>
+    </div>
+</section>
+
+<section id="result" class="section mb-10">
+    <h2 class="section-title text-3xl font-semibold text-gray-800 mb-6">Results</h2>
+    <div class="container">
+        <div class="container-head flex justify-between mb-6">
+            <div class="filter-menu flex space-x-4">
+                <p class="filter-link text-gray-600 flex items-center cursor-pointer hover:text-gray-800">
+                    <span>Filter</span>
+                    <svg viewBox="0 0 360 360" width="16" height="16" class="ml-2"><path d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path></svg>
+                </p>
+            </div>
+            <input name="search" hx-trigger="input" hx-get="/exam/results/" hx-target="#result-board" type="search" placeholder="Search exams..." class="search-bar p-2 rounded-md border border-gray-300 w-1/3">
+
+            <!-- <input hx-get="/exam/results/" hx-trigger="change input" hx-target="#result-board" name="search" type="search" placeholder="Search results..." class="search-bar p-2 rounded-md border border-gray-300 w-1/3"> -->
+        </div>
+        <div id="result-board" hx-get="{% url 'exam:results' %}" hx-trigger="revealed"></div>
+    </div>
+</section>
+
+<section id="user-management" class="section mb-10">
+    <h2 class="section-title text-3xl font-semibold text-gray-800 mb-6">User Management</h2>
+    <div class="container">
+        <div class="container-head flex justify-between mb-6">
+            <select 
+                hx-get="{% url 'role_results' %}"
+                hx-target="#role-result"
+                hx-trigger="change, load"
+                name="user-types" id="user-types" class="user-role-selector p-2 rounded-md border border-gray-300 w-1/3">
+                {% for ur in user_roles %}
+                    <option value="{{ ur.0 }}" {% if ur.0 == role %}selected{% endif %}>{{ ur.1 }}</option>
+                {% endfor %}
+            </select>
+            <input type="search" placeholder="Search users..." class="search-bar p-2 rounded-md border border-gray-300 w-1/3">
+        </div>
+        <div id="loader" class="htmx-indicator"></div>
+        <div id="role-result"></div>
+    </div>
+</section>
+
+<section id="session-management" class="section mb-10">
+    <h2 class="section-title text-3xl font-semibold text-gray-800 mb-6">Session Management</h2>
+    <div class="container">
+        <div class="container-head flex justify-between mb-6">
+            <input type="search" placeholder="Search sessions..." class="search-bar p-2 rounded-md border border-gray-300 w-1/3">
+        </div>
+    </div>
+</section>
+
+<section id="settings" class="section mb-10">
+    <h2 class="section-title text-3xl font-semibold text-gray-800 mb-6">Settings</h2>
+</section>
+
+<script>
+    document.body.addEventListener("folderChanged", function () {
+
+            
+        const popover = document.querySelector('#lepopover');
+        const popoverbackdrop = document.querySelector('.popoverbackdrop');
+        
+        loadFolders();
+
+        popover.classList.remove('block');
+        popoverbackdrop.classList.add('hidden');    
+
+    });
+    
+    async function fetchFolders() {
+        const response = await fetch('/exam/get_folder_tree/');
+        console.log(response.body)
+        return await response.json();
+    }
+
+    function renderFolder(folder, parentElement, parentId = null) {
+        const div = document.createElement('div');
+        div.className = 'mb-2 group relative';
+        div.style="overflow: auto"
+        div.dataset.id = folder.id || '';
+
+        const checkboxId = `folder-${folder.id || 'root'}`;
+        div.innerHTML = `
+            <input type="checkbox" id="${checkboxId}" class="hidden peer">
+
+            <div class="flex justify-between items-center p-2 rounded-md hover:bg-gray-100 transition-colors duration-150 group cursor-pointer">
+                <label for="${checkboxId}" class="flex items-center space-x-2 cursor-pointer">
+                    <svg class="w-5 h-5 text-[${folder.color || '#007bff'}]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+                    </svg>
+                    <span class="text-sm">${folder.name}</span>
+                </label>
+                <div class="hidden group-hover:flex space-x-2 z-[100]">
+                    <button class="popovertrigger p-1 text-blue-500 hover:text-blue-700" hx-get="/exam/folder/edit/${folder.id}/" hx-target="#lepopover">
+                        <img class="icon" src="{% static 'img/edit.svg' %}" alt="Edit">
+                    </button>
+                    <button hx-confirm="Are you sure to DELETE ${folder.name}?" class="p-1 text-red-500 hover:text-red-700" hx-delete="/exam/folder/delete/${folder.id}/"  hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+                        <img class="icon" src="{% static 'img/trash.svg' %}" alt="Delete">
+                    </button>
+                </div>
+            </div>
+
+            <div class="folder-content ml-6"></div>
+        `;
+
+        htmx.process(div);
+
+        parentElement.appendChild(div);
+        const contentDiv = div.querySelector('.folder-content');
+
+        // Render subfolders
+        folder.children.forEach(child => renderFolder(child, contentDiv, folder.id));
+
+        // Render exams
+        folder.exams.forEach(exam => {
+            const examDiv = document.createElement('a');
+           examDiv.setAttribute('hx-get', `/exam/question_info/${exam.id}/`)
+           // examDiv.setAttribute('hx-trigger', "click")
+            examDiv.setAttribute('hx-target', "#exam-display-area")
+            examDiv.className = 'flex items-center p-2 text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-150';
+            examDiv.innerHTML = `
+                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                </svg>
+                <span class="text-sm">${exam.subject} (${exam.paper_type})</span>
+            `;
+            contentDiv.appendChild(examDiv);
+        });
+    }
+
+    async function loadFolders() {
+        const folders = await fetchFolders();
+        const treeDiv = document.getElementById('folder-tree');
+        treeDiv.innerHTML = '';
+        folders.forEach(folder => renderFolder(folder, treeDiv));
+    }
+
+   // document.getElementById('add-folder').addEventListener('click', async () => {
+    //    const name = document.getElementById('new-folder-name').value;
+     //   if (!name) return;
+     //   await fetch('/create_folder/', {
+     //       method: 'POST',
+      //      headers: { 'Content-Type': 'application/json' },
+       //     body: JSON.stringify({ name, parent_id: null })  // Root folder
+      //  });
+      //  document.getElementById('new-folder-name').value = '';
+      //  loadFolders();
+    //});
+
+    
+    //document.getElementById('add-exam').addEventListener('click', async () => {
+       // const title = document.getElementById('new-exam-title').value;
+       // if (!title) return;
+       // await fetch('/create_exam/', {
+        //    method: 'POST',
+         //   headers: { 'Content-Type': 'application/json' },
+          //  body: JSON.stringify({ title, folder_id: null })  // Root exam
+       // });
+        //document.getElementById('new-exam-title').value = '';
+       // loadFolders();
+   // });
+
+    loadFolders();
+</script>
+{% comment %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        fetchFolderTree();
+    });
+    function displayFolderTree(folderData, parentElement) {
+        folderData.forEach(item => {
+            const details = document.createElement('details');
+            const summary = document.createElement('summary');
+    
+            // Folder icon
+            const folderIcon = document.createElement('img');
+            folderIcon.src = '/static/img/folder.svg';
+            folderIcon.alt = 'Folder Icon';
+            folderIcon.style.width = '20px';
+            summary.appendChild(folderIcon);
+            summary.appendChild(document.createTextNode(item.name));
+    
+            details.appendChild(summary);
+    
+            // Recursively display children folders
+            if (item.children && item.children.length) {
+                const childrenList = document.createElement('div');
+                childrenList.style = 'margin-left: 10px;'
+                displayFolderTree(item.children, childrenList);
+                details.appendChild(childrenList);
+            }
+    
+            // Display exams in this folder
+            if (item.exams && item.exams.length) {
+                const examList = document.createElement('ul');
+                examList.style = 'margin-left: 10px;'
+                item.exams.forEach(exam => {
+                    const examItem = document.createElement('li');
+                    examItem.classList.add('exam-item');  // Use class instead of ID
+                    examItem.style = 'list-style: none'
+                    // Add data-exam-id for the exam
+                    examItem.setAttribute('data-exam-id', exam.id);
+    
+                    const fileIcon = document.createElement('img');
+                    fileIcon.src = '/static/img/file.svg';
+                    fileIcon.alt = 'File Icon';
+                    fileIcon.style.width = '16px';
+                    examItem.appendChild(fileIcon);
+    
+                    // Exam subject and type
+                    examItem.appendChild(document.createTextNode(`${exam.subject} (${exam.exam_type})`));
+    
+                    examList.appendChild(examItem);
+                });
+                details.appendChild(examList);
+            }
+    
+            parentElement.appendChild(details);
+        });
+    }
+    
+    async function fetchFolderTree() {
+        try {
+            const response = await fetch('/exam/get_folder_tree/');
+            if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+            const data = await response.json();
+    
+            const fileExplorer = document.getElementById('file_explorer');
+            fileExplorer.innerHTML = ''; // Clear previous content
+    
+            displayFolderTree(data.folders, fileExplorer); // Render folder tree with exams included
+    
+            // Display any exams that don't belong to a folder
+            if (data.exam_no_folder && data.exam_no_folder.length) {
+                const noFolderSection = document.createElement('details');
+                const noFolderSummary = document.createElement('summary');
+                noFolderSummary.textContent = 'Exams without folders';
+                noFolderSection.appendChild(noFolderSummary);
+                const noFolderList = document.createElement('ul');
+                data.exam_no_folder.forEach(exam => {
+                    const examItem = document.createElement('li');
+                    examItem.classList.add('exam-item');  // Use class instead of ID
+    
+                    // Add data-exam-id for the exam
+                    examItem.setAttribute('data-exam-id', exam.id);
+    
+                    const fileIcon = document.createElement('img');
+                    fileIcon.src = '/static/img/file.svg';
+                    fileIcon.alt = 'File Icon';
+                    fileIcon.style.width = '16px';
+                    examItem.appendChild(fileIcon);
+                    examItem.appendChild(document.createTextNode(`${exam.subject} (${exam.exam_type})`));
+                    noFolderList.appendChild(examItem);
+                });
+                noFolderSection.appendChild(noFolderList);
+                fileExplorer.appendChild(noFolderSection); // Append exams without folders to the tree
+            }
+    
+        } catch (error) {
+            console.error('Error fetching or displaying folder tree:', error);
+        }
+    }
+    
+</script>
+{% endcomment %}

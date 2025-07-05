@@ -1,0 +1,89 @@
+{% load static %}
+
+<div class="question-container space-y-6">
+    <div class="flex justify-between">
+        <span>
+            <button hx-get="{% url 'exam:exam_list' %}" hx-target="#exam-display-area"
+                class="button">
+                < Back
+            </button>
+        </span>
+        <div class="flex gap-2">
+            <a href="{% url 'exam:edit' exam.id %}" class="button" style="background-color: var(--secondary);">
+                <img src="{% static 'img/edit.svg' %}" alt="Edit"> Edit
+            </a>
+            <a hx-target="#exam-display-area" hx-confirm="Are you sure?" hx-delete="{% url 'exam:delete' exam.id %}"  hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}' class="button" style="background-color: var(--error-light)">
+                <img src="{% static 'img/trash.svg' %}" alt="Delete"> Delete
+            </a>
+        </div>
+    </div>  
+    {% for question in exam.questions.all %}
+    <div class="question-card bg-white shadow-lg rounded-lg p-6 mb-4 transition-all hover:shadow-xl">
+        <!-- Question Text -->
+        <div class="question-header">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">{{ question.question_text }}</h3>
+        </div>
+        <!-- Question Type Handling -->
+        <div class="question-type">
+            {% if question.question_type == 'multiple_choice' %}
+                <!-- Multiple Choice -->
+                <div class="multiple-choice space-y-4">
+                    {% for option in question.options.all %}
+                    <label class="flex items-center space-x-3">
+                        <!-- <input type="radio" name="question_{{ question.id }}" value="{{ option.id }}" class="text-blue-600 focus:ring-blue-500"> -->
+                        <span class="text-gray-700">{{ option.option_text }}</span>
+                        {% if option.is_correct %}
+                        <span class="text-green-500 text-sm">(Correct)</span>
+                        {% endif %}
+                    </label>
+                    {% endfor %}
+                </div>
+
+            {% elif question.question_type == 'true_false' %}
+                <!-- True/False -->
+                <div class="true-false space-x-6">
+                    <label class="flex items-center space-x-2">
+                        <input type="radio" name="question_{{ question.id }}" value="True" class="text-blue-600 focus:ring-blue-500">
+                        <span class="text-gray-700">True</span>
+                    </label>
+                    <label class="flex items-center space-x-2">
+                        <input type="radio" name="question_{{ question.id }}" value="False" class="text-blue-600 focus:ring-blue-500">
+                        <span class="text-gray-700">False</span>
+                    </label>
+                </div>
+
+            {% elif question.question_type == 'FIB' %}
+                <!-- Fill in the Blanks -->
+                <div class="fib space-y-4">
+                    <p class="text-gray-700">Please fill in the blank:</p>
+                    <input type="text" name="question_{{ question.id }}" class="border border-gray-300 rounded-md p-2 w-full text-gray-800" placeholder="Your answer here">
+                </div>
+
+            {% elif question.question_type == 'essay' %}
+                <!-- Essay -->
+                <div class="essay">
+                    <p class="text-gray-700">Write your answer:</p>
+                    <textarea name="question_{{ question.id }}" class="border border-gray-300 rounded-md p-4 w-full h-32 text-gray-800" placeholder="Write your essay answer here..."></textarea>
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- Marks Display -->
+        <div class="question-marks mt-4 flex justify-between items-center">
+            <p class="text-gray-600"><strong>Marks:</strong> {{ question.marks }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- TailwindCSS Custom Styling for Interactivity -->
+<style>
+    .question-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .question-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+</style>

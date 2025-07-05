@@ -1,0 +1,69 @@
+schoolManager/  # real name not decided yet
+├── schoolmanager/             # Main Django project folder should i just use this instead of creating the core             
+│   ├── asgi.py               
+│   ├── models.py               
+│   ├── settings.py                 
+│   ├── urls.py                 
+│   ├── wsgi.py                
+├── core/                         # Core app for authentication and user management
+│   ├── models.py                # CustomUser, Role, Permissions
+│   ├── views.py                 # Login, signup, Role Management
+│   ├── forms.py                 # User and Authentication Forms
+│   ├── urls.py                  # Authentication routes
+│   ├── admin.py                 # Django Admin customizations
+│   ├── templates/
+│   │   ├── core/
+│   │   │   ├── signup/login.html   # Multi form page
+├── dashboard/                   # Centralized role-based dashboards
+│   ├── templates/
+│   │   ├── dashboard/
+│   │   │   ├── dashboard_base.html
+│   │   │   ├── admin_dashboard.html
+│   │   │   ├── teacher_dashboard.html
+│   │   │   └── student_dashboard.html
+│   ├── views.py                 # Dashboard views for different roles
+│   ├── urls.py                  # Dashboard-specific routes
+├── exams_management/            # App for exams and results
+│   ├── models.py                # QuestionBank, Exam, Result
+│   ├── views.py                 # Exam creation, scheduling, results processing
+│   ├── forms.py                 # Exam and QuestionBank forms
+│   ├── urls.py                  # Routes for exam management
+│   ├── templates/
+│   │   ├── exams_management/
+│   │   │   ├── create_exam.html
+│   │   │   ├── take_exam.html
+│   │   │   ├── exam_results.html
+│   │   │   └── question_editor.html
+├── school_management/           # App for sessions, classes, and academic structure
+│   ├── models.py                # Classes, Sessions, Terms
+│   ├── views.py                 # Management of sessions and terms
+│   ├── forms.py                 # Session and Class forms
+│   ├── urls.py                  # School management routes
+│   ├── templates/
+│   │   ├── school_management/
+│   │   │   ├── manage_sessions.html
+│   │   │   ├── class_overview.html
+│   │   │   └── session_calendar.html
+├── notifications/               # Messaging and alerts
+│   ├── models.py                # Notification, Message
+│   ├── views.py                 # Notification views
+│   ├── urls.py                  # Notification routes
+│   ├── templates/
+│   │   ├── notifications/
+│   │   │   ├── notification_list.html
+│   │   │   └── notification_detail.html
+├── templates/                   # Global template folder
+│   ├── base.html                # Main base template
+│   ├── components/
+│   │   ├── sidebar.html         # Sidebar for all dashboards
+│   │   ├── header.html          # Header for all pages
+│   │   └── footer.html          # Footer for all pages
+├── static/                      # Static files
+│   ├── css/
+│   │   ├── master.css
+│   ├── js/
+│   │   ├── master.js
+├── media/                       # Uploaded files (e.g., exam assets)
+│   ├── question_images/
+│   └── profile_pictures/
+└── manage.py                    # Django management script

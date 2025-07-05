@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1566FF;
+  --primary-light: #4689FF;
+  --primary-dark: #0f4cb3;
+  --secondary: #4CAF50;
+  --secondary-light: #81C784;
+  --secondary-dark: #388E3C;
+  --accent: #FFC107;
+  --accent-light: #FFD54F;
+  --accent-dark: #FFA000;
+  --error: #FF5252;
+  --error-light: #FF8A80;
+  --error-dark: #D32F2F;
+  --light-gray: #f4f4f4;
+  --gray: #ccc;
+  --dark-gray: #333;
+  --text-color: #333;
+  --text-light: #666;
+  --background: #fff;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+}
+
+.button {
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.375rem;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+  
+ }
+ .button img{
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem
+
+ }
+ .button:hover {
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1))
+ }
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1E1E1E;
+    --text-color: #E0E0E0;
+    --text-light: #999;
+    --light-gray: #2E2E2E;
+    --gray: #555;
+    --dark-gray: #E0E0E0;
+    --shadow-sm: 0 1px 3px rgba(255, 255, 255, 0.1);
+    --shadow-md: 0 4px 6px rgba(255, 255, 255, 0.1);
+    --shadow-lg: 0 10px 15px rgba(255, 255, 255, 0.1);
+  }
+} */

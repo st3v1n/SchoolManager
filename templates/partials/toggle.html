@@ -1,0 +1,11 @@
+
+<div class="toggle">
+    <input type="checkbox" name="{{ field }}" class="sr-only"
+           {% if checker %}checked{% endif %}
+           hx-post="{{ deurl }}"
+           hx-trigger="change"
+           hx-target="closest .toggle"
+           hx-swap="outerHTML"
+           hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+    <div class="toggle-slider"></div>
+</div>

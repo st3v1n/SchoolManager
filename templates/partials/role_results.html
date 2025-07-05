@@ -1,0 +1,30 @@
+<div class="flex justify-end mb-4">
+  <button class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark"
+          hx-get="{% url 'create_user' role %}"
+          hx-target="#role-result"
+          hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+      Add {{ role|capfirst }} 
+  </button>
+</div>
+<div class="user-list grid grid-cols-1 lg:grid-cols-2 gap-4" id="role-result">
+    {% for u in user_w_role %}
+        <div hx-get="{% url 'edit_user' role  u.id %}"
+            hx-trigger="click"
+            hx-target="#role-result"
+            hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
+            class="flex items-center p-4 bg-white shadow-lg rounded-lg transition-all ease-in-out duration-300 cursor-pointer relative hover:bg-primary-light border border-transparent hover:border-primary-light">
+            <div class="w-16 h-16 rounded-full overflow-hidden mr-5">
+                <img src="{{ u.profile_picture.url }}" alt="Profile Picture" class="w-full h-full object-cover object-center">
+            </div>
+            <div class="flex flex-col justify-between">
+                <span class="text-lg font-semibold text-text-color group-hover:text-background">{{ u.first_name }} {{ u.last_name }}</span>
+                <span class="text-sm text-text-color hover:text-background truncate">{{ u.email }}</span>
+            </div>
+        </div>
+    {% empty %}
+        <div class="w-full col-span-1">
+            <h4 class="text-center text-gray-500">Oops, Nothing Here</h4>
+        </div>
+    {% endfor %}
+</div>
+

@@ -1,0 +1,101 @@
+{% for exam in exams %}
+<div class="container rounded-lg p-6 mb-4 bg-white shadow-sm border">
+    <div>
+        <div class="flex items-center justify-between">
+            <span class="text-2xl font-bold text-gray-800">{{ exam.subject }}</span>
+            <span class="text-sm font-semibold bg-blue-600 text-white px-3 py-1 rounded">
+                {{ exam.paper_type|capfirst }}
+            </span>
+        </div>
+        <p class="text-gray-600 mt-1">For {{ exam.grade_level }}</p>
+
+        <div class="mt-4 grid grid-cols-2 sm:grid-cols-2 gap-4">
+            <div>
+                <label class="flex items-center cursor-pointer">
+                    <span class="text-gray-700 font-medium mr-2">Is Active:</span>
+                    <div class="toggle">
+                        <input type="checkbox" name="is_active" class="sr-only"
+                            {% if exam.is_active %}checked{% endif %}
+                            hx-post="{% url 'exam:toggle_exam_active' exam.id %}"
+                            hx-trigger="change"
+                            hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+                        <div class="toggle-slider"></div>
+                    </div>
+                </label>
+
+                <label class="flex items-center cursor-pointer mt-3">
+                    <span class="text-gray-700 font-medium mr-2">Shuffle:</span>
+                    <div class="toggle">
+                        <input type="checkbox" name="is_shuffled" class="sr-only"
+                            {% if exam.shuffle_options %}checked{% endif %}
+                            hx-post="{% url 'exam:toggle_exam_shuffle' exam.id %}"
+                            hx-trigger="change"
+                            hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+                        <div class="toggle-slider"></div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="border-t pt-3">
+                <div>
+                    <label for="student_question_limit" class="block text-sm font-medium text-gray-700 mb-2">
+                    How many questions should students answer?
+                    </label>
+                        {% with q_no=exam.questions.count %}
+                            <div class="flex flex-wrap items-center gap-4">
+                                <input 
+                                    id="student_question_limit_{{ exam.id }}" 
+                                    name="student_question_limit" 
+                                    type="number" 
+                                    min="1" 
+                                    max="{{ q_no }}"
+                                    value="{{ exam.student_question_limit }}" 
+                                    class="w-24 border border-gray-400 rounded px-2 py-1 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    hx-post="{% url 'exam:update_student_question_limit' exam.id %}"
+                                    hx-trigger="change" 
+                                    hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+                                <span class="text-sm text-gray-700">out of <strong>{{ q_no }}</strong> total questions</span>
+                                <label class="text-sm font-medium text-gray-700 ml-auto">For total marks of:</label>
+                                <input name="total_marks" hx-post="{% url 'exam:update_student_question_limit' exam.id %}" hx-trigger="change" hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}' type="number" value="{{ exam.total_marks }}" class="w-20 border border-gray-300 rounded px-2 py-1">
+                            </div>
+                        {% endwith %}
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-6 space-x-4">
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-200"
+                onclick="toggleDropdown('exam-details-{{ exam.id }}')">
+                More Details ▼
+            </button>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-200"
+                hx-get="{% url 'exam:question_info' exam.id %}"
+                hx-target="#exam-display-area">
+                View Questions >
+            </button>
+        </div>
+
+        <div id="exam-details-{{ exam.id }}" class="dropdown-content mt-4 hidden">
+            <div class="exam-details space-y-4 text-gray-700">
+                <p><strong>Instructions:</strong> {{ exam.instructions }}</p>
+                <div class="flex justify-between">
+                    <p><strong>Status:</strong> {{ exam.status }}</p>
+                </div>
+                <div class="flex justify-between">
+                    <p><strong>Duration:</strong> {{ exam.duration }}</p>
+                    <p><strong>Window Start:</strong> {{ exam.window_start }}</p>
+                    <p><strong>Window End:</strong> {{ exam.window_end }}</p>
+                </div>
+                <p><strong>Created At:</strong> {{ exam.created_at }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<script>
+    function toggleDropdown(id) {
+        const el = document.getElementById(id);
+        el.classList.toggle("hidden");
+    }
+</script>

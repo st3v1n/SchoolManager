@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nill</title>
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <div class="popoverbackdrop">
+        <dialog popover="" class="p-8 overflow-auto m-2 block" style="display: block;" id="lepopover">
+    
+            <div>
+                <form onsubmit="prepareFormData(event)" hx-post="/exam/create-paper/">
+                <input type="hidden" name="csrfmiddlewaretoken" value="pDZgFzPC86RSiEXk5qSHOEgbLqIBxl376pPj01xvg5gtIVLo0b3tJVLWSu6WzO16">
+                <input type="hidden" name="exam_questions" id="questionsInput">
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <!-- Subject and Duration -->
+                        
+                            
+                        
+                            
+                        
+                            
+                                <div class="mb-6">
+                                    <label for="id_subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                                    <select name="subject" list="subject_list" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required="" id="id_subject">
+                <option value="" selected="">---------</option>
+                
+                <option value="1">English</option>
+                
+                <option value="2">Mathematics</option>
+                
+                <option value="3">English Language</option>
+                
+                <option value="4">Physics</option>
+                
+                <option value="5">Chemistry</option>
+                
+                <option value="6">Biology</option>
+                
+                <option value="7">Further Mathematics</option>
+                
+                <option value="8">Agricultural Science</option>
+                
+                <option value="9">Economics</option>
+                
+                <option value="10">Geography</option>
+                
+                <option value="11">Government</option>
+                
+                <option value="12">History</option>
+                
+                <option value="13">Literature in English</option>
+                
+                <option value="14">Christian Religious Studies (CRS)</option>
+                
+                <option value="15">Islamic Religious Studies (IRS)</option>
+                
+                <option value="16">Civic Education</option>
+                
+                <option value="17">Social Studies</option>
+                
+                <option value="18">Computer Studies</option>
+                
+                <option value="19">Physical and Health Education (PHE)</option>
+                
+                <option value="20">Technical Drawing</option>
+                
+                <option value="21">Fine Arts</option>
+                
+                <option value="22">Music</option>
+                
+                <option value="23">French</option>
+                
+                <option value="24">Yoruba</option>
+                
+                <option value="25">Hausa</option>
+                
+                <option value="26">Igbo</option>
+                
+                <option value="27">Home Economics</option>
+                
+                <option value="28">Commerce</option>
+                
+                <option value="29">Accounting</option>
+                
+                <option value="30">Financial Accounting</option>
+                
+                <option value="31">Bookkeeping</option>
+                
+                <option value="32">Typewriting</option>
+                
+                <option value="33">Shorthand</option>
+                
+                <option value="34">Basic Science</option>
+                
+                <option value="35">Basic Technology</option>
+                
+                <option value="36">Integrated Science</option>
+                
+                <option value="37">Business Studies</option>
+                
+                <option value="38">Cultural and Creative Arts (CCA)</option>
+                
+                <option value="39">Arabic Studies</option>
+                
+                <option value="40">Food and Nutrition</option>
+                
+                <option value="41">Clothing and Textiles</option>
+                
+                <option value="42">Woodwork</option>
+                
+                <option value="43">Metalwork</option>
+                
+                <option value="44">Auto Mechanics</option>
+                
+                <option value="45">Electronics</option>
+                
+                <option value="46">Building Construction</option>
+                
+                <option value="47">Fisheries</option>
+                
+                <option value="48">Animal Husbandry</option>
+                
+                <option value="49">Health Education</option>
+                
+                <option value="50">Physical Education</option>
+                
+                <option value="51">Drama</option>
+                
+                <option value="52">Dance</option>
+                
+                <option value="53">Photography</option>
+                
+                <option value="54">Entrepreneurship</option>
+                
+                <option value="55">Information and Communication Technology (ICT)</option>
+                
+                <option value="56">Data Processing</option>
+                
+                <option value="57">Visual Arts</option>
+                
+                <option value="58">Applied Electricity</option>
+                
+                <option value="59">Technical Education</option>
+                
+                <option value="60">General Mathematics</option>
+                
+                <option value="61">General Science</option>
+                
+                <option value="62">Environmental Science</option>
+                
+                <option value="63">Security Education</option>
+                
+                <option value="64">National Values Education</option>
+                
+                <option value="65">Religious and Moral Education</option>
+                
+                <option value="66">Office Practice</option>
+                
+                <option value="67">Insurance</option>
+                
+                <option value="68">Basic Electricity</option>
+                
+                <option value="69">Home Management</option>
+                
+                <option value="70">Marketing</option>
+                
+                <option value="71">Basic Electronics</option>
+                
+                <option value="72">Fabrication &amp; Welding</option>
+                
+                <option value="73">Electrical Installation</option>
+                
+                <option value="74">Store Management</option>
+                
+                                    </select>
+                                    
+                                </div>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <div class="mb-6">
+                                    <label for="id_duration" class="block text-sm font-medium text-gray-700 mb-2">Duration</label>
+                                    <input type="text" name="duration" placeholder=" ie HH:MM:SS" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" id="id_duration">
+                                    
+                                </div>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                
+                        <!-- Grade Level and Paper Type on the same line -->
+                        <div class="flex gap-4 mb-6">
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                                    <div class="w-1/2">
+                                        <label for="id_grade_level" class="block text-sm font-medium text-gray-700 mb-2">Grade level</label>
+                                        <select name="grade_level" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required="" id="id_grade_level">
+                <option value="" selected="">---------</option>
+                
+                <option value="1">JSS 1</option>
+                
+                <option value="2">JSS 2</option>
+                
+                <option value="3">JSS 3</option>
+                
+                <option value="4">SSS 1</option>
+                
+                <option value="5">SSS 2</option>
+                
+                <option value="6">SSS 3</option>
+                
+                </select>
+                                        
+                                    </div>
+                                
+                            
+                                
+                                    <div class="w-1/2">
+                                        <label for="id_paper_type" class="block text-sm font-medium text-gray-700 mb-2">Paper type</label>
+                                        <select name="paper_type" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required="" id="id_paper_type">
+                <option value="" selected="">---------</option>
+                
+                <option value="test">Test</option>
+                
+                <option value="practice">Practice</option>
+                
+                <option value="assignment">Assignment</option>
+                
+                <option value="exam">Exam</option>
+                
+                </select>
+                                        
+                                    </div>
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                        </div>
+                        <div class="mt-4 p-4 bg-gray-50 border rounded-lg">
+                            <label for="questions_to_answer" class="block text-sm font-medium text-gray-700 mb-2">
+                            How many questions should students answer?
+                            </label>
+                            
+                                <div class="flex flex-wrap items-center gap-4">
+                                    <input id="questions_to_answer" name="questions_to_answer" type="number" min="1" max="1" value="" class="w-24 border border-gray-400 rounded px-2 py-1 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                    <span id="total" class="text-sm text-gray-700">out of <strong></strong> total questions</span>
+                                    <label class="text-sm font-medium text-gray-700 ml-auto">Total Marks:</label>
+                                    <input type="number" value="30" class="w-20 border border-gray-300 rounded px-2 py-1">
+                                </div>
+                            
+                        </div>
+                    </div>
+                
+                    <div>
+                        
+                            
+                                <span>
+                                    
+                                    <div class="mb-6">
+                                        <label for="id_folder" class="block text-sm font-medium text-gray-700 mb-2">
+                                            Folder
+                                        </label>
+                                        <select name="folder" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" id="id_folder">
+                <option value="" selected="">---------</option>
+                
+                <option value="2">SSS 2</option>
+                
+                <option value="3">SSS 1</option>
+                
+                <option value="11">h3llo</option>
+                
+                </select>
+                                    </div>
+                                    
+                                    
+                                </span>
+                                
+                            
+                        
+                            
+                                <span>
+                                    
+                                    <div class="mb-6">
+                                        <label for="id_title" class="block text-sm font-medium text-gray-700 mb-2">
+                                            Title
+                                        </label>
+                                        <input type="text" name="title" placeholder="An Optional title for exam" maxlength="200" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required="" id="id_title">
+                                    </div>
+                                    
+                                    
+                                </span>
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <span>
+                                    
+                                    <div class="mb-6">
+                                        <label for="id_instructions" class="block text-sm font-medium text-gray-700 mb-2">
+                                            Instructions
+                                        </label>
+                                        <textarea name="instructions" cols="40" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required="" id="id_instructions"></textarea>
+                                    </div>
+                                    
+                                    
+                                </span>
+                                
+                            
+                        
+                            
+                        
+                            
+                                <span>
+                                    
+                                    <div class="flex row">    
+                                        <label for="id_is_active" class="text-sm font-medium text-gray-700 mb-2">
+                                            Is active
+                                        </label>
+                                        <label class="toggle">
+                                            <input type="checkbox" name="is_active" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" id="id_is_active">
+                                            <span class="toggle-slider"></span>
+                                        </label>
+                                    </div>
+                                    
+                                    
+                                </span>
+                                
+                            
+                        
+                            
+                                <span>
+                                    
+                                    <div class="flex row">    
+                                        <label for="id_shuffle_options" class="text-sm font-medium text-gray-700 mb-2">
+                                            Shuffle options
+                                        </label>
+                                        <label class="toggle">
+                                            <input type="checkbox" name="shuffle_options" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" id="id_shuffle_options">
+                                            <span class="toggle-slider"></span>
+                                        </label>
+                                    </div>
+                                    
+                                    
+                                </span>
+                                
+                            
+                        
+                    </div>
+                </div>
+                
+                <!-- ----Addional info -->
+            
+                
+                <div>
+                    <div class="mt-6 mb-6">
+                        <label for="id_window_start" class="block text-sm font-medium text-gray-700 mb-2">
+                            Window start
+                        </label>
+                        <input type="datetime-local" name="window_start" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" id="id_window_start">
+                        
+                    </div>
+                                
+                    <div class="mt-6 mb-6">
+                        <label for="id_window_end" class="block text-sm font-medium text-gray-700 mb-2">
+                            Window end
+                        </label>
+                        <input type="datetime-local" name="window_end" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" id="id_window_end">
+                        
+                    </div>
+                
+                    <div class="mt-6 mb-6">
+                        <label for="id_status" class="block text-sm font-medium text-gray-700 mb-2">
+                            Status
+                        </label>
+                        <select name="status" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" id="id_status">
+        <option value="draft">Draft</option>
+        
+        <option value="complete" selected="">Complete</option>
+        
+        </select>
+                        
+                    </div>    
+                </div>
+                
+                </form>
+            </div>
+            
+            <div class="flex justify-center mt-2">
+                <button type="submit" class="px-6 py-2 bg-primary text-white rounded-md shadow-md hover:bg-primary-dark focus:ring-2 focus:ring-primary focus:outline-none">
+                    Save
+                </button>
+            </div>
+            
+            
+            
+            <script>
+            function prepareFormData(event) {
+                const questionsInput = document.getElementById('questionsInput');
+                const limitInput = document.getElementById('student_question_limit');
+            
+                const questionsData = editor.getAllQuestions();
+            
+                if (questionsData.length === 0) {
+                    alert("Add at least one question.");
+                    event.preventDefault();
+                    return;
+                }
+            
+                if (limitInput && Number(limitInput.value) > questionsData.length) {
+                    alert("Question limit cannot exceed total number of questions.");
+                    event.preventDefault();
+                    return;
+                }
+            
+                questionsInput.value = JSON.stringify(questionsData);
+            }
+            </script>
+    
+            <script>
+
+            </script>
+        </dialog>
+    </div>
+</body>
+</html>

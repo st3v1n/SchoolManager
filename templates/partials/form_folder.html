@@ -1,0 +1,25 @@
+<h2 class="text-2xl font-semibold mb-6">
+    {% if folder %}
+        Edit Folder
+    {% else %}
+        Create New Folder
+    {% endif %}
+</h2>
+
+<form method="POST" 
+      class="space-y-6 max-w-lg mx-auto p-6 border rounded-lg shadow-sm bg-white"
+      hx-post="{% if folder %}{% url 'exam:edit_folder' folder.id %}{% else %}{% url 'exam:create_folder' %}{% endif %}">
+    {% csrf_token %}
+    
+    <div class="space-y-4">
+        {{ form.as_p }}
+    </div>
+
+    <div class="flex justify-center">
+        <button type="submit"
+                class="px-6 py-3 text-white font-medium rounded-md 
+                       {% if folder %} bg-blue-500 hover:bg-blue-600 {% else %} bg-green-500 hover:bg-green-600 {% endif %}">
+            {% if folder %}Update{% else %}Create{% endif %} Folder
+        </button>
+    </div>
+</form>

@@ -1,0 +1,211 @@
+{% load static %}
+
+<div>
+    <form onsubmit="prepareFormData(event)" hx-post="{% if form.instance.id %}{% url 'exam:save_exam' form.instance.id %}{% else %}{% url 'exam:create_exam' %}{% endif %}"   >
+        {% csrf_token %}
+        <input type="hidden" name="exam_questions" id="questionsInput">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                {% for field in form %}
+                    {% if field.name == 'subject' or field.name == 'duration' %}
+                        <div class="mb-4">
+                            <label for="{{ field.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-2">{{ field.label }}</label>
+                            {{ field }}
+                            {% if field.errors %}
+                                <div class="text-red-500 text-xs mt-1">
+                                    {% for error in field.errors %}<p>{{ error }}</p>{% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+        
+                <div class="flex gap-2 mb-4">
+                    {% for field in form %}
+                        {% if field.name == 'grade_level' or field.name == 'paper_type' %}
+                            <div class="w-full ">
+                                <label for="{{ field.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-2">{{ field.label }}</label>
+                                {{ field }}
+                                {% if field.errors %}
+                                    <div class="text-red-500 text-xs mt-1">
+                                        {% for error in field.errors %}<p>{{ error }}</p>{% endfor %}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="mt-4 p-4 bg-gray-50 border rounded-lg">
+                    <label for="student_question_limit" class="block text-sm font-medium text-gray-700 mb-2">
+                    How many questions should students answer?
+                    </label>
+                    {% if editing %}
+                        {% with q_no=exam.questions.count %}
+                            <div class="flex flex-wrap items-center gap-4">
+                                <input 
+                                    id="student_question_limit_{{ exam.id }}" 
+                                    name="student_question_limit" 
+                                    type="number" 
+                                    min="1" 
+                                    max="{{ q_no }}"
+                                    value="{{ exam.student_question_limit }}" 
+                                    class="w-24 border border-gray-400 rounded px-2 py-1 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    hx-post="{% url 'exam:update_student_question_limit' exam.id %}" 
+                                    hx-trigger="change" 
+                                    hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+                                <span class="text-sm text-gray-700">out of <strong>{{ q_no }}</strong> total questions</span>
+                                <label class="text-sm font-medium text-gray-700 ml-auto">For total marks of:</label>
+                                <input name="total_marks" type="number" value="{{ exam.total_marks }}" class="w-20 border border-gray-300 rounded px-2 py-1">
+                            </div>
+                        {% endwith %}
+                    {% else %}
+                        <div class="flex flex-wrap items-center gap-4">
+                            <input 
+                                id="student_question_limit" 
+                                name="student_question_limit" 
+                                type="number" 
+                                min="1" 
+                                max="{{ q_no }}"
+                                value="{{ exam.student_question_limit }}" 
+                                class="w-24 border border-gray-400 rounded px-2 py-1 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <span id="total" class="text-sm text-gray-700">out of <strong>{{ q_no }}</strong> total questions</span>
+                            <label class="text-sm font-medium text-gray-700 ml-auto">For total marks of:</label>
+                            <input name="total_marks" type="number" value="30" class="w-20 border border-gray-300 rounded px-2 py-1">
+                        
+                            <script>
+                                document.body.addEventListener("htmx:afterSwap", function(event) {
+                                    // Check that the swap happened inside your overlay container
+                                    if (!event.target.closest('#lepopover')) return;
+                                    const qtaInput = document.getElementById("student_question_limit");
+                                    const totalSpan = document.getElementById("total");
+                            
+                                    // Wait a tick if needed to ensure DOM is hydrated
+                                    requestAnimationFrame(() => {
+                                        if (qtaInput && totalSpan && typeof editor !== 'undefined') {
+                                            const count = editor.questions.length;
+                                            qtaInput.setAttribute("max", count);
+                                            qtaInput.value = count;
+                                        } else {
+                                            console.warn("Editor or input not available");
+                                        }
+                                    });
+                                });
+                            </script>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div>
+                {% for field in form %}
+                    {% if field.name in 'folder title instructions status' %}
+                        <span>
+                            <div class="mb-4">
+                                <label for="{{ field.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-2">
+                                    {{ field.label }}
+                                </label>
+                                {{ field }}
+                            </div>
+                            {% if field.errors %}
+                                <div class="text-red-500 text-xs mt-1">
+                                    {% for error in field.errors %}
+                                        <p>{{ error }}</p>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </span>
+                    {% endif %}
+                {% endfor %}
+                <div class="flex gap-6 mb-4">
+                    {% for field in form %}
+                        {% if field.name == 'is_active' or field.name == 'shuffle_options' %}
+                            <div class="flex items-center gap-2 w-1/2">
+                                <label for="{{ field.id_for_label }}" class="text-sm font-medium text-gray-700">
+                                    {{ field.label }}
+                                </label>
+                                <label class="toggle">
+                                    {{ field }}
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-2 border-t border-gray-300 pt-4">
+            <button type="button" onclick="toggleAdditionalInfo()" class="flex items-center justify-between w-full px-2 py-2 bg-gray-100 hover:bg-gray-200 rounded-md transition-colors duration-200">
+                <span class="text-sm font-semibold text-gray-700">Additional Information</span>
+                <svg id="arrowIcon" class="w-5 h-5 text-gray-600 transition-transform duration-300 transform rotate-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </button>
+
+            <div id="additionalInfoFields" class="overflow-hidden max-h-0 transition-all duration-500 ease-in-out">
+                {% for field in form %}
+                    {% if field.name in 'window_start window_end ' %}
+                        <div class="mt-4">
+                            <label for="{{ field.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-2">
+                                {{ field.label }}
+                            </label>
+                            {{ field }}
+                            {% if field.errors %}
+                                <div class="text-red-500 text-xs mt-1">
+                                    {% for error in field.errors %}
+                                        <p>{{ error }}</p>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div> 
+
+        <div class="flex justify-center mt-2">
+            <button type="submit" class="px-6 py-2 bg-primary text-white rounded-md shadow-md hover:bg-primary-dark focus:ring-2 focus:ring-primary focus:outline-none">
+                Save
+            </button>
+        </div>
+    </form> 
+
+    <script>
+        function toggleAdditionalInfo() {
+            const content = document.getElementById('additionalInfoFields');
+            const arrow = document.getElementById('arrowIcon');
+    
+            if (content.classList.contains('max-h-0')) {
+                content.classList.remove('max-h-0');
+                content.classList.add('max-h-[1000px]'); // Tailwind doesn't support 'auto'
+                arrow.classList.add('rotate-180');
+            } else {
+                content.classList.remove('max-h-[1000px]');
+                content.classList.add('max-h-0');
+                arrow.classList.remove('rotate-180');
+            }
+        }
+        function prepareFormData(event) {
+            const questionsInput = document.getElementById('questionsInput');
+            const limitInput = document.getElementById('student_question_limit');
+        
+            const questionsData = editor.getAllQuestions();
+        
+            if (questionsData.length === 0) {
+                alert("Add at least one question.");
+                event.preventDefault();
+                return;
+            }
+        
+            if (limitInput && Number(limitInput.value) > questionsData.length) {
+                alert("Question limit cannot exceed total number of questions.");
+                event.preventDefault();
+                return;
+            }
+        
+            questionsInput.value = JSON.stringify(questionsData);
+        }
+    </script>
+    
+</div>

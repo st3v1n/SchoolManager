@@ -1,0 +1,211 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ exam.title }} - Take Exam</title>
+    
+    <script src="{% static 'js/mathquill.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/mathquill.css' %}">
+
+    <style>
+        .math-container {
+            border: none !important; 
+        }
+    </style>
+
+    <script>
+        let timerTimeout;  
+        let submitting = false;
+        const attemptId = {{ attempt_id }};
+        const durationString = "{{ exam.duration }}";
+        const [hours, minutes, seconds] = durationString.split(':').map(Number);
+        const duration = (hours * 3600 + minutes * 60 + seconds) * 1000;
+        const serverStartTime = new Date('{{ start_time }}').getTime();
+        
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+          
+        function updateTimer() {
+            const now = new Date().getTime();
+            const elapsed = now - serverStartTime;
+            const remainingTime = Math.max(0, duration - elapsed);
+            
+            const timerElement = document.getElementById('timer');
+            if (timerElement) {
+                const minutesRemaining = Math.floor(remainingTime / 60000); // Get minutes
+                const secondsRemaining = Math.floor((remainingTime % 60000) / 1000); // Get seconds
+                timerElement.textContent = `${minutesRemaining}:${secondsRemaining.toString().padStart(2, '0')}`;
+                
+                if (remainingTime <= 0) {
+                    submitExam(true); // Auto-submit on timeout
+                    document.getElementById('submit-btn').classList.add('disabled');
+                } else {
+                    timerTimeout = setTimeout(updateTimer, 1000); // Keep updating every second
+                }
+            }
+        }
+
+        function submitExam(timeout = false) {
+            if (submitting) return;
+            submitting = true;
+            clearTimeout(timerTimeout);  // Stop timer updates when submitting
+
+            const answers = {};
+            document.querySelectorAll('input[type="radio"]:checked').forEach(input => {
+                answers[input.name.replace('question-', '')] = input.value;
+            });
+
+            fetch(`/exam/submit/${attemptId}/`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': getCookie('csrftoken')
+                },
+                body: JSON.stringify({ answers: answers })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success' || data.status === 'timeout') {
+                    window.onbeforeunload = null; 
+                    window.location.href = data.redirect_url;
+                } else {
+                    alert(data.message || 'An error occurred during submission');
+                }
+            })
+            .catch(error => {
+                console.error('Submission error:', error);
+                alert('An error occurred. Your exam may have been auto-submitted due to a timeout.');
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            updateTimer();
+            updateNavigator();
+
+            window.onbeforeunload = function() {
+                return "Leaving this page will end your exam attempt. Your current answers will be submitted. Are you sure?";
+            };
+            
+            setInterval(() => {
+                fetch(`/exam/ping/${attemptId}/`, {
+                    method: 'POST',
+                    headers: {
+                        'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
+                    }
+                });
+            }, 30000);
+        });
+
+        function updateNavigator() {
+            document.querySelectorAll('input[type="radio"]').forEach(input => {
+                input.addEventListener('change', () => {
+                    const questionId = input.name.replace('question-', '');
+                    const navItem = document.querySelector(`[hx-on\\:click*="${questionId}"]`);
+                    if (navItem) {
+                        navItem.classList.remove('bg-gray-300', 'text-gray-600');
+                        navItem.classList.add('bg-primary-dark', 'text-white');
+                    }
+                });
+            });
+        }
+
+        document.querySelectorAll('.question').forEach(question => {
+            const questionId = question.id.split('-')[1];
+            const navItem = document.querySelector(`[hx-on\\:click*="${questionId}"]`);
+            if (navItem && !document.querySelector(`input[name="question-${questionId}"]:checked`)) {
+                navItem.classList.add('bg-gray-200', 'text-gray-500'); // Style for unanswered questions
+            }
+        });
+
+    </script>
+{% endblock head %}
+
+{% block content %}
+<div class="flex min-h-screen bg-gray-100">
+    <main class="flex-1 p-4 overflow-y-auto space-y-8" style="margin-right: 16rem;">
+        <!-- Added margin-right to make space for fixed sidebar -->
+        
+        <div class="p-4 bg-white rounded-lg shadow-md">
+            <h1 class="text-2xl font-bold text-gray-800">{{ exam.subject }} {{ exam.paper_type }}</h1>
+            <p class="text-gray-600 mb-4">{{ exam.instructions|default:"Please answer all questions before time runs out." }}</p>
+        </div>
+        <form id="exam-form">
+            {{ csrftoken }}
+            {% for question in selected_questions %}
+            <div class="question flex space-x-2 mb-8" id="question-{{ question.id }}">
+                <!-- Added margin-bottom for spacing between questions -->
+                <div class="bg-primary-light text-white rounded-full w-10 h-10 flex items-center justify-center">
+                    <span>{{ forloop.counter }}</span>
+                </div>
+                <div class="container bg-white p-4 w-full">
+                    <div class="text-lg font-semibold text-gray-800">{{ question.question_text|safe }}</div>
+                    <div class="mt-4 space-y-4">
+                        {% for option in question.options.all%}
+                        <div class="flex items-center space-x-2">
+                            <input 
+                                type="radio" 
+                                name="question-{{ question.id }}" 
+                                value="{{ option.id }}" 
+                                id="option-{{ option.id }}" 
+                                class="h-5 w-5 text-primary-dark"
+                            >
+                            <label for="option-{{ option.id }}" class="text-gray-700">
+                                {{ option.option_text }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </form>
+    </main>
+
+    <div class="w-64 h-screen fixed right-0 top-0 bg-primary-light text-white p-6 flex flex-col overflow-y-auto">
+        <!-- Added fixed positioning with overflow-y-auto for independent scrolling -->
+        <button 
+            type="button" 
+            id="submit-btn" 
+            class="bg-primary-dark text-white py-3 px-6 rounded-lg hover:bg-primary-darker transition-colors mb-4"
+            onclick="submitExam()">
+            Submit Exam
+        </button>
+        
+        <div id="timer" class="bg-red-500 text-white px-4 py-2 rounded-lg shadow-md mb-4">
+            Loading...
+        </div>
+        
+        <div class="my-2">
+            <h2 class="text-lg font-semibold mb-4">Question Navigator</h2>
+            <div id="question-overview" class="grid gap-1 overflow-auto" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+                {% for question in selected_questions %}
+                <div class="question-overview-item text-center">
+                    <div 
+                        class="p-[16px] rounded-lg cursor-pointer bg-gray-300 text-gray-600 hover:bg-primary-dark hover:text-white"
+                        hx-on:click="document.getElementById('question-{{ question.id }}').scrollIntoView({behavior: 'smooth'})"
+                    >
+                        <span class="question-num">{{ forloop.counter }}</span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
