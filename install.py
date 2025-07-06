@@ -78,6 +78,61 @@ class AppInstaller:
         
         return True
 
+    def create_browser_watcher_task(self):
+        """Create PowerShell watcher to open browser on new IP"""
+        print("\n🕵️ Creating browser auto-launch script...")
+
+        script_path = self.project_dir / "open_sms_in_browser.ps1"
+
+        content = r'''$knownIpPath = "$env:LOCALAPPDATA\last_opened_ip.txt"
+    $ip = Get-NetIPAddress -AddressFamily IPv4 |
+        Where-Object {
+            $_.IPAddress -notlike "169.254.*" -and
+            $_.IPAddress -ne "127.0.0.1" -and
+            ($_).IPAddress -match "^192\.168\.|^10\.|^172\.(1[6-9]|2[0-9]|3[0-1])\."
+        } |
+        Select-Object -First 1 -ExpandProperty IPAddress
+
+    if ($ip) {
+        $lastIp = ""
+        if (Test-Path $knownIpPath) {
+            $lastIp = Get-Content $knownIpPath -Raw
+        }
+
+        if ($ip -ne $lastIp) {
+            Start-Process "http://$ip:8000"
+            Set-Content -Path $knownIpPath -Value $ip
+        }
+    }
+    '''
+
+        # Write the script to file
+        with open(script_path, 'w') as f:
+            f.write(content)
+
+        print(f"📄 PowerShell script created at: {script_path}")
+
+        # Register with Windows Task Scheduler
+        print("📅 Registering scheduled task to auto-run it at login...")
+
+        try:
+            subprocess.run([
+                "schtasks", "/Create",
+                "/TN", "OpenSMSBrowser",
+                "/TR", f'powershell.exe -ExecutionPolicy Bypass -File "{script_path}"',
+                "/SC", "ONLOGON",
+                "/RL", "HIGHEST",
+                "/F"  # Force replace if task exists
+            ], check=True)
+            print("✅ Scheduled task registered successfully.")
+        except subprocess.CalledProcessError as e:
+            print("⚠️ Failed to register scheduled task.")
+            if e.stdout:
+                print(f"STDOUT: {e.stdout}")
+            if e.stderr:
+                print(f"STDERR: {e.stderr}")
+
+
     def create_service_runner(self):
         """Create a service runner script"""
         print("\nCreating service runner script...")
@@ -169,6 +224,8 @@ if __name__ == '__main__':
         # Create service runner script
         if not self.create_service_runner():
             return False
+   
+        self.create_browser_watcher_task()
 
         service_script = str(self.project_dir / "run_service.py")
         
