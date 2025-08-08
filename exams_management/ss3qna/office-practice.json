@@ -1,0 +1,1920 @@
+{
+    "total_questions": 168,
+    "questions": [
+        {
+            "question_number": "5",
+            "question_text": "<p>The type of incoming mail that should be delivered to their addresses unopened is</p>",
+            "options": {
+                "A": "urgent mail",
+                "B": "personal mail",
+                "C": "official mail",
+                "D": "registered mail"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "4",
+            "question_text": "<p>Which of the following documents is handled by the receptionist?</p>",
+            "options": {
+                "A": "Minutes of meetings",
+                "B": "Telephone message pad",
+                "C": "The manager's diary",
+                "D": "Requisition form"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "3",
+            "question_text": "<p><em>\"Who is who\"</em> is a book that contains information of</p>",
+            "options": {
+                "A": "important people who are still living.",
+                "B": "people who are dead.",
+                "C": "people who are not eminent.",
+                "D": "late people but important."
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "A"
+        },
+        {
+            "question_number": "2",
+            "question_text": "<p>Transmission of information between officers of the same level is</p>",
+            "options": {
+                "A": "diagonal communication",
+                "B": "vertical communication",
+                "C": "horizontal communication",
+                "D": "lateral communication"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "6",
+            "question_text": "<p>Filing document according to dates is</p>",
+            "options": {
+                "A": "geographical filing",
+                "B": "subject filing",
+                "C": "numerical filing",
+                "D": "chronological filing"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "7",
+            "question_text": "<p>The <strong>three</strong> components of a short report are the</p>",
+            "options": {
+                "A": "introduction, body and findings.",
+                "B": "introduction, body and conclusion.",
+                "C": "terms of reference, body and conclusion.",
+                "D": "terms of reference, body and recommendations"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "9",
+            "question_text": "<p>A committee which ceases to exist after completing its assignment is</p>",
+            "options": {
+                "A": "a standing committee",
+                "B": "an investigatory committee",
+                "C": "ad-hoc committee",
+                "D": "advisory committee"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "10",
+            "question_text": "<p>Which of the following statements is <strong>true</strong> about a quotation? It shows the</p>",
+            "options": {
+                "A": "total of goods supplied.",
+                "B": "quality of goods in the warehouse.",
+                "C": "total cost of goods produced.",
+                "D": "prices of goods enquired about."
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "8",
+            "question_text": "<p>The communication channel in the diagram above is<br/>\r\n\u00a0</p>",
+            "options": {
+                "A": "vertical",
+                "B": "diagonal",
+                "C": "lateral",
+                "D": "horizontal"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "11",
+            "question_text": "<p>To break a tie resulting from a poll, the chairman should</p>",
+            "options": {
+                "A": "ask members to vote again",
+                "B": "use his power of casting vote",
+                "C": "use his discretion to take a decision",
+                "D": "ask his executive members to advise him"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "15",
+            "question_text": "<p>The machine that is used to destroy unwanted papers into unreadable pieces is</p>",
+            "options": {
+                "A": "franking machine.",
+                "B": "guillotine machine.",
+                "C": "perforating machine.",
+                "D": "shredding machine."
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "14",
+            "question_text": "<p>In order to eliminate barrier to effective communication, the sender should</p>",
+            "options": {
+                "A": "use as much jargons as he can.",
+                "B": "consider the level of recipient's education.",
+                "C": "expect the recipient to use a dictionary in decoding.",
+                "D": "discourage the recipient from giving a feedback."
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "13",
+            "question_text": "<p>A letter sent by Mrs. Benson to her husband by post through his office address is an example of</p>",
+            "options": {
+                "A": "urgent mail.",
+                "B": "official mail",
+                "C": "personal mail",
+                "D": "confidential mail"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "12",
+            "question_text": "<p>The raw materials and equipment needed in an organization should be bought by the</p>",
+            "options": {
+                "A": "human resource department",
+                "B": "purchasing department",
+                "C": "marketing department",
+                "D": "accounts department"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "18",
+            "question_text": "<p>The department that is responsible for replenishing stock in an organization is the</p>",
+            "options": {
+                "A": "purchasing department",
+                "B": "administrative department",
+                "C": "production department",
+                "D": "sales department"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "A"
+        },
+        {
+            "question_number": "17",
+            "question_text": "<p>A meeting conducted yearly by companies is</p>",
+            "options": {
+                "A": "extra ordinary meeting",
+                "B": "staff meeting",
+                "C": "annual general meeting",
+                "D": "board meeting"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "20",
+            "question_text": "<p>Mails requiring prompt attention are</p>",
+            "options": {
+                "A": "registered mails.",
+                "B": "personal mails.",
+                "C": "urgent mails.",
+                "D": "confidential mails"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "16",
+            "question_text": "<p>A diagram that shows the line of responsibilities and authorities in a company is</p>",
+            "options": {
+                "A": "pie chart",
+                "B": "bar chart",
+                "C": "pictorial chart",
+                "D": "organizational chart"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "19",
+            "question_text": "<p>An advantage of central filing is that it ensures</p>",
+            "options": {
+                "A": "easy retrieval of files.",
+                "B": "easy access to files.",
+                "C": "high level of confidentiality.",
+                "D": "uniformity of filing system."
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "24",
+            "question_text": "<p>Which of the following factors will be considered before buying office furniture?</p>",
+            "options": {
+                "A": "The colour of the furniture",
+                "B": "The size of the furniture",
+                "C": "The weight of the furniture",
+                "D": "The source of the furniture"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "25",
+            "question_text": "<p>The principles of organization which states that a worker should not take orders from more than one superior officer is</p>",
+            "options": {
+                "A": "unity of objective",
+                "B": "chain of command",
+                "C": "span of control",
+                "D": "unity of purpose"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "23",
+            "question_text": "<p>The list of items to be discussed in a meeting is</p>",
+            "options": {
+                "A": "amendment",
+                "B": "agenda",
+                "C": "resolution",
+                "D": "motion"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "21",
+            "question_text": "<p>Which of the following equipment is used for electronic filing?</p>",
+            "options": {
+                "A": "Printer",
+                "B": "Fax Machine",
+                "C": "Computer",
+                "D": "Drawer"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "26",
+            "question_text": "<p>One of the ways a receptionist show pleasantries to visitors is by</p>",
+            "options": {
+                "A": "standing up to greet them",
+                "B": "welcoming all visitors with a smile",
+                "C": "welcoming them with a big hug",
+                "D": "asking about their families"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "22",
+            "question_text": "<p>The correspondence conveying the same information to different organization is/are</p>",
+            "options": {
+                "A": "business letter",
+                "B": "memorandum",
+                "C": "minutes",
+                "D": "circulars"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "29",
+            "question_text": "<p>A requirement of a valid meeting is that</p>",
+            "options": {
+                "A": "some proxies should be in attendance.",
+                "B": "there should be a quorum.",
+                "C": "all members should be in attendance.",
+                "D": "items of its agenda should be completed."
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "30",
+            "question_text": "<p>A filing system where records are kept by various section within an organization is</p>",
+            "options": {
+                "A": "centralized filing system.",
+                "B": "geographical filing system.",
+                "C": "numerical filing system.",
+                "D": "departmental filing system."
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "27",
+            "question_text": "<p>One of the advantages of a close office layout is that it</p>",
+            "options": {
+                "A": "enhances the prestige of the user.",
+                "B": "ensures free flow of work.",
+                "C": "makes supervision of workers easier.",
+                "D": "enables common use of office equipment."
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "A"
+        },
+        {
+            "question_number": "1",
+            "question_text": "<p>Miscellaneous file should be opened when</p>",
+            "options": {
+                "A": "the original file form document cannot be located",
+                "B": "there is insufficient correspondence from one source to justify opening new file.",
+                "C": "there is insufficient time for the filing clerk to assemble relevant document to open a new file",
+                "D": "there are sufficient documents from various sources to justify opening a new file"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "28",
+            "question_text": "<p>Particulars of letters sent out from an office are entered in the</p>",
+            "options": {
+                "A": "dispatch book.",
+                "B": "postage book.",
+                "C": "remittance book.",
+                "D": "office diary"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "A"
+        },
+        {
+            "question_number": "32",
+            "question_text": "<p>Which of the following document is <strong>not</strong> used for business transaction?</p>",
+            "options": {
+                "A": "price list",
+                "B": "quotation",
+                "C": "circular",
+                "D": "invoice"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "33",
+            "question_text": "<p>The opinion of an investigatory committee on its findings is stated in the report as</p>",
+            "options": {
+                "A": "introduction",
+                "B": "terms of reference",
+                "C": "conclusion",
+                "D": "recommendation"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "34",
+            "question_text": "<p>One of the disadvantages of numerical system of filing is that</p>",
+            "options": {
+                "A": "document retrieval takes longer time",
+                "B": "there may be congestion in a file",
+                "C": "there is difficulty of classification",
+                "D": "there is difficulty of document retrieval where date is unknown"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "31",
+            "question_text": "<p>The term <em>office equipment</em> refers to</p>",
+            "options": {
+                "A": "machine and furniture.",
+                "B": "wires and cables.",
+                "C": "furniture and fittings.",
+                "D": "machines and products"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "35",
+            "question_text": "<p>The abbreviation \"ref\" on the letterhead of an organization represents</p>",
+            "options": {
+                "A": "refferer",
+                "B": "referee",
+                "C": "reference",
+                "D": "referendum"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "37",
+            "question_text": "<p>A good information should be</p>",
+            "options": {
+                "A": "relevant",
+                "B": "voluminous",
+                "C": "costly",
+                "D": "archived"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "A"
+        },
+        {
+            "question_number": "40",
+            "question_text": "<p>Which of the following types of correspondence is used to convey information to a large number of customers?</p>",
+            "options": {
+                "A": "Bulleting",
+                "B": "Memorandum",
+                "C": "Circular letters",
+                "D": "Personal letters"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "38",
+            "question_text": "<p>Economy in the use of office equipment is one of the advantages of</p>",
+            "options": {
+                "A": "panoramic office.",
+                "B": "closed office.",
+                "C": "departmental office.",
+                "D": "open office"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "39",
+            "question_text": "<p>Formal meeting held by the directors of an organization to consider policy issues is</p>",
+            "options": {
+                "A": "statutory meeting",
+                "B": "general meeting",
+                "C": "board meeting",
+                "D": "committee meeting"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "36",
+            "question_text": "<p>A filing classification in which documents are stored according to their title is</p>",
+            "options": {
+                "A": "numerical filing",
+                "B": "alpha-numerical filing",
+                "C": "geographical filing",
+                "D": "subject filing"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "42",
+            "question_text": "<p>An example of open office in a school is the</p>",
+            "options": {
+                "A": "principal's office",
+                "B": "staff room",
+                "C": "bursar's office",
+                "D": "security post"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "45",
+            "question_text": "<p>The use of a picture to convey information to receiver is an example of</p>",
+            "options": {
+                "A": "audio communication",
+                "B": "visual communication",
+                "C": "oral communication",
+                "D": "written communication"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "44",
+            "question_text": "<p>Standardized letters which give the same information and reply to regular inquires and requests are</p>",
+            "options": {
+                "A": "personal letters",
+                "B": "confidential letters",
+                "C": "business letters",
+                "D": "form letters"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "41",
+            "question_text": "<p>The part of a report where the highlights of an investigatory committee's assignment are stated is the</p>",
+            "options": {
+                "A": "terms of reference",
+                "B": "body",
+                "C": "findings",
+                "D": "conclusion"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "43",
+            "question_text": "<p>One of the duties of a mail room clerk is to</p>",
+            "options": {
+                "A": "sort outgoing mail into department.",
+                "B": "ensure that enclosures are attached to outgoing mail.",
+                "C": "give advance notice to addresses of incoming mail.",
+                "D": "return uncleared letters to the writers."
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "46",
+            "question_text": "<p>The process of interpreting a received message is</p>",
+            "options": {
+                "A": "ideation",
+                "B": "encoding",
+                "C": "decoding",
+                "D": "feedback"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "49",
+            "question_text": "<p>In an organization, a receptionist may sometimes act as</p>",
+            "options": {
+                "A": "a telephonist",
+                "B": "an office supervisor",
+                "C": "a secretary",
+                "D": "a marketing officer"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "C"
+        },
+        {
+            "question_number": "47",
+            "question_text": "<p>The means of internal communication in an organization is</p>",
+            "options": {
+                "A": "letter",
+                "B": "circular",
+                "C": "report",
+                "D": "catalogue"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "B"
+        },
+        {
+            "question_number": "50",
+            "question_text": "<p>The tenure of an ad-hoc committee is</p>",
+            "options": {
+                "A": "six month only",
+                "B": "one year only",
+                "C": "the period of its assignment",
+                "D": "determined by the chairman"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "A"
+        },
+        {
+            "question_number": "48",
+            "question_text": "<p>A document from the seller to the buyer showing the date, description and quantity of goods supplies is</p>",
+            "options": {
+                "A": "debit note",
+                "B": "requisition note",
+                "C": "credit note",
+                "D": "delivery note"
+            },
+            "exam_year": "WAEC\n                        2019",
+            "answer": "D"
+        },
+        {
+            "question_number": "54",
+            "question_text": "<p>a) As a Secretary of the Secretarial Students Association, write a notice of meeting to invite members to a meeting to be held in <strong>three</strong> weeks time.</p>\n<p>b)\u00a0Explain this media of communication:</p>\n<p>i) Print<br/>\r\nii) Electronic</p>\n<p>c)\u00a0Identify and explain <strong>four</strong> attributes of good filing system.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2019",
+            "answer": "d"
+        },
+        {
+            "question_number": "53",
+            "question_text": "<p>a) i) What us <em>information</em>?<br/>\r\nii) List four uses of information in an office?</p>\n<p>b) State <strong>five</strong> importance of a report.</p>\n<p>c)\u00a0What is the difference between a <em>statutory report</em> and a <em>routine report</em>?</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2019",
+            "answer": "d"
+        },
+        {
+            "question_number": "55",
+            "question_text": "<p>a) State <strong>five</strong> functions of Finance Department in an organization.</p>\n<p>b)\u00a0State <strong>five</strong> importance of communication in an organization</p>\n<p>\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2019",
+            "answer": "d"
+        },
+        {
+            "question_number": "52",
+            "question_text": "<p>a) i) Explain this office document: Delivery note.<br/>\r\nii)\u00a0Explain this office document: Receipt.<br/>\r\niii)\u00a0Explain this office document: Bin card.<br/>\r\niv)\u00a0Explain this office document: Quotation.</p>\n<p>\u00a0</p>\n<p>b) Identify the types of equipment which would be used to perform this task in an office;</p>\n<p>i) attaching a cheque to a letter to be sent to suppliers<br/>\r\nii)\u00a0boring holes on letters received in the registry for filing.<br/>\r\niii)\u00a0getting a carbon copy of a query letter to a worker.<br/>\r\niv)\u00a0sending an exact copy of a document to an overseas partner.<br/>\r\nv)\u00a0making more copies of minutes of a meeting.<br/>\r\nvi)\u00a0disposing of unwanted documents.</p>\n<p>\u00a0</p>\n<p>c)\u00a0Explain this type of mail:</p>\n<p>i) Personal mail<br/>\r\nii) Confidential mail<br/>\r\niii) Urgent mail</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2019",
+            "answer": "d"
+        },
+        {
+            "question_number": "51",
+            "question_text": "<p><em>Read the case below carefully and answer this question</em><br/>\n<br/>\r\nPROBLEMS CAUSED BY THE MANAGING DIRECTOR OF OKF LIMITED<br/>\r\nOKF limited, an initially fast growing company, was established twelve years ago to deal in office machines. The vision of the Managing Director, Dr. Rock Bansco was that the Company would become the leading supplier of office machines. He also hoped that the company would provide employment for many secondary school leavers.<br/>\r\nWithin the first five years of the company's inception, its profit grew rapidly. The customers increased so much that by the sixth year of the company's operation, the staff strength had become more than one hundred. However, all the workers who were employed in its sixth year of operation were both unqualified and inexperienced, worse still, they were given supervisory positions because of their relationship to the Managing Director in one way or the other.<br/>\n<br/>\r\nAs a large company, OKF Limited had six Heads of Department. However, the Managing Director hardly involved any of them in the day-to-day running of the company. He did all recruitment, purchases as well as salaries and wages administration. Staff salaries and wages were also very poor. As time went on, virtually all the staff became unhappy and this affected their morale.<br/>\n<br/>\r\nThe Managing Director recently called an emergency meeting to address the staff, surprisingly, he did not appoint anyone to record the proceedings of the meeting.<br/>\r\n\u00a0</p>\n<p>a) State <strong>two</strong> problems in OKF Limited.</p>\n<p>b)\u00a0Outline departments in OKF Limited that should be responsible for the following activities:</p>\n<ul>\n<li>recruitment of workers</li>\n<li>sales promotion</li>\n<li>acquisition of machines</li>\n<li>payments</li>\n</ul>\n<p>c) i) When is an emergency meeting called by the management of an organisation?</p>\n<p>ii)\u00a0What is the meeting's related title of the officer who should have recorded the meeting proceedings?</p>\n<p>iii)\u00a0State two duties the officer in (c)(ii) should have carried out before the day of the meeting</p>\n<p>iv)\u00a0List five headings under which the officer would have recorded the proceedings of the meeting.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2019",
+            "answer": "d"
+        },
+        {
+            "question_number": "60",
+            "question_text": "<p>(a). What is debit note?</p>\n<p>(b).\u00a0Use the information to answer questions below<br/>\r\nLily &amp; Co Ltd supplied some goods to Timex Enterprise after the order had been paid for. The buyer discovered after receiving the goods that quantities of some goods did not tally with the amount paid. He also found out that they were not accompained by any document.<br/>\n<br/>\r\ni. which document should have accompanied the goods?</p>\n<p>ii.\u00a0Outline four items the document named in (b)(i) would contain</p>\n<p>\u00a0</p>\n<p>(c).\u00a0Use the information to answer questions beow<br/>\r\nLily &amp; Co Ltd supplied some goods to Timex Enterprise after the order had been paid for. The buyer discovered after receiving the goods that quantities of some goods did not tally with the amount paid. He also found out that they were not accompained by any document.</p>\n<p>i.\u00a0Identify the document Timex Enterprise would receive from Lily &amp; Co Ltd that the goods supplied were not complete</p>\n<p>ii.\u00a0Outline four items the document identified in 3(b)(i) would contain</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2021",
+            "answer": "d"
+        },
+        {
+            "question_number": "58",
+            "question_text": "<p>OVERCOMING THE CHALLENGES AT THEOLAS INTERNATIONAL COMPANY<br/>\n<br/>\r\nPrior to Mr.Okonkwo's employment as the Human Resource Manager of Theolas International Company, the organization was faced with the problem of absenteeism by its workers. They came late to work and left before the closing time. As a result of this, the volume of production of the company reduced. This inturn, reduced the income of the organization so much that payments of workers' wages and salaries became difficult. Many experienced workers began to leave the firm for greener pastures.<br/>\n<br/>\r\nThe firm also found it difficult to meet its financial obligations to suppliers. On assumption of duty, Mr. Okonkwo quickly swung into action. He carried out an investigation to ascertain the causes of these problems. One of his findings was that workers bitterly complained about their conditions of service. Although their wages and salaries were acceptable, they asked for other benefits from the company which were denied them<br/>\n<br/>\r\nMr. Okonkwo also discovered that workers were employed without following due process. Finally, he found out that no measure was put in place to regulate the punctuality of workers. Armed with these finding, Mr Okonkwo addressed each of the issues and put in place adequate measures to ensure proper supervision and satisfaction of workers.</p>\n<p><br/>\r\n(a).\u00a0Suggest one measure that Mr. Okonkwo could use to improve staff regularity at work</p>\n<p>(b).\u00a0\u00a0Apart from irregularity at work, state two other problems in Theolas International Company</p>\n<p>(c).\u00a0List six welfare packages that would improve workers satisfaction at Theolas International Company</p>\n<p>(d).\u00a0State four pre-employment activities the company should have carried out in recruiting its staff</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2021",
+            "answer": "d"
+        },
+        {
+            "question_number": "59",
+            "question_text": "<p>(a). Outline three principles of a good organization</p>\n<p>(b).\u00a0State three advantages derived from office correspondence</p>\n<p>(c).\u00a0Explan the following methods of payment<br/>\r\ni. Money order<br/>\r\nii. Postal order<br/>\r\niii. Cheque<br/>\r\niv. Standing order</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2021",
+            "answer": "d"
+        },
+        {
+            "question_number": "57",
+            "question_text": "<p>As the purchasing officer of a service provider firm planning to purchase office equipment, state <strong>four</strong> factors you would consider in purchasing the equipment.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2019",
+            "answer": "d"
+        },
+        {
+            "question_number": "56",
+            "question_text": "<p>a) Differentiate between <em>adjournment</em> and <em>postponement</em>.</p>\n<p>b) i)\u00a0What is <em>office layout</em>?<br/>\r\nii)\u00a0State <strong>three</strong> benefits of open office layout.<br/>\r\niii)\u00a0State <strong>four</strong> factors to be considered before locating an office.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2019",
+            "answer": "d"
+        },
+        {
+            "question_number": "65",
+            "question_text": "<p>A meeting of AYEX Plc board of directors would be categorized as</p>",
+            "options": {
+                "A": "formal meeting",
+                "B": "informal meeting",
+                "C": "stakeholder meeting",
+                "D": "staff meeting"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "64",
+            "question_text": "<p>(a). Explain the term filling?</p>\n<p>(b).\u00a0List any three parts of an investigative report</p>\n<p>(c).\u00a0List and explain five qualities of a formal report.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2021",
+            "answer": "d"
+        },
+        {
+            "question_number": "63",
+            "question_text": "<p>(a). As a receptionist of a Manufacturing company, outline any five actions you would take to handle a telephone call from a customer</p>\n<p>(b).\u00a0The clerk at Toppy Tee has been directed to file a new customer's letter. Meanwhile, there is no file in the cabinet that is relevant to the subject matter of the letter.<br/>\r\n\u00a0 Outline five actions the office clerk would take in filling the letter.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2021",
+            "answer": "d"
+        },
+        {
+            "question_number": "61",
+            "question_text": "<p>(a).\u00a0List eight features of minutes of meeting of an organization</p>\n<p>(b).\u00a0State six benefit of using Global System for Mobile Communications( GSM)</p>\n<p>\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2021",
+            "answer": "d"
+        },
+        {
+            "question_number": "62",
+            "question_text": "<p>(a).\u00a0Explain the following terms relating to payment of worker:<br/>\r\ni. Salary<br/>\r\nii. Wages<br/>\r\niii. Time rate<br/>\r\niv. Piece rate<br/>\r\nv. Commission</p>\n<p>(b).\u00a0State five importance of ofiice procedure</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2021",
+            "answer": "d"
+        },
+        {
+            "question_number": "70",
+            "question_text": "<p>Which of the following items in a letter is an example of complimentary close?</p>",
+            "options": {
+                "A": "Dear sir",
+                "B": "Yours faithfully",
+                "C": "Attention: Mr Smith",
+                "D": "cc: Mrs Dauda"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "B"
+        },
+        {
+            "question_number": "67",
+            "question_text": "<p>An advantages of oral communication is that it</p>",
+            "options": {
+                "A": "provides a permanent record of idea shared",
+                "B": "carries more weight than other types of communication",
+                "C": "is more formal than written communication",
+                "D": "allows both parties concern to feel each other's mood"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "D"
+        },
+        {
+            "question_number": "68",
+            "question_text": "<p>Incoming mails should be sorted according to</p>",
+            "options": {
+                "A": "sizes",
+                "B": "weighs",
+                "C": "departments",
+                "D": "contents"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "66",
+            "question_text": "<p>In alphabetical filing, professional titles are written</p>",
+            "options": {
+                "A": "after the names of people",
+                "B": "in between the initials of people",
+                "C": "after the surname of people",
+                "D": "before the second name of people"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "74",
+            "question_text": "<p>Confidential mail is opened by the</p>",
+            "options": {
+                "A": "secretary",
+                "B": "mail room staff",
+                "C": "personnel unit staff",
+                "D": "receptionist"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "B"
+        },
+        {
+            "question_number": "71",
+            "question_text": "<p>The implication of issuing a crossed cheque is that it can only be</p>",
+            "options": {
+                "A": "cashed at the counter",
+                "B": "cash after six month of its issue",
+                "C": "lodged into the current account of the payee",
+                "D": "lodged into the fixed deposit account"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "69",
+            "question_text": "<p>One of the common items included in the agenda of meeting is</p>",
+            "options": {
+                "A": "security issues in different parts of the country",
+                "B": "security of members at the meeting",
+                "C": "matters arising from the minutes of previous meeting",
+                "D": "matters arising from the current meeting"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "75",
+            "question_text": "<p>A form of corresponding sent to members asking them to attend a meeting is</p>",
+            "options": {
+                "A": "the minutes",
+                "B": "an invite",
+                "C": "a notice",
+                "D": "an agenda"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "73",
+            "question_text": "<p>An official written message to several people at different destinations on the same subject matter is</p>",
+            "options": {
+                "A": "memo",
+                "B": "letter",
+                "C": "circular",
+                "D": "report"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "72",
+            "question_text": "<p>The part of a report that suggets solution to the problem investigated is the</p>",
+            "options": {
+                "A": "body of report",
+                "B": "recommendation",
+                "C": "terms of reference",
+                "D": "introduction"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "D"
+        },
+        {
+            "question_number": "79",
+            "question_text": "<p>A report written regularly to give an account of an event or work carried out is</p>",
+            "options": {
+                "A": "a periodic report",
+                "B": "a statutory report",
+                "C": "a routine report",
+                "D": "an informal report"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "76",
+            "question_text": "<p>Business document are used for passing information on business transactions among</p>",
+            "options": {
+                "A": "buyers of goods and services only",
+                "B": "sellers of goods and services only",
+                "C": "buyer and sellers of goods and services only",
+                "D": "competitors of the organization only"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "78",
+            "question_text": "<p>The act of weeding out redundant documents in the files is</p>",
+            "options": {
+                "A": "up-dating of records",
+                "B": "thining of records",
+                "C": "destruction of records",
+                "D": "removing of records"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "80",
+            "question_text": "<p>An electirc device which process data into information by following a set of programme instructions is</p>",
+            "options": {
+                "A": "computer",
+                "B": "teleprinter",
+                "C": "photocopier",
+                "D": "calculator"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "77",
+            "question_text": "<p>A meeting held by all employees of an organization is</p>",
+            "options": {
+                "A": "a committee meeting",
+                "B": "an emergency meeting",
+                "C": "a staff meeting",
+                "D": "an annual general meeting"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "85",
+            "question_text": "<p>The part of a report giving a detailed explanation of how a committe carried out its assignment is the</p>",
+            "options": {
+                "A": "introduction",
+                "B": "terms of reference",
+                "C": "body",
+                "D": "recommendation"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "B"
+        },
+        {
+            "question_number": "81",
+            "question_text": "<p>The first step the sender takes into the communication process is to</p>",
+            "options": {
+                "A": "transmit the message",
+                "B": "encode the message",
+                "C": "select an appropriate channel",
+                "D": "give a feedback"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "B"
+        },
+        {
+            "question_number": "84",
+            "question_text": "<p>A system whereby all files and records of an organization are kept and controlled in one room is</p>",
+            "options": {
+                "A": "decentralized filing",
+                "B": "vertical filing",
+                "C": "centralized filing",
+                "D": "horizontal filing"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "88",
+            "question_text": "<p><strong>Use the following information to answer questions below:</strong></p>\n<p><strong>Adams has just been employed by a large organization as the first person whom callers and visitors would see when visiting the organization</strong></p>\n<p>\u00a0</p>\n<p>Which of the following position does Adams occupy in the organization?</p>",
+            "options": {
+                "A": "Manager",
+                "B": "Supervisor",
+                "C": "Receptionist",
+                "D": "Secretary"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "87",
+            "question_text": "<p>The purchasing department in an organization is responsible for</p>",
+            "options": {
+                "A": "procuring goods for the organization",
+                "B": "selling goods for the organization",
+                "C": "advertising goods for the organization",
+                "D": "recording goods for the organization"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "83",
+            "question_text": "<p>Which of the following is a barrier to effective communication?</p>",
+            "options": {
+                "A": "encoding",
+                "B": "decoding",
+                "C": "channel",
+                "D": "noise"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "D"
+        },
+        {
+            "question_number": "82",
+            "question_text": "<p>A record of the proceedings of a meeting that is circulated to members is the</p>",
+            "options": {
+                "A": "quorum",
+                "B": "agenda",
+                "C": "minutes",
+                "D": "motion"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "B"
+        },
+        {
+            "question_number": "90",
+            "question_text": "<p><strong>Use the following information to answer questions below:</strong></p>\n<p><strong>Adams has just been employed by a large organization as the first person whom callers and visitors would see when visiting the organization</strong></p>\n<p>\u00a0</p>\n<p>To keep records of callers and clients who come for the organization,Adams office must be provided with____________</p>",
+            "options": {
+                "A": "attendance register",
+                "B": "visitors' book",
+                "C": "mail register",
+                "D": "dispatch book"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "B"
+        },
+        {
+            "question_number": "89",
+            "question_text": "<p><strong>Use the following information to answer questions below:</strong></p>\n<p><strong>Adams has just been employed by a large organization as the first person whom callers and visitors would see when visiting the organization</strong></p>\n<p>\u00a0</p>\n<p>In order to perform his duties well,Adams must be able to____________</p>",
+            "options": {
+                "A": "communicate effectively",
+                "B": "supervise effectively",
+                "C": "coordinate effectively",
+                "D": "handle mails effectively"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "86",
+            "question_text": "<p>An advantage of eletric typewriter over manual typewriter is that</p>",
+            "options": {
+                "A": "they are faster and increase output",
+                "B": "they are less expensive to buy",
+                "C": "the cost of maintenance is lower",
+                "D": "they can be easily moved from place to place"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "91",
+            "question_text": "<p>A feature of an open office is that</p>",
+            "options": {
+                "A": "all the doors are opened",
+                "B": "all the cabinets are opened",
+                "C": "workers are put together in the same room",
+                "D": "each worker occupies a separate room"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "92",
+            "question_text": "<p>The first step a mail clerk takes in handling outgoing mail is to</p>",
+            "options": {
+                "A": "collect typed letters from various departments",
+                "B": "attach all enclosure that are to accompany each mail",
+                "C": "date-stamp the envelop in which each letter is inverted",
+                "D": "ensure that each mail envelop is well-sealed"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "95",
+            "question_text": "<p>The information written on a paper would be regarded as the</p>",
+            "options": {
+                "A": "soft copy",
+                "B": "blind copy",
+                "C": "hard copy",
+                "D": "photocopy"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "94",
+            "question_text": "<p>Information on a specific project to all members of a section is communicated through</p>",
+            "options": {
+                "A": "departmental meetings",
+                "B": "board meetings",
+                "C": "annual meetings",
+                "D": "executive meetings"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "93",
+            "question_text": "<p>The means of making miniature copies of records for storage is</p>",
+            "options": {
+                "A": "indexing",
+                "B": "microfilming",
+                "C": "cross-referencing",
+                "D": "jogger"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "B"
+        },
+        {
+            "question_number": "96",
+            "question_text": "<p>A memo is used in an office for</p>",
+            "options": {
+                "A": "internal communication",
+                "B": "oral communication",
+                "C": "external communication",
+                "D": "audio communication"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "98",
+            "question_text": "<p>Price list is issued by the seller to</p>",
+            "options": {
+                "A": "make enquires about products and their prices",
+                "B": "serve as reply to a customer's enquiry",
+                "C": "make order for goods and services",
+                "D": "make enquires about products and means of payment"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "99",
+            "question_text": "<p>Which of the following headings is a column in a postage book</p>",
+            "options": {
+                "A": "Date of dispatch",
+                "B": "Value of stamp used",
+                "C": "Reference number",
+                "D": "Title of document"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "100",
+            "question_text": "<p>The machine used to produce large number of copies of a document from the</p>",
+            "options": {
+                "A": "electronic typewriter",
+                "B": "collating machine",
+                "C": "duplicating machine",
+                "D": "scanning machine"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "97",
+            "question_text": "<p>One of the disdavantages of using office machine is that it leads to</p>",
+            "options": {
+                "A": "reduction in running cost",
+                "B": "low productivity",
+                "C": "low quality of work",
+                "D": "staff redundancy"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "103",
+            "question_text": "<p>Use the diagram above to answer questions below<br/>\r\n\u00a0</p>\n<p>Which of the following names comes first in alphabetical filing?</p>",
+            "options": {
+                "A": "R.D Johnson",
+                "B": "A.R.D Johnson",
+                "C": "Dr. R.A.D Johnson",
+                "D": "Dr. A.R.D Johnson"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "D"
+        },
+        {
+            "question_number": "105",
+            "question_text": "<p>In a large organization,mails handling is done in the</p>",
+            "options": {
+                "A": "reception",
+                "B": "registry",
+                "C": "general office",
+                "D": "secretary's office"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "D"
+        },
+        {
+            "question_number": "104",
+            "question_text": "<p>One of the functions of an office is to safeguard</p>",
+            "options": {
+                "A": "information",
+                "B": "assets",
+                "C": "payment vouchers",
+                "D": "visitors book"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "102",
+            "question_text": "<p>Use the diagram above to answer questions below</p>\n<p>\u00a0</p>\n<p>The upward arrows shows</p>",
+            "options": {
+                "A": "supervisory relationship",
+                "B": "lateral relationship",
+                "C": "reporting relationship",
+                "D": "lateral and reporting relationships"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "101",
+            "question_text": "<p>Use the diagram above to answer questions below<br/>\r\n\u00a0</p>\n<p>The downward arrows shows</p>",
+            "options": {
+                "A": "supervisory relationship",
+                "B": "lateral relationship",
+                "C": "reporting relationship",
+                "D": "lateral and reporting relationships"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "D"
+        },
+        {
+            "question_number": "108",
+            "question_text": "<p>The appropriate filing classification for an organization having clients in different locations is</p>",
+            "options": {
+                "A": "alphabetical",
+                "B": "numerical",
+                "C": "chronological",
+                "D": "geographical"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "D"
+        },
+        {
+            "question_number": "106",
+            "question_text": "<p>The office machine used for fastening papers together is a</p>",
+            "options": {
+                "A": "perforator",
+                "B": "stapler",
+                "C": "fokling machine",
+                "D": "sealing machine"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "B"
+        },
+        {
+            "question_number": "110",
+            "question_text": "<p>An example of traditional method of communication is</p>",
+            "options": {
+                "A": "drumming",
+                "B": "telephoning",
+                "C": "letter writing",
+                "D": "speech making"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "109",
+            "question_text": "<p>The exchange of information among individuals is</p>",
+            "options": {
+                "A": "coding",
+                "B": "decoding",
+                "C": "communication",
+                "D": "feedback"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "C"
+        },
+        {
+            "question_number": "107",
+            "question_text": "<p>One of the advantages of a closed office is that</p>",
+            "options": {
+                "A": "the supervisor can see all workers at a glance",
+                "B": "it is easy to construct",
+                "C": "office equipment can be jointly used",
+                "D": "it ensure confidentially of documents"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "D"
+        },
+        {
+            "question_number": "111",
+            "question_text": "<p>The source of business information which gives spellings and meanings of words is the</p>",
+            "options": {
+                "A": "diary",
+                "B": "dictionary",
+                "C": "directory",
+                "D": "Hazard"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "B"
+        },
+        {
+            "question_number": "113",
+            "question_text": "<p>An executive committee can be described as one which</p>",
+            "options": {
+                "A": "has no power to ratify decisions of other committees",
+                "B": "has power to ratify decisions of other committees",
+                "C": "is dissolved on the completion of its assignment",
+                "D": "has no fixed assignment"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "B"
+        },
+        {
+            "question_number": "112",
+            "question_text": "<p>Which of the following activities is a function of an office?</p>",
+            "options": {
+                "A": "Receiving information",
+                "B": "Punishing late comers",
+                "C": "Calculating of workers salaries",
+                "D": "Welcoming visitors"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "115",
+            "question_text": "<p><strong>THE MEETING RELATED PROBLEM AT THE STAFF CO-OPERATION SOCIETY OF JEFFERSON PLC</strong><br/>\n<br/>\r\nDr Andrew iheanacho and Mrs. Adamu Suliyat were elected as Chairman and Secretary respectively of the staff Co-operative Society of Jefferson Plc in December 28,2017, prior to the election,the offices of the chairman and General Secretary were held by Mrs.Idowu Ibrahim and Miss Alamu Rexson respectively.<br/>\n<br/>\r\nDuring the regime of Mrs.Idowu Ibrahim and Miss Alamu Rexson members used to complain that meetings were not properly convened.Some of the meetings were postposed or adjourned.The Chairman's incompetence because obvious to most members of the Society and Staff of the Company alike. For instance, meeting of the society were always very rowdy as the Chairman was in the habit of losing control over members.<br/>\n<br/>\r\nAt a particular meeting held on 15th of February 2017, a motion was put to vote,Mallam Abubakar, who was elected to be in charge of voting during meetings was absent ,Consequently, Dr Aba was mandated by the Chairman to act on behalf. Shortly thereafter, a member drew the Chairman's attention to the fact that more than half of the sixty members who attended the meeting had already left while the meeting was still in progress. This observation was confirmed by another member who stressed that most of the members that left did so without taking permission from the Chairman.</p>\n<p>a) Identify two other duties of Mallam Abubakar at the Staff Co-operative Society meetings.</p>\n<p>b) State three rules the new secretary should observe to ensure that the staff Co-operative Society meetings are properly convened.</p>\n<p>c)\u00a0State five roles of Dr. Iheanacho to ensure that meetings of the Staff Co-operative Society are properly conducted.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2020",
+            "answer": "d"
+        },
+        {
+            "question_number": "114",
+            "question_text": "<p>The part of a letter which makes it an authentic office document is the</p>",
+            "options": {
+                "A": "address",
+                "B": "Salutation",
+                "C": "enclosure",
+                "D": "signature"
+            },
+            "exam_year": "WAEC\n                        2020",
+            "answer": "A"
+        },
+        {
+            "question_number": "116",
+            "question_text": "<p>a) i) What is a report?<br/>\r\nii)\u00a0List and explain two channels of communications.</p>\n<p>b)\u00a0List and explain four parts of an investigation report</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2020",
+            "answer": "d"
+        },
+        {
+            "question_number": "120",
+            "question_text": "<p>a) What is office organization?</p>\n<p>b) Explain the following types of mail;<br/>\r\ni)\u00a0Urgent mail<br/>\r\nii) Personal mail<br/>\r\niii) Confidential mail<br/>\r\niv) Official mail</p>\n<p>c)\u00a0List five equipment in an organization's mail room and state one use of each</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2020",
+            "answer": "d"
+        },
+        {
+            "question_number": "118",
+            "question_text": "<p>Explain five functions each the following departments in an organization</p>\n<hr/>\n<p>a)\u00a0Human Resources</p>\n<p>b)\u00a0Marketing</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2020",
+            "answer": "d"
+        },
+        {
+            "question_number": "119",
+            "question_text": "<p>a) List five parts of a business letter.</p>\n<p>b) Explain the following types of meeting<br/>\r\ni)\u00a0Emergency meeting<br/>\r\nii)\u00a0Committee\u00a0meeting<br/>\r\niii)\u00a0Board meeting</p>\n<p>c)\u00a0List and explain three types of indexing</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2020",
+            "answer": "d"
+        },
+        {
+            "question_number": "117",
+            "question_text": "<p>a) State four qualities of a good filling system.</p>\n<p>b)\u00a0Janet has an interview to attend next Monday for the position of a receiptionist. List and explain four qualities the interviewers would expect from the applicant.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2020",
+            "answer": "d"
+        },
+        {
+            "question_number": "123",
+            "question_text": "<p>A member who raises a motion at a meeting is a</p>",
+            "options": {
+                "A": "proposer",
+                "B": "scrutinizer",
+                "C": "convener",
+                "D": "proxy"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "122",
+            "question_text": "<p>A few copies of a written message to all members of staff in a large organization could be posted on</p>",
+            "options": {
+                "A": "billboards",
+                "B": "notice boards",
+                "C": "magic boards",
+                "D": "signboards"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "B"
+        },
+        {
+            "question_number": "125",
+            "question_text": "<p>Ojo was aksed by his superior in the office to check up the continent where Australia is located. He would get his information from</p>",
+            "options": {
+                "A": "a city directory",
+                "B": "a world's who is who",
+                "C": "an encyclopedia",
+                "D": "an atlas"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "D"
+        },
+        {
+            "question_number": "126",
+            "question_text": "<p>The minutes of APX ventures meeting written by secretary was considered to be alright by members. This implies the the minutes is</p>",
+            "options": {
+                "A": "legible",
+                "B": "concise",
+                "C": "accurate",
+                "D": "flexible"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "121",
+            "question_text": "<p>The secreatary at ABC Company needs to produce a document in large quantity. Which of these office equipment would be used?</p>",
+            "options": {
+                "A": "typewriter",
+                "B": "duplicator",
+                "C": "tele-printer",
+                "D": "risograph"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "B"
+        },
+        {
+            "question_number": "124",
+            "question_text": "<p>Miss Rosey, the clerical assistant at XYZ Ltd, keeps documents in the file according to dates received. This system of filing is</p>",
+            "options": {
+                "A": "geographical filing",
+                "B": "chronological filing",
+                "C": "alphabetical filing",
+                "D": "subject filing"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "B"
+        },
+        {
+            "question_number": "128",
+            "question_text": "<p>Sule, the mail clerk at Ali Ltd, files some documents under two headings. For easy location of such document, he would make use of</p>",
+            "options": {
+                "A": "cross-referencing",
+                "B": "coding",
+                "C": "indexing",
+                "D": "microfilming"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "129",
+            "question_text": "<p>One of the advantages of visual communicaion is that it</p>",
+            "options": {
+                "A": "can be kept for future use",
+                "B": "is cheap to produce",
+                "C": "does not require exrtra skill to interpret",
+                "D": "does not occupy space"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "130",
+            "question_text": "<p>Which of the following reference books contains information about parliamentary proceedings?</p>",
+            "options": {
+                "A": "Hansards",
+                "B": "Official gazatte",
+                "C": "Atlas",
+                "D": "Post office guide"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "B"
+        },
+        {
+            "question_number": "127",
+            "question_text": "<p>If goods are returned, the seller issues</p>",
+            "options": {
+                "A": "a debit notes",
+                "B": "a consignment note",
+                "C": "an advice note",
+                "D": "a credit note"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "D"
+        },
+        {
+            "question_number": "132",
+            "question_text": "<p>Oral communication could be done through</p>",
+            "options": {
+                "A": "gesture",
+                "B": "signs",
+                "C": "postals",
+                "D": "telephone"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "D"
+        },
+        {
+            "question_number": "131",
+            "question_text": "<p>One of the essential parts of a report is</p>",
+            "options": {
+                "A": "reference",
+                "B": "conclusion",
+                "C": "salutation",
+                "D": "enclosure"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "B"
+        },
+        {
+            "question_number": "134",
+            "question_text": "<p>A correspondence could be described as</p>",
+            "options": {
+                "A": "an oral conversation between parties",
+                "B": "a formal speech presented at an occasion",
+                "C": "a written communication between two organizations",
+                "D": "a message conveyed through the grapevine"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "133",
+            "question_text": "<p>One of the advantages of lateral filing system is that it</p>",
+            "options": {
+                "A": "economizes the use of space",
+                "B": "is very easy to operate",
+                "C": "does not require numbering",
+                "D": "reduces the probability of losing documents"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "D"
+        },
+        {
+            "question_number": "135",
+            "question_text": "<p>A chief accountant tasked a five-member committee to look into an embezzlement case. After the completion of the assignment, the committee is required to come up with a</p>",
+            "options": {
+                "A": "memo",
+                "B": "letter",
+                "C": "minutes"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "138",
+            "question_text": "<p>The procedure to be followed by a mailroom clerk in handling incoming mails is</p>",
+            "options": {
+                "A": "receiving, sorting, opening scrutinizing",
+                "B": "sorting, receiving, opening, scrutinizing",
+                "C": "receiving, sorting, scrutinizing. opening",
+                "D": "opening, receiving, sorting, scrutinizing"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "140",
+            "question_text": "<p>Which of the following means of written communications would an accountant use to convey a short directive to an accounts clerk?</p>",
+            "options": {
+                "A": "circular",
+                "B": "report",
+                "C": "letter",
+                "D": "memorandum"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "D"
+        },
+        {
+            "question_number": "139",
+            "question_text": "<p>The Board of Directors of ABC &amp; Co has just decided to reduce the workforce. The letter conveying this policy to the Managing Director for implementation would be marked</p>",
+            "options": {
+                "A": "official",
+                "B": "confidential",
+                "C": "urgent",
+                "D": "personal"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "136",
+            "question_text": "<p>The acronym NIPOST stands for</p>",
+            "options": {
+                "A": "National Postal Service",
+                "B": "Nigeria Postal Service",
+                "C": "Nigerians Postal Services",
+                "D": "Nigerian Postal Service"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "B"
+        },
+        {
+            "question_number": "143",
+            "question_text": "<p>Port Avenue &amp; Co deals with lots of client. For the company receptionist to relate effectively with them, she would need to possess good</p>",
+            "options": {
+                "A": "communication skill",
+                "B": "typing skill",
+                "C": "filing skill",
+                "D": "marketing skill"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "145",
+            "question_text": "<p>What does it mean when a meeting is adjourned sine die ?</p>",
+            "options": {
+                "A": "There was no closing prayer",
+                "B": "The meeting was fixed for another date",
+                "C": "No date was fixed for its continuation",
+                "D": "The meeting ended ended in chaos"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "141",
+            "question_text": "<p>When a meeting decides that a matter should lie on the table, it means that the matter should</p>",
+            "options": {
+                "A": "be discussed immediately",
+                "B": "be discussed at the next meeting",
+                "C": "not be discussed at all",
+                "D": "be discussed at the executive level"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "142",
+            "question_text": "<p>The section of an office in Rammy Ltd where mails are handled is</p>",
+            "options": {
+                "A": "registry",
+                "B": "boardroom",
+                "C": "reception",
+                "D": "executive office"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "144",
+            "question_text": "<p>The principle Unity of Command in an office implies that</p>",
+            "options": {
+                "A": "no worker in an organization should report to more than one-line supervisior",
+                "B": "every worker in an organization should be directly responsible to the general manager",
+                "C": "everyone in the organization should be able to work in all departments",
+                "D": "no worker in an organization should report to more than a two-line supervisor"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "150",
+            "question_text": "<p>Which of the following activties does the handling of incoming mails involve?</p>",
+            "options": {
+                "A": "Addressing the envelope",
+                "B": "Enveloping the document",
+                "C": "Examining the content",
+                "D": "Dispatching the mail"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "148",
+            "question_text": "<p>The purpose of a notice of meeting is to inform members of the</p>",
+            "options": {
+                "A": "time, date and venue of a proposed meeting",
+                "B": "decision taken at the previous meeting",
+                "C": "postponement of a proposed meeting",
+                "D": "items to be discussed at the meeting"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "146",
+            "question_text": "<p>At Adesco Plc, Mr Jack is the one who assgins duties to all the office workers. Mr.Jack is acting as the</p>",
+            "options": {
+                "A": "Secretary",
+                "B": "Manager",
+                "C": "Director",
+                "D": "Receptionist"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "B"
+        },
+        {
+            "question_number": "137",
+            "question_text": "<p>One of the disadvantages of oral communication is that</p>",
+            "options": {
+                "A": "immediate feedback is not possible",
+                "B": "information could be denied",
+                "C": "it is very expensive",
+                "D": "it does not promote cordiality"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "B"
+        },
+        {
+            "question_number": "149",
+            "question_text": "<p>The principles of office organization which requires workers to be assigned duties according to their skills and qualifications is</p>",
+            "options": {
+                "A": "delegation of authority",
+                "B": "flexibility",
+                "C": "specialization",
+                "D": "unity of control"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "155",
+            "question_text": "<p>Communication to a large number of people in different locations simultaneously could be done by means of</p>",
+            "options": {
+                "A": "telephone",
+                "B": "advertisement",
+                "C": "merchandizing",
+                "D": "display"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "154",
+            "question_text": "<p>A receptionist is an employee who</p>",
+            "options": {
+                "A": "directs visitors to the office they wants to see",
+                "B": "operates varieties of equipment in the office",
+                "C": "supervises the junior employees in the office",
+                "D": "prepares itineraries for his superior officers"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "153",
+            "question_text": "<p>The department in an organization that monitors the implementation of a company's policies is</p>",
+            "options": {
+                "A": "finance department",
+                "B": "marketing department",
+                "C": "administrative department",
+                "D": "research and development department"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "152",
+            "question_text": "<p>A letter from Mr Jack to convince XYZ company to employ Miss Zizi is</p>",
+            "options": {
+                "A": "a recommendation letter",
+                "B": "an order letter",
+                "C": "a letter of request",
+                "D": "a letter of appointment"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "147",
+            "question_text": "<p>Which of these items could be found in the reception?</p>",
+            "options": {
+                "A": "Inward and outward registers",
+                "B": "Attendance registers",
+                "C": "Newspaper and Magazine",
+                "D": "Dispatch book"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "151",
+            "question_text": "<p>In a closed office layout, workers enjoy</p>",
+            "options": {
+                "A": "better supervision",
+                "B": "better rapport",
+                "C": "relative comfort",
+                "D": "swift flow of work"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "D"
+        },
+        {
+            "question_number": "157",
+            "question_text": "<p>Which of these factors would a purchasing officer consider in selecting an office equipment?</p>",
+            "options": {
+                "A": "control",
+                "B": "location",
+                "C": "Suitability",
+                "D": "color"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "156",
+            "question_text": "<p>During a recent workshop, participants were advised to always provide good information. In order words, any information given by them should be</p>",
+            "options": {
+                "A": "timely",
+                "B": "futuristic",
+                "C": "long",
+                "D": "short"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "160",
+            "question_text": "<p>Which of these documents would be used to procure an item from the store?</p>",
+            "options": {
+                "A": "quotation",
+                "B": "receipt",
+                "C": "invoice",
+                "D": "requisition"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "D"
+        },
+        {
+            "question_number": "159",
+            "question_text": "<p>Bodex co.Ltd sends out lots of mails. Which of the following office machines would help to remove the burden of affixing postage stamps on each envelope?</p>",
+            "options": {
+                "A": "Collating machine",
+                "B": "Addressing machine",
+                "C": "Franking machine",
+                "D": "Folding machine"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "164",
+            "question_text": "<p>At Zeinab &amp; Sons Plc, envelopes are fastened with the use of gum and this takes so much time. The machine which would help overcome this challenge is</p>",
+            "options": {
+                "A": "collating machine",
+                "B": "folding machine",
+                "C": "sealing machine",
+                "D": "jogging machine"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "163",
+            "question_text": "<p>A secretary has found it difficult to type a manuscript given to her by the manager due to poor handwriting. In other words, the secretary has the challenge of</p>",
+            "options": {
+                "A": "inability to encode the manuscript",
+                "B": "poor encoded manuscript by the manager",
+                "C": "poorly decoded manuscript by the manager",
+                "D": "inappropriate choice of channel"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "161",
+            "question_text": "<p>A form of correspondence used in conveying information to members of the public is</p>",
+            "options": {
+                "A": "press release",
+                "B": "endorsement",
+                "C": "briefs",
+                "D": "circular"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "165",
+            "question_text": "<p>A letter containing valuable documents would be sent by</p>",
+            "options": {
+                "A": "electronic mail",
+                "B": "surface handling",
+                "C": "registered mail",
+                "D": "airmail"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "158",
+            "question_text": "<p>Which of the following activities is part of the procedure for handling outgoing mails?</p>",
+            "options": {
+                "A": "stamping",
+                "B": "coding",
+                "C": "opening",
+                "D": "sorting"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "162",
+            "question_text": "<p>A group of people appointed by the parent committee to deal with a special matter is</p>",
+            "options": {
+                "A": "standing committee",
+                "B": "ad hoc committee",
+                "C": "executive committee",
+                "D": "joint action committee"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "B"
+        },
+        {
+            "question_number": "168",
+            "question_text": "<p>A document sent by the buyer to the seller when the goods supplied are not satisfactory is</p>",
+            "options": {
+                "A": "a letter of complaints",
+                "B": "an order",
+                "C": "a quotation letter",
+                "D": "a letter of enquiry"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "A"
+        },
+        {
+            "question_number": "166",
+            "question_text": "<p>In communication process, writing a memo is an example of</p>",
+            "options": {
+                "A": "decoding",
+                "B": "feedback",
+                "C": "encoding",
+                "D": "channel"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "C"
+        },
+        {
+            "question_number": "167",
+            "question_text": "<p>Which of these organizational structures is also referred to as military form of organization?</p>",
+            "options": {
+                "A": "functional",
+                "B": "line",
+                "C": "line and staff",
+                "D": "committee"
+            },
+            "exam_year": "WAEC\n                        2021",
+            "answer": "B"
+        }
+    ]
+}

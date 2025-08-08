@@ -1,0 +1,388 @@
+{
+    "total_questions": 32,
+    "questions": [
+        {
+            "question_number": "1",
+            "question_text": "<p>The claim on the assets of a business by outsiders is classified as</p>",
+            "options": {
+                "A": "capital",
+                "B": "liability",
+                "C": "reserve",
+                "D": "provision"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "2",
+            "question_text": "<p>Which of the following transactions will increase business assets.</p>",
+            "options": {
+                "A": "payment to trade creditors",
+                "B": "additional liability incured",
+                "C": "stock drawings for private use"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "3",
+            "question_text": "<p>Purchase of machine of #50,000 was debited to purchase account,This is an error of ?</p>",
+            "options": {
+                "A": "omission",
+                "B": "Commission",
+                "C": "Principle",
+                "D": "compensation"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "5",
+            "question_text": "<p>The source document used to prepare the purchases day book is?</p>",
+            "options": {
+                "A": "receipt",
+                "B": "invoice",
+                "C": "cash voucher",
+                "D": "bank statement"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "4",
+            "question_text": "<p>The accounting treatment for each withdrawn by the owner of a business for private use is?</p>",
+            "options": {
+                "A": "Cash account credit drawings account",
+                "B": "Cash account credit capital account",
+                "C": "Capital account credit drawings account",
+                "D": "Drawings Account credit cash account"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "8",
+            "question_text": "<p>Matching concept in accounting is the basis of\u00a0</p>",
+            "options": {
+                "A": "i,ii and iii",
+                "B": "ii and iii only",
+                "C": "i and iii only",
+                "D": "i and ii only"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "10",
+            "question_text": "<p>The\u00a0accumulated depreciation at the end of the second year is 350,000\u00a0\u00d7 2 = 700,000</p>",
+            "options": {
+                "A": "#800,000",
+                "B": "#700,000",
+                "C": "#550,000",
+                "D": "#400,000"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "9",
+            "question_text": "<p>Use the following information to answer questions 10-12</p>\n<p>A motor vehicle bought for #1,600,000 was estimated to have a useful life span of 4 years and a residual value of #200,000. The straight line method of calculating depreciation is used.The motor vehicle is sold at the end of the fourth year for #250,000.</p>\n<p>The net value book value of the end of the fourth year is\u00a0</p>",
+            "options": {
+                "A": "#1,200,000",
+                "B": "#1,050,000",
+                "C": "#550,000",
+                "D": "#400,000"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "6",
+            "question_text": "<p>A balance sheet shows\u00a0</p>",
+            "options": {
+                "A": "Current assets minus current liabilities",
+                "B": "The difference between fixed assets and current liabilities",
+                "C": "Assets and  sources of financing them",
+                "D": "Sources of funding owners equity"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "7",
+            "question_text": "<p>Discount received is posted on the credit side of\u00a0</p>",
+            "options": {
+                "A": "petty cash book",
+                "B": "sales book",
+                "C": "profit and loss account",
+                "D": "trading account"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "12",
+            "question_text": "<p>The amount earned but is yet to be received at the end of the financial period\u00a0is\u00a0</p>",
+            "options": {
+                "A": "prepaid revenue",
+                "B": "prepaid expenses",
+                "C": "accrued income",
+                "D": "accrued expenses"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "15",
+            "question_text": "<p>Prepayments are shown in the balance sheet as\u00a0</p>",
+            "options": {
+                "A": "Current liabiltiy",
+                "B": "Long-term liability",
+                "C": "Fixed Asset",
+                "D": "Current Asset"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "14",
+            "question_text": "<p>An item recorded in the debit side of the trial balance is\u00a0</p>",
+            "options": {
+                "A": "Expenses",
+                "B": "Gains",
+                "C": "Capital",
+                "D": "Income"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "13",
+            "question_text": "<p>The method of stock valuation\u00a0which overstates profit during inflation is</p>",
+            "options": {
+                "A": "FIFO",
+                "B": "LIHO",
+                "C": "simple average",
+                "D": "weighted average"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "11",
+            "question_text": "<p>The asset disposal account at the end fo the third year is\u00a0</p>",
+            "options": {
+                "A": "#250,000 credit",
+                "B": "#250,000 debit",
+                "C": "#50,000 credit",
+                "D": "#50,000 debit"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "18",
+            "question_text": "<p>Purchases for #12,960 was recorded in the day book as #12,690. This is an error of</p>",
+            "options": {
+                "A": "Principle",
+                "B": "Compensation",
+                "C": "Complete reversal",
+                "D": "Original entry"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "19",
+            "question_text": "<p>Which of the following features\u00a0describe a receipts and payments account\u00a0<br/>\n<br/>\r\ni it is a nominal account</p>\n<p>ii it contains only items of revenue</p>\n<p>iii it is a real account</p>\n<p>iv it records capital expenditure items</p>",
+            "options": {
+                "A": "i,ii,iii and iV",
+                "B": "i,ii,iii only",
+                "C": "ii and iii only",
+                "D": "iii and iv only"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "20",
+            "question_text": "<p>Sales of goods to the value of N500 was debited to Ade instead of Adu, The journal entry for correcting this error is debit</p>",
+            "options": {
+                "A": "Adus account #500:credit Ades account #500",
+                "B": "Ades Account #500; credit Adus account N 500",
+                "C": "Adus account # 500; credit sales account #500",
+                "D": "Sales account #500, credit Adus account #500"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "17",
+            "question_text": "<p>A person whom a business owes for the goods or service supplied by him is the\u00a0</p>",
+            "options": {
+                "A": "payee",
+                "B": "drawee",
+                "C": "creditor",
+                "D": "debtor"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "16",
+            "question_text": "<p>A petty cashier has a cash float of #53,000 and #38,600 was spent,the reimbursement would be\u00a0</p>",
+            "options": {
+                "A": "#91,600",
+                "B": "#53,000",
+                "C": "#38,600",
+                "D": "#14,400"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "21",
+            "question_text": "<p>The book of original entry for recording cash sales is</p>",
+            "options": {
+                "A": "Sales day book",
+                "B": "Cash book",
+                "C": "Sales ledger",
+                "D": "Petty cash book"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "d"
+        },
+        {
+            "question_number": "24",
+            "question_text": "<p>The net sales is\u00a0</p>",
+            "options": {
+                "A": "#919,000",
+                "B": "#800,000",
+                "C": "#782,000",
+                "D": "#772,000"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "25",
+            "question_text": "<p>The cost of goods available for sale is\u00a0</p>",
+            "options": {
+                "A": "647,000",
+                "B": "591,000",
+                "C": "570,000",
+                "D": "501,000"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "23",
+            "question_text": "<p>Subscription in advance is treated in the balance sheet as an item under\u00a0</p>",
+            "options": {
+                "A": "Fixed Assets",
+                "B": "Current Assets",
+                "C": "Long-term liabilities",
+                "D": "Current liabilities"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "22",
+            "question_text": "<p>A self balancing ledger is\u00a0</p>",
+            "options": {
+                "A": "Trading account",
+                "B": "Control account",
+                "C": "Sales ledger",
+                "D": "Petty cash book"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "30",
+            "question_text": "<p>Which of the following factors can make an entrepreneur\u00a0successful?</p>",
+            "options": {
+                "A": "Availabilty of finance",
+                "B": "Low business intelligence quotent",
+                "C": "Insecurity of the business environment",
+                "D": "Poor money management"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "26",
+            "question_text": "<p>The gross profit is\u00a0</p>",
+            "options": {
+                "A": "317,000",
+                "B": "299,000",
+                "C": "281,000",
+                "D": "772,000"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "27",
+            "question_text": "<p>The word limited written after the name of a company means that the.</p>",
+            "options": {
+                "A": "Individual members capital is limited",
+                "B": "Members are liable to the extent of their holdings",
+                "C": "Total sum of the company's capital is limited",
+                "D": "Company's activities are restricted"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "32",
+            "question_text": "<p>The three column cash book differs from the two column cash book in that it has\u00a0</p>",
+            "options": {
+                "A": "Folio columns",
+                "B": "Discount columns",
+                "C": "Bank columns",
+                "D": "Cash columns"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "31",
+            "question_text": "<p>The excess of\u00a0the assets of a business over its liabilities is\u00a0</p>",
+            "options": {
+                "A": "Capital owned",
+                "B": "Working capital",
+                "C": "Issued capital",
+                "D": "Poor money management"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "29",
+            "question_text": "<p>The letter Y represents\u00a0</p>",
+            "options": {
+                "A": "Nominal Accounts",
+                "B": "Personal Accounts",
+                "C": "Asset Accounts",
+                "D": "Expenditure Accounts"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "28",
+            "question_text": "<p>Use the diagram above to answer the questions\u00a0</p>\n<p>The letter X represents.</p>",
+            "options": {
+                "A": "Nominal accounts",
+                "B": "Personal Accounts",
+                "C": "Assets Accounts",
+                "D": "Expenditure Accounts"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        }
+    ]
+}

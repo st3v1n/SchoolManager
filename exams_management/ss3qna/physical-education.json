@@ -1,0 +1,3040 @@
+{
+    "total_questions": 253,
+    "questions": [
+        {
+            "question_number": "1",
+            "question_text": "<p>Which of the following best describes triple jump?</p>",
+            "options": {
+                "A": "Hop, step and jump",
+                "B": "Hop, step and run",
+                "C": "Jump, hop and step",
+                "D": "Run, hop and jump"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "2",
+            "question_text": "<p>Which of the following games is started with a jump ball?</p>",
+            "options": {
+                "A": "Basketball",
+                "B": "Handball",
+                "C": "soccer",
+                "D": "Squash"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "4",
+            "question_text": "<p>When a white flag is raised during a track event, it is an indication that</p>",
+            "options": {
+                "A": "A runner is being expected",
+                "B": "All is set",
+                "C": "An athlete is injured",
+                "D": "Game is over"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "5",
+            "question_text": "<p>What is the distance in meter(s) between the take-off board and the jumping pit in the long jump event?</p>",
+            "options": {
+                "A": "1",
+                "B": "1.5",
+                "C": "2",
+                "D": "3"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "3",
+            "question_text": "<p>Which of these gymnastics activities can be performed without an apparatus?</p>",
+            "options": {
+                "A": "Astride vault",
+                "B": "Backward roll",
+                "C": "Hanging bat",
+                "D": "Rope walking"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "6",
+            "question_text": "<p>Which of these individuals assists performer in gymnastics?</p>",
+            "options": {
+                "A": "Coach",
+                "B": "judge",
+                "C": "referee",
+                "D": "spotter"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "9",
+            "question_text": "<p>The elongated start is mostly used by ................... athletes</p>",
+            "options": {
+                "A": "fat",
+                "B": "huge",
+                "C": "short",
+                "D": "tall"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "7",
+            "question_text": "<p>Which of the following is a style in high jump?</p>",
+            "options": {
+                "A": "Hang",
+                "B": "Hitch-kick",
+                "C": "Sail",
+                "D": "Straddle"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "8",
+            "question_text": "<p>A goal is scored by handball only when the ball.</p>",
+            "options": {
+                "A": "Crosses the goal line in-between the upright and crossbar",
+                "B": "Goes out of play by the side line or goal line",
+                "C": "Hits any of the crossbar of the upright and bounces back",
+                "D": "Is to be thrown from the 9 metres mark of the court"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "11",
+            "question_text": "<p>The standard measurement of a hockey pitch is ......... by ......... metres.</p>",
+            "options": {
+                "A": "19.44, 22.9",
+                "B": "20.9,14",
+                "C": "22.9, 8.66",
+                "D": "91.44, 54.86"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "10",
+            "question_text": "<p>In volley game, a team is allowed to hit the ball .................. times only</p>",
+            "options": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "15",
+            "question_text": "<p>Skills like freestyle and back crawl are associated with</p>",
+            "options": {
+                "A": "basketball",
+                "B": "cricket",
+                "C": "swimming",
+                "D": "table tennis"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "12",
+            "question_text": "<p>The following are basic strokes in swimming except</p>",
+            "options": {
+                "A": "basic crawl",
+                "B": "breast stroke",
+                "C": "butterfly",
+                "D": "gliding"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "14",
+            "question_text": "<p>The game of volleyball was invented by</p>",
+            "options": {
+                "A": "Adolp Spies",
+                "B": "Ludwig Jahn",
+                "C": "Akeem Olajuwon",
+                "D": "William Morgan"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "13",
+            "question_text": "<p>Which of the following is not an artificial respiration?</p>",
+            "options": {
+                "A": "Breathing through the nose",
+                "B": "Holger nelson Respiration",
+                "C": "Mouth to Mouth Respiration",
+                "D": "Mouth to Nose Respiration"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "17",
+            "question_text": "<p>Where did basketball originate?</p>",
+            "options": {
+                "A": "Britain",
+                "B": "Cuba",
+                "C": "India",
+                "D": "USA"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "18",
+            "question_text": "<p>What is mixed double race in racket games?</p>",
+            "options": {
+                "A": "1 male vs 1 female",
+                "B": "2 males vs 2 females",
+                "C": "1 male and 1 female vs 1 male and 1 female",
+                "D": "2 females vs 2 females"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "16",
+            "question_text": "<p>Grouping of people into body types is known as</p>",
+            "options": {
+                "A": "classification",
+                "B": "recruitment",
+                "C": "screening",
+                "D": "somatotype"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "19",
+            "question_text": "<p>Which of these is not a gymnastic activity?</p>",
+            "options": {
+                "A": "Backward roll",
+                "B": "Crab walk",
+                "C": "Hand spring",
+                "D": "Hockey"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "20",
+            "question_text": "<p>A physically fit individual enjoys the following except</p>",
+            "options": {
+                "A": "carrying out his normal duty satisfactorily",
+                "B": "easily overcoming minor and major illness",
+                "C": "feeling a sense of wellness",
+                "D": "growing very tall and fat"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "25",
+            "question_text": "<p>Rotation of players in volleyball is</p>",
+            "options": {
+                "A": "anticlockwise",
+                "B": "clockwise",
+                "C": "even numbers rotate first",
+                "D": "no define system"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "24",
+            "question_text": "<p>To win a match of volleyball game, a team must win ........... sets of playing rounds.</p>",
+            "options": {
+                "A": "3",
+                "B": "6",
+                "C": "9",
+                "D": "12"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "21",
+            "question_text": "<p>Which of the following best describes physical fitness?</p>",
+            "options": {
+                "A": "lift heavy load",
+                "B": "overcome stress",
+                "C": "perform work",
+                "D": "relate freely"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "22",
+            "question_text": "<p>Swimming competition usually takes place in the</p>",
+            "options": {
+                "A": "arena",
+                "B": "court",
+                "C": "field",
+                "D": "pool"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "30",
+            "question_text": "<p>What is the width in metre of an athletic lane?</p>",
+            "options": {
+                "A": "1.10",
+                "B": "1.15",
+                "C": "1.22",
+                "D": "1.25"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "29",
+            "question_text": "<p>The preliminary race to qualify for the next round is called.........</p>",
+            "options": {
+                "A": "heat",
+                "B": "middle distance",
+                "C": "pre-qualify",
+                "D": "sprints"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "26",
+            "question_text": "<p>The game of football is solely controlled by</p>",
+            "options": {
+                "A": "assistant referee",
+                "B": "coach",
+                "C": "commentator",
+                "D": "referee"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "27",
+            "question_text": "<p>Which of the following games is played by hitting the ball with a racket against a wall?</p>",
+            "options": {
+                "A": "Badminton",
+                "B": "Cricket",
+                "C": "squash",
+                "D": "Tennis"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "28",
+            "question_text": "<p>The following are types of passes in basketball except</p>",
+            "options": {
+                "A": "bounce",
+                "B": "chest",
+                "C": "hook",
+                "D": "lay-up"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "31",
+            "question_text": "<p>Which of the following is not a recommended sport wear?</p>",
+            "options": {
+                "A": "Canvas and socks",
+                "B": "gowns",
+                "C": "shorts",
+                "D": "Track suits"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "35",
+            "question_text": "<p>The end product of fat digestion is</p>",
+            "options": {
+                "A": "amino acid",
+                "B": "fatty acid",
+                "C": "glucose",
+                "D": "glycogen"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "34",
+            "question_text": "<p>When an athlete beats the gun twice in a track event, he is</p>",
+            "options": {
+                "A": "allowed one more trial",
+                "B": "disqualified",
+                "C": "placed on the last lane",
+                "D": "suspended"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "33",
+            "question_text": "<p>The following are values derived from swimming except</p>",
+            "options": {
+                "A": "entertainment",
+                "B": "recreational",
+                "C": "safety",
+                "D": "social"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "32",
+            "question_text": "<p>NICEGA is a body responsible for the organization of sports and games among Nigerian</p>",
+            "options": {
+                "A": "armed forces",
+                "B": "colleges of education",
+                "C": "polytechnics",
+                "D": "secondary schools"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "23",
+            "question_text": "<p>A long distance walk on foot describes</p>",
+            "options": {
+                "A": "hiking",
+                "B": "jogging",
+                "C": "striding",
+                "D": "strolling"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "36",
+            "question_text": "<p>The following are causes of human trafficking except</p>",
+            "options": {
+                "A": "broken homes",
+                "B": "ignorance",
+                "C": "ill-health",
+                "D": "poverty"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "40",
+            "question_text": "<p>Straddle style is employed in which of the following jumps?</p>",
+            "options": {
+                "A": "Astride vault",
+                "B": "High jump",
+                "C": "Long jump",
+                "D": "pole vault"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "38",
+            "question_text": "<p>Which of the following does not affect woman participation in sports?</p>",
+            "options": {
+                "A": "culture",
+                "B": "economy",
+                "C": "emotion",
+                "D": "physique"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "37",
+            "question_text": "<p>In a game of volleyball, a player is allowed to hit the ball ...... time(s)</p>",
+            "options": {
+                "A": "5",
+                "B": "4",
+                "C": "1",
+                "D": "3"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "39",
+            "question_text": "<p>The ability to perform a specific activity without undue fatigue is called</p>",
+            "options": {
+                "A": "Agility",
+                "B": "Endurance",
+                "C": "power",
+                "D": "speed"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "42",
+            "question_text": "<p>Which of these bodies is responsible for organizing athletic competitions in Nigeria?</p>",
+            "options": {
+                "A": "AFN",
+                "B": "BFN",
+                "C": "GAN",
+                "D": "HFN"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "43",
+            "question_text": "<p>Which of the following formations of play is most suitable for defensive strategy in soccer?</p>",
+            "options": {
+                "A": "2:3:5",
+                "B": "2:4:4",
+                "C": "4:2:4",
+                "D": "4:4:2"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "41",
+            "question_text": "<p>The glide is a skill used in</p>",
+            "options": {
+                "A": "Discus throw",
+                "B": "hammer throw",
+                "C": "high jump",
+                "D": "short put throw"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "45",
+            "question_text": "<p>Which of the following is not a function of food in the body?</p>",
+            "options": {
+                "A": "Development",
+                "B": "energy",
+                "C": "growth",
+                "D": "retardation"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "44",
+            "question_text": "<p>An injury resulting from the forceful twisting of the joint is called</p>",
+            "options": {
+                "A": "Dislocation",
+                "B": "fracture",
+                "C": "sprain",
+                "D": "strain"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "49",
+            "question_text": "<p>Which of these is a traditional dance?</p>",
+            "options": {
+                "A": "Atilogwu",
+                "B": "Gospel",
+                "C": "High life",
+                "D": "Jazz"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "51",
+            "question_text": "<p>Who is a sports journalist?</p>",
+            "options": {
+                "A": "An individual trained to counsel athletes",
+                "B": "One who instructs the athletes on how to win their opponents",
+                "C": "Professional that impact knowledge in the student",
+                "D": "Sports writer that reports and analyses sports and games"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "50",
+            "question_text": "<p>Which of the following equipment are used to play badminton game?</p>",
+            "options": {
+                "A": "Bat and ball",
+                "B": "Bat and shuttle",
+                "C": "Racket and shuttle",
+                "D": "Racket and ball"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "46",
+            "question_text": "<p>The basic aim of administering first aid treatment is to</p>",
+            "options": {
+                "A": "Assure the victim",
+                "B": "Deliver first aid kits",
+                "C": "Educate the victim",
+                "D": "Save life"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "55",
+            "question_text": "<p>The following are criteria for selection of warm up exercises except</p>",
+            "options": {
+                "A": "Age",
+                "B": "Interest",
+                "C": "Religion",
+                "D": "Sex"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "47",
+            "question_text": "<p>The best technique for receiving a service in the game of volleyball is</p>",
+            "options": {
+                "A": "Blocking",
+                "B": "digging",
+                "C": "setting",
+                "D": "spiking"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "48",
+            "question_text": "<p>Computer game is played for the following reasons except</p>",
+            "options": {
+                "A": "Entertainment",
+                "B": "gain recognition",
+                "C": "recreation",
+                "D": "reduce tension"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "53",
+            "question_text": "<p>Health knowledge necessary for healthful living can be acquired through the following except</p>",
+            "options": {
+                "A": "Drawing and painting",
+                "B": "Drug education",
+                "C": "Family planning",
+                "D": "Safety and first aid"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "52",
+            "question_text": "<p>Which of the following is not a scope of physical education?</p>",
+            "options": {
+                "A": "Athletics",
+                "B": "Coaching",
+                "C": "Dancing",
+                "D": "Drawing"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "59",
+            "question_text": "<p>The classes of food that protects the body from diseases is called</p>",
+            "options": {
+                "A": "Carbohydrates",
+                "B": "fats and oil",
+                "C": "proteins",
+                "D": "vitamins"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "57",
+            "question_text": "<p>Which of the following is not a preventive measure for postural defect?</p>",
+            "options": {
+                "A": "Adequate exercise",
+                "B": "Balanced diet",
+                "C": "Good habit formation",
+                "D": "Self-medication"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "54",
+            "question_text": "<p>Flexibility can be defined as the ability to</p>",
+            "options": {
+                "A": "Control excess weight",
+                "B": "Control the movement of object over another",
+                "C": "Maintain stability and rest",
+                "D": "Move easily in different directions"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "58",
+            "question_text": "<p>Deficiency in vitamin C in the body leads to</p>",
+            "options": {
+                "A": "Anaemia",
+                "B": "diarrhea",
+                "C": "goiter",
+                "D": "scurvy"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "65",
+            "question_text": "<p>Which of the following is not a manipulative movement?</p>",
+            "options": {
+                "A": "Catching",
+                "B": "Heading",
+                "C": "Laughing",
+                "D": "Striking"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "61",
+            "question_text": "<p>Which of the following is not a postural defect?</p>",
+            "options": {
+                "A": "Endomorph",
+                "B": "Flatfoot",
+                "C": "Kyphosis",
+                "D": "Lordosis"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "63",
+            "question_text": "<p>The following are components of physical fitness except</p>",
+            "options": {
+                "A": "Agility",
+                "B": "Balance",
+                "C": "Endurance",
+                "D": "Stability"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "60",
+            "question_text": "<p>Which of the following does not assist in detecting drug addict?</p>",
+            "options": {
+                "A": "Neglect of appearance",
+                "B": "possession of drugs",
+                "C": "Spirit of sportsmanship",
+                "D": "Stealing and borrowing of money"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "66",
+            "question_text": "<p>A relay team consists of ........ athletes</p>",
+            "options": {
+                "A": "4",
+                "B": "6",
+                "C": "8",
+                "D": "10"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "69",
+            "question_text": "<p>The physical fitness component that is necessary for a high jumper is</p>",
+            "options": {
+                "A": "agility",
+                "B": "balance",
+                "C": "endurance",
+                "D": "flexibility"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "62",
+            "question_text": "<p>Insufficient warm-up activities may result to</p>",
+            "options": {
+                "A": "Anaemia",
+                "B": "Convulsion",
+                "C": "Nausea",
+                "D": "Strain"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "67",
+            "question_text": "<p>Desirable health practices include the following except</p>",
+            "options": {
+                "A": "Adequate diet",
+                "B": "Freedom from drugs",
+                "C": "Immunization",
+                "D": "Self-medication"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "71",
+            "question_text": "<p>The following are causes of postural defects except</p>",
+            "options": {
+                "A": "Accident",
+                "B": "Diseases",
+                "C": "Emotion",
+                "D": "Illness"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "64",
+            "question_text": "<p>The objectives of physical education include the following except ........... development</p>",
+            "options": {
+                "A": "Emotional",
+                "B": "Mental",
+                "C": "Motor skills",
+                "D": "Philosophical"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "68",
+            "question_text": "<p>The world cup is usually organized by which of the following bodies?</p>",
+            "options": {
+                "A": "Confederation of African Football",
+                "B": "European Union Football Association",
+                "C": "Federation of International Football Association",
+                "D": "Nigeria Football Association"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "74",
+            "question_text": "<p>Which of these is not true about a warm up exercise? It</p>",
+            "options": {
+                "A": "Improves performance",
+                "B": "Increases muscular contraction",
+                "C": "Reduces blood circulation",
+                "D": "Reduces incidence of injury"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "73",
+            "question_text": "<p>The air we breathe in during physical activities is called</p>",
+            "options": {
+                "A": "Ammonia",
+                "B": "Carbon dioxide",
+                "C": "Oxygen",
+                "D": "Nitrogen"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "72",
+            "question_text": "<p>Which of the following aspects is concerned with the development of the muscles of the legs, arms and abdomen?</p>",
+            "options": {
+                "A": "Emotional",
+                "B": "Mental",
+                "C": "Physical",
+                "D": "Psychological"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "75",
+            "question_text": "<p>Which of these exercises is good for strengthening the abdominal muscle?</p>",
+            "options": {
+                "A": "Cartwheel",
+                "B": "Press-up",
+                "C": "Pull-up",
+                "D": "Sit up"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "80",
+            "question_text": "<p>Which of these is not a function of sports on modern day society?</p>",
+            "options": {
+                "A": "Helps to reduce inflation",
+                "B": "Is used for both economic and political games",
+                "C": "It is used to reduce tension",
+                "D": "It serves as a means of livelihood"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "78",
+            "question_text": "<p>Which of the following prepares one for other sports?</p>",
+            "options": {
+                "A": "Athletics",
+                "B": "Physical exercise",
+                "C": "Gymnastics",
+                "D": "Play"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "56",
+            "question_text": "<p>The following are postural defects except</p>",
+            "options": {
+                "A": "Flat foot",
+                "B": "Kwashiorkor",
+                "C": "kyphosis",
+                "D": "Lordosis"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "79",
+            "question_text": "<p>Which of the following is not a physical fitness test?</p>",
+            "options": {
+                "A": "Breaststroke",
+                "B": "Broad jump",
+                "C": "Pull ups",
+                "D": "Sit-ups"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "76",
+            "question_text": "<p>During physical exercise, the body requires more supply of</p>",
+            "options": {
+                "A": "Carbon monoxide",
+                "B": "Hydrogen",
+                "C": "Carbon dioxide",
+                "D": "Oxygen"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "77",
+            "question_text": "<p>Excessive body weight due to fat is called</p>",
+            "options": {
+                "A": "Kwaahiokor",
+                "B": "Kyphosis",
+                "C": "Lordosis",
+                "D": "obesity"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "70",
+            "question_text": "<p>Which of the following diseases does regular exercise correct?</p>",
+            "options": {
+                "A": "Goiter",
+                "B": "Kwashiokor",
+                "C": "Obesity",
+                "D": "Pellagra"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "81",
+            "question_text": "<p>The branches of physical education include the following except</p>",
+            "options": {
+                "A": "Aquatics",
+                "B": "Cosmetology",
+                "C": "Games and Sports",
+                "D": "Health"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "84",
+            "question_text": "<p>Which of the following is not a traditional dance?</p>",
+            "options": {
+                "A": "Atilogwu",
+                "B": "Egungun",
+                "C": "Eyo",
+                "D": "Reggae"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "83",
+            "question_text": "<p>Dance in the ancient time was mainly used for the following except to</p>",
+            "options": {
+                "A": "Appease the gods",
+                "B": "Entertain people",
+                "C": "Please the spirit of dead relatives",
+                "D": "Prolong good health"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "85",
+            "question_text": "<p>Which of the following is a non-locomotor movement?</p>",
+            "options": {
+                "A": "Bending",
+                "B": "Crawling",
+                "C": "Jumping",
+                "D": "Running"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "82",
+            "question_text": "<p>Physical education can be defined as education for</p>",
+            "options": {
+                "A": "All round development",
+                "B": "Development of physical skills",
+                "C": "Development of social interaction",
+                "D": "Physical and mental development"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "86",
+            "question_text": "<p>The following are aspects of leisure activities except</p>",
+            "options": {
+                "A": "Fishing",
+                "B": "Gardening",
+                "C": "Playing",
+                "D": "Wrestling"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "87",
+            "question_text": "<p>Which of the following recreational activities is best for an elderly person?</p>",
+            "options": {
+                "A": "Camping",
+                "B": "Cycling",
+                "C": "Running",
+                "D": "Walking"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "89",
+            "question_text": "<p>The body charged with the organization of football game in Nigeria is called</p>",
+            "options": {
+                "A": "National Amateur Football Association",
+                "B": "National Sports Commission",
+                "C": "Nigerian Football Federation",
+                "D": "Nigeria Soccer Association"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "90",
+            "question_text": "<p>A good finishing in races is described as</p>",
+            "options": {
+                "A": "Jumping at the finishing line",
+                "B": "Looking back at other athletes",
+                "C": "Running through the finishing line",
+                "D": "Slowing down towards the finishing line"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "88",
+            "question_text": "<p>The game of football is played in two halves of ....... minutes each.</p>",
+            "options": {
+                "A": "30",
+                "B": "45",
+                "C": "55",
+                "D": "60"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "92",
+            "question_text": "<p>How many times does an athlete run round a standard track in 800m event?</p>",
+            "options": {
+                "A": "Five",
+                "B": "Four",
+                "C": "One",
+                "D": "Two"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "94",
+            "question_text": "<p>In which of the following events does an athlete jump for height?</p>",
+            "options": {
+                "A": "Hammer",
+                "B": "Hurdles",
+                "C": "Long jump",
+                "D": "Pole vault"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "93",
+            "question_text": "<p>The start, pacing and finishing are the three ........ of sprinting.</p>",
+            "options": {
+                "A": "Aces",
+                "B": "Cases",
+                "C": "Faces",
+                "D": "Phases"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "91",
+            "question_text": "<p>The two major divisions in gymnastics are</p>",
+            "options": {
+                "A": "Activities with and without apparatus",
+                "B": "Ring and flexibility",
+                "C": "Stunts and tumbling",
+                "D": "Strength and balance"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "95",
+            "question_text": "<p>The following are skills in table tennis except</p>",
+            "options": {
+                "A": "Backhand drive",
+                "B": "Forehand drive",
+                "C": "Service",
+                "D": "Shooting"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "98",
+            "question_text": "<p>Which part of javelin lands to make a valid throw?</p>",
+            "options": {
+                "A": "Binding",
+                "B": "Butt",
+                "C": "Handle",
+                "D": "Tip"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "D"
+        },
+        {
+            "question_number": "97",
+            "question_text": "<p>Which of the following equipment is used in javelin?</p>",
+            "options": {
+                "A": "Crossbar",
+                "B": "Measuring tape",
+                "C": "Pole",
+                "D": "Shuttle Cork"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "B"
+        },
+        {
+            "question_number": "100",
+            "question_text": "<p>Track events are done on a ___</p>",
+            "options": {
+                "A": "basketball court",
+                "B": "gym",
+                "C": "running track",
+                "D": "open field"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "101",
+            "question_text": "<p>The ability of the body systems to work together efficiently to allow you to be healthy and perform activities of daily living is</p>",
+            "options": {
+                "A": "physical fitness",
+                "B": "stamina",
+                "C": "good posture",
+                "D": "immune system"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "102",
+            "question_text": "<p>How many points is required to win a badminton game ?</p>",
+            "options": {
+                "A": "31",
+                "B": "12",
+                "C": "7",
+                "D": "21"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "103",
+            "question_text": "<p>Fruit and vegetables are important because</p>",
+            "options": {
+                "A": "They give you energy",
+                "B": "They are easily available",
+                "C": "They are colorful",
+                "D": "They provide you with a wide variety of vitamins, minerals, and nutrients"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "96",
+            "question_text": "<p>The following benefits can be derived from female participation in sports except</p>",
+            "options": {
+                "A": "Development of high sense of utility",
+                "B": "Development of self confidence",
+                "C": "Promotes juvenile delinquency",
+                "D": "Promoting social adjustments"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "C"
+        },
+        {
+            "question_number": "104",
+            "question_text": "<p>Which of the following helps human sperm with locomotion?</p>",
+            "options": {
+                "A": "flagellum",
+                "B": "nucleus",
+                "C": "Cilia",
+                "D": "basal"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "d"
+        },
+        {
+            "question_number": "99",
+            "question_text": "<p>A formal educational program designed to guide the consumers against inferior products is called</p>",
+            "options": {
+                "A": "Consumer health",
+                "B": "Consumer price",
+                "C": "Health science",
+                "D": "Physical health"
+            },
+            "exam_year": "JAMB\n                        2022",
+            "answer": "A"
+        },
+        {
+            "question_number": "105",
+            "question_text": "<p>A sport where participants should have no means of contact is called ?</p>",
+            "options": {
+                "A": "outdoor games",
+                "B": "indoor games",
+                "C": "non-contact games",
+                "D": "contact games"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "106",
+            "question_text": "<p>What year was the first modern olympic game held ?</p>",
+            "options": {
+                "A": "1976",
+                "B": "1896",
+                "C": "1986",
+                "D": "1856"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "107",
+            "question_text": "<p>The amount of force you can put out is dependent on your:</p>",
+            "options": {
+                "A": "muscular strength",
+                "B": "stamina",
+                "C": "agility",
+                "D": "muscular endurance"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "110",
+            "question_text": "<p>Which of the following is an indoor recreational activity?</p>",
+            "options": {
+                "A": "swimming",
+                "B": "hiking",
+                "C": "jogging",
+                "D": "playing chess"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "108",
+            "question_text": "<p>The condition of the body physically, mentally and otherwise not only the absence of disease or an infirmity is</p>",
+            "options": {
+                "A": "physical education",
+                "B": "health behavior",
+                "C": "health education",
+                "D": "social studies"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "109",
+            "question_text": "<p>The following are the injuries that can be sustained at sport except ____</p>",
+            "options": {
+                "A": "sprain",
+                "B": "bruises",
+                "C": "strain",
+                "D": "stomach ache"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "113",
+            "question_text": "<p>The following are the examples of sports except</p>",
+            "options": {
+                "A": "canoeing",
+                "B": "racing",
+                "C": "Camping",
+                "D": "marketing"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "112",
+            "question_text": "<p>What do you call a person who performs gymnastics ?</p>",
+            "options": {
+                "A": "performer",
+                "B": "gymnastics athlete",
+                "C": "entertainer",
+                "D": "gymnast"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "111",
+            "question_text": "<p>Which of the following is a track event ?</p>",
+            "options": {
+                "A": "Triple jump",
+                "B": "Pole vault",
+                "C": "100m race",
+                "D": "High jump"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "115",
+            "question_text": "<p>Which of the following is the international governing body responsible for soccer ?</p>",
+            "options": {
+                "A": "FIFA",
+                "B": "FIBA",
+                "C": "UEFA",
+                "D": "BWF"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "d"
+        },
+        {
+            "question_number": "114",
+            "question_text": "<p>The type of exchange in a relay race, in which the receiver's hand is behind them at the waist height with the palm facing down is called ?</p>",
+            "options": {
+                "A": "the visual Exchange",
+                "B": "the Downsweep",
+                "C": "the Push",
+                "D": "the Upsweep"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "117",
+            "question_text": "<p>Which of the following is an indoor game ?</p>",
+            "options": {
+                "A": "sprinting",
+                "B": "chess",
+                "C": "soccer",
+                "D": "swimming"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "116",
+            "question_text": "<p>The sideways curvature of the spine is called ?</p>",
+            "options": {
+                "A": "Flatback",
+                "B": "Swayback",
+                "C": "Kyphosis",
+                "D": "Scoliosis"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "120",
+            "question_text": "<p>Which of the following games is a traditional game in Nigeria before colonization ?</p>",
+            "options": {
+                "A": "badmiton",
+                "B": "chess",
+                "C": "soccer",
+                "D": "ayo game"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "119",
+            "question_text": "<p>The sport injury that results in the break of bone is called ?</p>",
+            "options": {
+                "A": "sprain",
+                "B": "fracture",
+                "C": "strain",
+                "D": "bruise"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "118",
+            "question_text": "<p>Which of the following is not an official in a gymnastic game ?</p>",
+            "options": {
+                "A": "Referee",
+                "B": "lines men",
+                "C": "Judges",
+                "D": "Time keepers"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "122",
+            "question_text": "<p>Which of the following control breathing rate in humans?</p>",
+            "options": {
+                "A": "medulla oblongata",
+                "B": "hypothalamus",
+                "C": "Cerebellum",
+                "D": "thalamus"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "125",
+            "question_text": "<p>The assistant referees in a soccer game are also called ?</p>",
+            "options": {
+                "A": "linesmen",
+                "B": "timekeeper",
+                "C": "match commissioner",
+                "D": "flag holder"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "124",
+            "question_text": "<p>Hockey pitch, nets and flag posts are facilities used in ?</p>",
+            "options": {
+                "A": "boxing",
+                "B": "swimming",
+                "C": "hockey game",
+                "D": "wrestling"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "123",
+            "question_text": "<p>Which of the following is not a component of physical fitness.</p>",
+            "options": {
+                "A": "muscular endurance",
+                "B": "fat",
+                "C": "flexibility",
+                "D": "cardiovascular endurance"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "121",
+            "question_text": "<p>Which of the following is an example of sprint race ?</p>",
+            "options": {
+                "A": "marathon",
+                "B": "1500m",
+                "C": "400m",
+                "D": "100m"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "128",
+            "question_text": "<p>Which of the following is not an objective of physical Eduaction ?</p>",
+            "options": {
+                "A": "To develop physical fitness",
+                "B": "To develop habit of sportsmanship",
+                "C": "To be able to bully people",
+                "D": "To develop emotional stability"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "127",
+            "question_text": "<p>How many trials are allowed in shot put?</p>",
+            "options": {
+                "A": "3",
+                "B": "4",
+                "C": "5",
+                "D": "2"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "130",
+            "question_text": "<p>Which of the following is a field event ?</p>",
+            "options": {
+                "A": "Javelin throw",
+                "B": "Hurdles race",
+                "C": "100m race",
+                "D": "relay race"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "126",
+            "question_text": "<p>Which of the following is not a skill and technique in boxing</p>",
+            "options": {
+                "A": "dodging",
+                "B": "ducking",
+                "C": "kicking",
+                "D": "jabbing"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "129",
+            "question_text": "<p>Food serves the following purpose except ____</p>",
+            "options": {
+                "A": "provide energy",
+                "B": "enhance growth",
+                "C": "increase hunger.",
+                "D": "eliminate hunger"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "131",
+            "question_text": "<p>Who is regarded as the father of physical eduction in Nigeria ?</p>",
+            "options": {
+                "A": "Eze Achiugo",
+                "B": "J.A Adedeji",
+                "C": "M. T Adiuku",
+                "D": "Harding James Ekperigin"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "132",
+            "question_text": "<p>Which of the following is an example of non-contact games</p>",
+            "options": {
+                "A": "boxing",
+                "B": "wrestling",
+                "C": "swimming",
+                "D": "taewondo"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "133",
+            "question_text": "<p>Which of the following factors does not affect posture ?</p>",
+            "options": {
+                "A": "complexion",
+                "B": "Heredity",
+                "C": "Habit",
+                "D": "Age"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "134",
+            "question_text": "<p>Recreational activities are meant to be done during ___</p>",
+            "options": {
+                "A": "busy time",
+                "B": "leisure time",
+                "C": "bed time",
+                "D": "anytime"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "135",
+            "question_text": "<p>The capacity to change direction effectively and quickly while maintaining body posture is called ?</p>",
+            "options": {
+                "A": "Power",
+                "B": "Stamina",
+                "C": "Agility",
+                "D": "strength"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "137",
+            "question_text": "<p>One of these is a component of school health programme.</p>",
+            "options": {
+                "A": "None of the above",
+                "B": "External services",
+                "C": "Health services",
+                "D": "Currable services"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "138",
+            "question_text": "<p>The swimming pattern in which both arms are extended and pulledback together in a circular motion while both legs are thrust out and pulled back together is called ?</p>",
+            "options": {
+                "A": "sidestroke",
+                "B": "crawl",
+                "C": "Breaststroke",
+                "D": "butterfly"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "139",
+            "question_text": "<p>Which of the following is not a throw event ?</p>",
+            "options": {
+                "A": "javelin throw",
+                "B": "pole vault",
+                "C": "hammer throw",
+                "D": "shot put"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "140",
+            "question_text": "<p>To promote unity and solidarity among African nations, All Africa games was founded by the African Union (AU). What year were the first games held ?</p>",
+            "options": {
+                "A": "1965",
+                "B": "1985",
+                "C": "1955",
+                "D": "1975"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "136",
+            "question_text": "<p>Which of the following is not a swimming stroke ?</p>",
+            "options": {
+                "A": "downstroke",
+                "B": "crawl",
+                "C": "backstroke",
+                "D": "breast stroke"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "144",
+            "question_text": "<p>In which form of nationalism has its goals achieved through revolution.</p>",
+            "options": {
+                "A": "civic nationalism",
+                "B": "ideological nationalism",
+                "C": "liberation nationalism",
+                "D": "revolutionary nationalism"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "141",
+            "question_text": "<p>Saliva helps in the digestion of</p>",
+            "options": {
+                "A": "Starch",
+                "B": "Protein",
+                "C": "Fat",
+                "D": "Vitamins"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "d"
+        },
+        {
+            "question_number": "145",
+            "question_text": "<p>____ is the study of the structure and relationship between body parts</p>",
+            "options": {
+                "A": "Anatomy",
+                "B": "Sociology",
+                "C": "physiology",
+                "D": "health education"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "143",
+            "question_text": "<p>Which organ is not part of the alimentary canal?</p>",
+            "options": {
+                "A": "Jejunum",
+                "B": "stomach",
+                "C": "colon",
+                "D": "skin"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "142",
+            "question_text": "<p>How many players make up <strong>a</strong> basketball team on the court at a time?</p>",
+            "options": {
+                "A": "6",
+                "B": "5",
+                "C": "12",
+                "D": "7"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "146",
+            "question_text": "<p>Which of the following part of human skeleton forms the helmet that protect the human brain</p>",
+            "options": {
+                "A": "Cranium",
+                "B": "Fibula",
+                "C": "Tibia",
+                "D": "Suture"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "150",
+            "question_text": "<p>Which of the following cannot be found in a first aid box ?</p>",
+            "options": {
+                "A": "gloves",
+                "B": "hand sanitizer",
+                "C": "bandages",
+                "D": "soda drinks"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "149",
+            "question_text": "<p>The human heart is located in the</p>",
+            "options": {
+                "A": "cranium cavity",
+                "B": "cervical cavity",
+                "C": "Thoracic cavity",
+                "D": "Nasal cavity"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "147",
+            "question_text": "<p>Which of the following is not an institutional game in Nigeria ?</p>",
+            "options": {
+                "A": "NATCEGA",
+                "B": "NBA",
+                "C": "NUGA",
+                "D": "NIPOGA"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "148",
+            "question_text": "<p>If the assistant referee in a soccer match raises the flag, at a 45 degree angle and points it horizontally along the touch line, what does that indicate?</p>",
+            "options": {
+                "A": "throw-in",
+                "B": "penalty",
+                "C": "foul",
+                "D": "corner kick"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "153",
+            "question_text": "<p>Which of the following type of cartilage is present at the joints of long bones in humans?</p>",
+            "options": {
+                "A": "Calcified",
+                "B": "Hyaline",
+                "C": "Elastic",
+                "D": "fibrous"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "154",
+            "question_text": "<p>The following are examples of protein foods except</p>",
+            "options": {
+                "A": "fish",
+                "B": "egg",
+                "C": "beans",
+                "D": "rice"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "152",
+            "question_text": "<p>Excess presence of which of the following causes tooth decay in children?</p>",
+            "options": {
+                "A": "fluoride",
+                "B": "chloride",
+                "C": "Softness",
+                "D": "hardness"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "155",
+            "question_text": "<p>Which of the following is not a benefit of recreation ?</p>",
+            "options": {
+                "A": "It is time wasting",
+                "B": "It provides opportunity for creativity and self expression",
+                "C": "It raises the health and fitness level of the participant",
+                "D": "It helps to correct postural defect"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "151",
+            "question_text": "<p>Which of the following part of the human body is responsible for movement ?</p>",
+            "options": {
+                "A": "muscles",
+                "B": "muscles",
+                "C": "skin",
+                "D": "tissues"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "158",
+            "question_text": "<p>The type of hazardous pollution caused by automobile is ______</p>",
+            "options": {
+                "A": "hydrogen",
+                "B": "carbon monoxide",
+                "C": "carbon dioxide",
+                "D": "oxygen."
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "157",
+            "question_text": "<p>The type of family in which one spouse(man or woman) has several other spouses is called?</p>",
+            "options": {
+                "A": "polygamous family",
+                "B": "extended family",
+                "C": "monogamous family",
+                "D": "polygynous family"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "160",
+            "question_text": "<p>Which of the following is not an equipment/facility used in badminton games?</p>",
+            "options": {
+                "A": "paddles",
+                "B": "strings",
+                "C": "shuttlecocks",
+                "D": "racquet"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "159",
+            "question_text": "<p>Herbert Macaulay is considered as the founder of Nigerian Nationalism. He was a Nigerian nationalist, politician, engineer, architect, journalist, and musician and is considered by many Nigerians as the founder of Nigerian nationalism.</p>",
+            "options": {
+                "A": "Aguyi Ironsi",
+                "B": "Ahmadu Bello",
+                "C": "Herbert Macaulay",
+                "D": "Tafawa Balewa"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "161",
+            "question_text": "<p>After digestion protein is converted into</p>",
+            "options": {
+                "A": "Ascorbic acid",
+                "B": "Citric acid",
+                "C": "Amino acid",
+                "D": "Fatty acid"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "156",
+            "question_text": "<p>In the bucal cavity of human beings, digestion of which of the following get started</p>",
+            "options": {
+                "A": "Mineral salt",
+                "B": "Protein",
+                "C": "Carbohydrates",
+                "D": "Oil"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "162",
+            "question_text": "<p>Which of the following is not a skill in Judo ?</p>",
+            "options": {
+                "A": "gripping",
+                "B": "stance",
+                "C": "falling",
+                "D": "kicking"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "164",
+            "question_text": "<p>1. The human ankle has _____ bones</p>",
+            "options": {
+                "A": "7",
+                "B": "8",
+                "C": "4",
+                "D": "2"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "165",
+            "question_text": "<p>The smallest unit of social organization in our society is</p>",
+            "options": {
+                "A": "peer group",
+                "B": "family",
+                "C": "clan",
+                "D": "community"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "163",
+            "question_text": "<p>The following are key locomotor skills except</p>",
+            "options": {
+                "A": "crawling",
+                "B": "climbing",
+                "C": "singing",
+                "D": "walking"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "167",
+            "question_text": "<p>Carbon monoxide is a source of ______ pollution.</p>",
+            "options": {
+                "A": "land",
+                "B": "sea",
+                "C": "air",
+                "D": "all of the above"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "d"
+        },
+        {
+            "question_number": "166",
+            "question_text": "<p>A deuce in a table tennis game means</p>",
+            "options": {
+                "A": "a loss",
+                "B": "a win",
+                "C": "a foul",
+                "D": "a tie"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "D"
+        },
+        {
+            "question_number": "168",
+            "question_text": "<p>Which of the following is the vestigial bony part of the human skeleton?</p>",
+            "options": {
+                "A": "Cranium",
+                "B": "cartilage",
+                "C": "Coccyx",
+                "D": "cervical"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "170",
+            "question_text": "<p>How many pairs of the spinal nerve are located in human?</p>",
+            "options": {
+                "A": "13",
+                "B": "12",
+                "C": "31",
+                "D": "33"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "C"
+        },
+        {
+            "question_number": "173",
+            "question_text": "<p>The external openings of the nasal cavity that admit air to the lungs are called ?</p>",
+            "options": {
+                "A": "larynx",
+                "B": "nostrils",
+                "C": "oesophagus",
+                "D": "trachea"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "174",
+            "question_text": "<p>In which city were the 2015 All Africa Games held?</p>",
+            "options": {
+                "A": "Kigali",
+                "B": "Maputo",
+                "C": "Brazzaville",
+                "D": "Freetown"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "171",
+            "question_text": "<p>The agency that fights human trafficking in nigeria is __</p>",
+            "options": {
+                "A": "NAPTIP",
+                "B": "NAFDAC",
+                "C": "ICPC",
+                "D": "NDLEA"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "A"
+        },
+        {
+            "question_number": "175",
+            "question_text": "<p>Which of these dances is performed with a masquerade costume by the Efik people?</p>",
+            "options": {
+                "A": "Bongo",
+                "B": "Ekombi",
+                "C": "Atilogwu",
+                "D": "Mmanwu"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "172",
+            "question_text": "<p>The type of baton exchange in which the receiver of the baton will not see as the baton is being placed in his/her hand is called?</p>",
+            "options": {
+                "A": "invisible baton exchange",
+                "B": "Non-visual baton exchange",
+                "C": "visual baton exchange",
+                "D": "virtual baton exchange"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "169",
+            "question_text": "<p>Which of the following is not a water-borne disease?</p>",
+            "options": {
+                "A": "hepatitis",
+                "B": "Headache",
+                "C": "cholera",
+                "D": "typhoid"
+            },
+            "exam_year": "JAMB\n                        2023",
+            "answer": "B"
+        },
+        {
+            "question_number": "179",
+            "question_text": "<p>When handing off the baton in a relay race, which type of take-over involves the outgoing runner seeing the incoming runner?</p>",
+            "options": {
+                "A": "Blind take-over",
+                "B": "Overhand take-over",
+                "C": "Underhand take-over",
+                "D": "Visual take-over"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "178",
+            "question_text": "<p>What is an example of a recreational activity that promotes mindfulness and relaxation?</p>",
+            "options": {
+                "A": "Archery",
+                "B": "Ziplining",
+                "C": "Yoga",
+                "D": "Skiing"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "180",
+            "question_text": "<p>Which joint is classified as a saddle joint?</p>",
+            "options": {
+                "A": "Thumb joint",
+                "B": "Shoulder joint",
+                "C": "Elbow joint",
+                "D": "Hip joint"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "177",
+            "question_text": "<p>______________ is a sudden twisting or wrenching of a joint, causing damage to ligaments.</p>",
+            "options": {
+                "A": "Fracture",
+                "B": "Strain",
+                "C": "Dislocation",
+                "D": "Sprain"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "176",
+            "question_text": "<p>Which of these dances is performed with a masquerade costume by the Efik people?</p>",
+            "options": {
+                "A": "Bongo",
+                "B": "Ekombi",
+                "C": "Atilogwu",
+                "D": "Mmanwu"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "185",
+            "question_text": "<p>What safety equipment is essential in the hammer throw event?</p>",
+            "options": {
+                "A": "Gloves",
+                "B": "Protective cage",
+                "C": "Knee pads",
+                "D": "Helmet"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "182",
+            "question_text": "<p>What type of flooring is usually used for indoor basketball courts?</p>",
+            "options": {
+                "A": "Asphalt",
+                "B": "Hardwood",
+                "C": "Grass",
+                "D": "Carpet"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "184",
+            "question_text": "<p>Which basketball skill involves securing possession of missed shots or opponent's shots that come off the backboard or<br/>\r\nrim?</p>",
+            "options": {
+                "A": "Shooting",
+                "B": "Dribbling",
+                "C": "Passing",
+                "D": "Rebounding"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "183",
+            "question_text": "<p>In badminton, if a player serves before the opponent is ready, what is the ruling?</p>",
+            "options": {
+                "A": "The server loses the point",
+                "B": "The server gets an extra serve",
+                "C": "The serve is replayed",
+                "D": "The receiver wins the point"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "181",
+            "question_text": "<p>Which Founding Father of Physical Education advocated for the role of play in developing character and discipline?</p>",
+            "options": {
+                "A": "John Dewey",
+                "B": "Clark Hetherington",
+                "C": "Thomas Wood",
+                "D": "Dudley Sergent"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "186",
+            "question_text": "<p>What is the penalty for a charging foul in basketball?</p>",
+            "options": {
+                "A": "Personal foul against the defensive player",
+                "B": "No penalty, play continues",
+                "C": "Free throws for the offensive team",
+                "D": "Turnover to the defensive team"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "187",
+            "question_text": "<p>What is the role of the linesman in football?<br/>\r\n\u00a0</p>",
+            "options": {
+                "A": "Awards free kicks and penalties",
+                "B": "Keeps track of time",
+                "C": "Maintains order and discipline on the field",
+                "D": "Signals for offside violations and throw-ins."
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "190",
+            "question_text": "<p>Name the events which make up the throwing events.</p>",
+            "options": {
+                "A": "Long jump, Triple jump, High jump, Pole vault",
+                "B": "Discus, Hammer, Pole vault, Triple jump",
+                "C": "Shot put, Discus, Javelin, Hammer throw",
+                "D": "Shot put, Javelin, High jump, Long jump"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "189",
+            "question_text": "<p>Which component of physical fitness relates to the ability to change body position quickly and accurately while maintaining control and balance?</p>",
+            "options": {
+                "A": "Coordination",
+                "B": "Agility",
+                "C": "Reaction time",
+                "D": "Power"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "188",
+            "question_text": "<p>In the precolonial era in Nigeria, physical education was primarily influenced by:</p>",
+            "options": {
+                "A": "Western education systems",
+                "B": "Modern sports facilities",
+                "C": "Traditional games and physical activities",
+                "D": "Colonial administrative policies"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "195",
+            "question_text": "<p>Which physical fitness component is directly associated with body fat reduction?</p>",
+            "options": {
+                "A": "Balance",
+                "B": "Cardiovascular endurance",
+                "C": "Muscular endurance",
+                "D": "Flexibility"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "193",
+            "question_text": "<p>In football, which skill involves intercepting or stopping the ball carrier from advancing with the ball?</p>",
+            "options": {
+                "A": "Tackling",
+                "B": "Shooting",
+                "C": "Dribbling",
+                "D": "Heading"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "199",
+            "question_text": "<p>What method of maintaining personal health emphasizes consuming a balanced diet that includes fruits, vegetables, proteins, and whole grains?</p>",
+            "options": {
+                "A": "Regular medical check-ups",
+                "B": "Hydration",
+                "C": "Nutrition",
+                "D": "Meditation"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "196",
+            "question_text": "<p>How does physical activity contribute to social well-being?</p>",
+            "options": {
+                "A": "By encouraging individualism and solitude",
+                "B": "By fostering social connections and relationships",
+                "C": "By promoting exclusive community activities",
+                "D": "By reducing opportunities for social gatherings"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "192",
+            "question_text": "<p>How can carrying heavy bags or backpacks contribute to postural problems?</p>",
+            "options": {
+                "A": "By promoting good posture.",
+                "B": "By causing muscle imbalances and strain on the spine.",
+                "C": "By evenly distributing weight on both shoulders.",
+                "D": "By reducing the load on the back muscles"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "194",
+            "question_text": "<p>In table tennis, what skill involves hitting the ball back and forth with the opponent?</p>",
+            "options": {
+                "A": "Smashing",
+                "B": "Looping",
+                "C": "Rallies",
+                "D": "Serving"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "197",
+            "question_text": "<p>Which nutrient class is primarily responsible for providing structure to cells and supporting growth and development?\u00a0</p>",
+            "options": {
+                "A": "Proteins",
+                "B": "Fats",
+                "C": "Carbohydrates",
+                "D": "Minerals"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "200",
+            "question_text": "<p>Which national competition aims to promote grassroots football development in Nigeria?</p>",
+            "options": {
+                "A": "Nigerian Football League",
+                "B": "Nigerian Premier Football League",
+                "C": "National Principals Cup",
+                "D": "National Youth Sports Festival"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "198",
+            "question_text": "<p>Which of the following hurdle races requires the athlete to jump over water barriers?</p>",
+            "options": {
+                "A": "3000 m steeplechase",
+                "B": "2000 m steeplechase",
+                "C": "400 m hurdles",
+                "D": "100 m hurdles"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "191",
+            "question_text": "<p>Identify the jumping technique used in the long jump.</p>",
+            "options": {
+                "A": "Hitch-kick",
+                "B": "Glide",
+                "C": "Western Roll",
+                "D": "Spin"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "201",
+            "question_text": "<p>In a relay race, how wide is the designated take-over zone?</p>",
+            "options": {
+                "A": "10 m",
+                "B": "20 m",
+                "C": "No designated zone",
+                "D": "30 m"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "203",
+            "question_text": "<p>Which postural defect involves an abnormal lateral curvature of the spine, usually occurring during growth spurts or adolescence?</p>",
+            "options": {
+                "A": "Scoliosis",
+                "B": "Flatfoot",
+                "C": "Lordosis",
+                "D": "Kyphosis"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "202",
+            "question_text": "<p>Which organ is part of the lymphatic system and helps in the immune response?</p>",
+            "options": {
+                "A": "Spleen",
+                "B": "Liver",
+                "D": "Kidney"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "204",
+            "question_text": "<p>Which nutrient class is essential for maintaining healthy vision, skin, and mucous membranes?</p>",
+            "options": {
+                "A": "Minerals",
+                "B": "Vitamins",
+                "C": "Proteins",
+                "D": "Fats"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "205",
+            "question_text": "<p>How does the scope of Physical Education extend beyond physical fitness?</p>",
+            "options": {
+                "A": "It promotes social interaction and communication skills.",
+                "B": "It teaches advanced anatomy and physiology.",
+                "C": "It offers in-depth training for competitive sports.",
+                "D": "It focuses solely on building muscle strength."
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "206",
+            "question_text": "<p>In a sprint race, what is the most common starting position?</p>",
+            "options": {
+                "A": "Crouching start",
+                "B": "Standing start",
+                "C": "Kneeling start",
+                "D": "Prone start"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "207",
+            "question_text": "<p>What is the standard height of a badminton net?</p>",
+            "options": {
+                "A": "1.55 meters",
+                "B": "1.75 meters",
+                "C": "1.30 meters",
+                "D": "1.20 meters"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "209",
+            "question_text": "<p>Which muscle aids in the movement of the hip and thigh and is located in the groin area?</p>",
+            "options": {
+                "A": "Adductor longus",
+                "B": "Tensor fasciae latae",
+                "C": "Iliopsoas",
+                "D": "Gluteus maximus"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "208",
+            "question_text": "<p>Why is leisure important for mental health?</p>",
+            "options": {
+                "A": "Leisure provides a break from routine and promotes relaxation.",
+                "B": "Leisure has no impact on mental health.",
+                "C": "Leisure increases stress levels.",
+                "D": "Leisure is only beneficial for physically demanding jobs."
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "210",
+            "question_text": "<p>What type of community health service is most likely to use modern diagnostic equipment?</p>",
+            "options": {
+                "A": "Orthodox health services",
+                "B": "Bone setters",
+                "C": "Traditional birth attendants",
+                "D": "Herbalists"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "213",
+            "question_text": "<p>How is the administrative structure of the IOC organized?</p>",
+            "options": {
+                "A": "Director-General, Treasurer, and Executive Committee",
+                "B": "President, Secretary-General, and Board of Directors",
+                "C": "CEO, COO, and Advisory Council",
+                "D": "Chairman, Vice-Chairman, and General Secretary"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "214",
+            "question_text": "<p>What is the full meaning of NIPOGA?</p>",
+            "options": {
+                "A": "Nigerian Intra-Polytechnic Games Association",
+                "B": "Nigerian Polytechnic Games Association",
+                "C": "Nigerian Inter-Polytechnic Games Association",
+                "D": "Nigerian International Polytechnic Games Association"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "212",
+            "question_text": "<p>In ancient Greece, physical education was linked to:</p>",
+            "options": {
+                "A": "Military training and preparation for war",
+                "B": "Artistic expression and music.",
+                "C": "Academic studies and intellectual pursuits.",
+                "D": "Religious ceremonies and rituals."
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "215",
+            "question_text": "<p>How does dance influence cognitive development in children?</p>",
+            "options": {
+                "A": "It exerts no measurable influence on cognitive functions",
+                "B": "It primarily affects physical coordination without impacting cognition",
+                "C": "It disrupts cognitive processing by distracting attention",
+                "D": "It enhances memory retention and cognitive flexibility"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "211",
+            "question_text": "<p>Why is open communication about sex and relationships crucial in a family?</p>",
+            "options": {
+                "A": "Causes misunderstandings",
+                "B": "Inhibits personal growth",
+                "C": "Strengthens family bonds",
+                "D": "Promotes secrecy"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "218",
+            "question_text": "<p>Which of the following is a key principle of first aid?</p>",
+            "options": {
+                "A": "Providing medication without prescription",
+                "B": "Acting calmly and confidently",
+                "C": "Treating all injuries as minor",
+                "D": "Ignoring patient consent"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "216",
+            "question_text": "<p>Which test is commonly used during an eye screening to assess visual acuity?</p>",
+            "options": {
+                "A": "Audiogram",
+                "B": "Snellen chart",
+                "C": "ECG",
+                "D": "Spirometry"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "220",
+            "question_text": "<p>Which item in a first aid box helps to stop bleeding from a wound?</p>",
+            "options": {
+                "A": "Adhesive bandage",
+                "B": "Pain reliever",
+                "C": "Sterile gauze",
+                "D": "Antibiotic ointment"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "217",
+            "question_text": "<p>What is the classification of diseases like tuberculosis and leprosy?</p>",
+            "options": {
+                "A": "Parasitic diseases",
+                "B": "Fungal diseases",
+                "C": "Bacterial diseases",
+                "D": "Viral diseases"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "219",
+            "question_text": "<p>Which of the following is a common factor contributing to drug abuse?</p>",
+            "options": {
+                "A": "Family history of drug abuse",
+                "B": "All of the above",
+                "C": "Peer pressure",
+                "D": "Low self-esteem"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "224",
+            "question_text": "<p>What deficiency causes muscle cramps and is treated by increasing dietary intake of which mineral?</p>",
+            "options": {
+                "A": "Iron",
+                "B": "Calcium",
+                "C": "Magnesium",
+                "D": "Potassium"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "223",
+            "question_text": "<p>Which of the following is a healthy fat source in a balanced diet?</p>",
+            "options": {
+                "A": "Trans fats",
+                "B": "Refined sugars",
+                "C": "Monounsaturated fats",
+                "D": "Saturated fats"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "225",
+            "question_text": "<p>Which of the following bodily functions relies heavily on adequate water intake?</p>",
+            "options": {
+                "A": "Skin pigmentation",
+                "B": "Nail growth",
+                "C": "Hair growth",
+                "D": "Blood circulation"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "229",
+            "question_text": "<p>Which city-state in ancient Greece was known for its militaristic approach to physical education?</p>",
+            "options": {
+                "A": "Athens",
+                "B": "Sparta",
+                "C": "Rome",
+                "D": "Corinth"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "230",
+            "question_text": "<p>How can self-medication lead to drug misuse?</p>",
+            "options": {
+                "A": "By causing incorrect dosages to be taken",
+                "B": "By preventing access to healthcare",
+                "C": "By increasing the effectiveness of the drug",
+                "D": "By ensuring proper use of medication"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "228",
+            "question_text": "<p>Cardiovascular fitness refers to:</p>",
+            "options": {
+                "A": "The ability to move joints through a full range of motion",
+                "B": "The strength of muscles",
+                "C": "The ability to perform prolonged physical activity",
+                "D": "The ability to lift heavy weights"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "227",
+            "question_text": "<p>First aid training is important because it:</p>",
+            "options": {
+                "A": "Allows people to diagnose diseases",
+                "B": "Reduces the risk of injury altogether",
+                "C": "Eliminates the need for professional medical care",
+                "D": "Prepares individuals to act in emergencies"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "226",
+            "question_text": "<p>What is the target heart rate zone for aerobic exercise?</p>",
+            "options": {
+                "A": "30-50% of maximum heart rate",
+                "B": "70-85% of maximum heart rate",
+                "C": "50-70% of maximum heart rate",
+                "D": "85-100% of maximum heart rate"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "221",
+            "question_text": "<p>What is the first step in managing a severe bleeding wound?</p>",
+            "options": {
+                "A": "Apply pressure to the wound",
+                "B": "Clean the wound with water",
+                "C": "Elevate the limb",
+                "D": "Apply a cold compress"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "222",
+            "question_text": "<p>What is a common feature of the traditional attire worn during the Eyo Festival dance?</p>",
+            "options": {
+                "A": "Embroidered shirts",
+                "B": "Kimonos",
+                "C": "Brightly colored beads",
+                "D": "Traditional robes and headgear"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "234",
+            "question_text": "<p>What is the primary difference between refuse and sewage?</p>",
+            "options": {
+                "A": "Refuse is generated by animals; sewage is generated by plants",
+                "B": "Refuse is biodegradable; sewage is non-biodegradable",
+                "C": "Refuse is liquid waste; sewage is solid waste",
+                "D": "Refuse is solid waste; sewage is liquid waste"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "232",
+            "question_text": "<p>Which type of exercise is beneficial for improving balance in individuals with neurological disorders?</p>",
+            "options": {
+                "A": "High-intensity interval training",
+                "B": "Balance exercises on a stability ball",
+                "C": "Long-distance running",
+                "D": "Jumping jacks"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "233",
+            "question_text": "<p>The part of the heart marked 2 is the</p>",
+            "options": {
+                "A": "Left Pulmonary artery",
+                "B": "Left auricle",
+                "C": "Superior Vena cava",
+                "D": "Aorta"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "235",
+            "question_text": "<p>What does NATCEGA stand for?</p>",
+            "options": {
+                "A": "National Association of Colleges and Education Games Administration",
+                "B": "National Association of Teachers of Colleges and Education Games",
+                "C": "Nigeria advanced Teacher's Colleges and College of Education Games Association",
+                "D": "National Association of Technical Colleges Education Games Association"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "231",
+            "question_text": "<p>Which of the following is NOT a cause of drug misuse?</p>",
+            "options": {
+                "A": "Lack of knowledge about proper dosage",
+                "B": "Misunderstanding prescription instructions",
+                "C": "Trying to self-treat a medical condition",
+                "D": "Intentional recreational use"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "237",
+            "question_text": "<p>What is a key aspect of ensuring electrical safety at home?</p>",
+            "options": {
+                "A": "Using old, reliable appliances",
+                "B": "Regularly checking for frayed wires",
+                "C": "Overloading outlets with multiple devices",
+                "D": "Dismissing minor electrical issues"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "239",
+            "question_text": "<p>Which of the following is a common benefit of a proper warm-up?</p>",
+            "options": {
+                "A": "Increased risk of injury",
+                "B": "Decreased blood flow to muscles",
+                "C": "Improved muscle flexibility",
+                "D": "Enhanced muscle stiffness"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "238",
+            "question_text": "<p>In the case of a nosebleed, what should you do?</p>",
+            "options": {
+                "A": "Apply a hot compress to the nose",
+                "B": "Tilt the head back",
+                "C": "Blow the nose hard",
+                "D": "Pinch the nostrils and lean forward"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "240",
+            "question_text": "<p>Which mineral deficiency is associated with muscle weakness and is corrected by increasing intake of which mineral?<br/>\r\n\u00a0</p>",
+            "options": {
+                "A": "Magnesium",
+                "B": "Calcium",
+                "C": "Zinc",
+                "D": "Iron"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "241",
+            "question_text": "<p>Health education promotes:</p>",
+            "options": {
+                "A": "Dependence on healthcare providers",
+                "B": "A passive approach to health",
+                "C": "Fear-based health messages",
+                "D": "Lifelong learning about health"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "245",
+            "question_text": "<p>Which cell organelle is responsible for protein synthesis?</p>",
+            "options": {
+                "A": "Ribosome",
+                "B": "Lysosome",
+                "C": "Golgi Apparatus",
+                "D": "Nucleus"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "244",
+            "question_text": "<p>Which structure in the central nervous system is responsible for transmitting sensory and motor signals between the brain and the rest of the body?</p>",
+            "options": {
+                "A": "Cerebellum",
+                "B": "Spinal cord",
+                "C": "Amygdala",
+                "D": "Hippocampus"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "243",
+            "question_text": "<p>What is the importance of using sunscreen daily?</p>",
+            "options": {
+                "A": "It is not necessary unless at the beach",
+                "B": "It darkens the skin",
+                "C": "It causes the skin to age faster",
+                "D": "It prevents skin damage from UV rays"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "236",
+            "question_text": "<p>Which muscle is known for its role in the movement of the jaw and chewing?</p>",
+            "options": {
+                "A": "Sternocleidomastoid",
+                "B": "Buccinator",
+                "C": "Temporalis",
+                "D": "Masseter"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "246",
+            "question_text": "<p>Which factor is most likely to decrease flexibility over time?</p>",
+            "options": {
+                "A": "Consistent hydration",
+                "B": "High protein diet",
+                "C": "Sedentary lifestyle",
+                "D": "Regular stretching"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "242",
+            "question_text": "<p>Which of the following is a common posture issue associated with endomorphs?</p>",
+            "options": {
+                "A": "Kyphosis",
+                "B": "Lordosis",
+                "C": "Scoliosis",
+                "D": "Flatfoot"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "249",
+            "question_text": "<p><br/>\r\nWhich dance step involves high leaps and kicks and is associated with the Yoruba people?</p>",
+            "options": {
+                "A": "Shadi",
+                "B": "Bata",
+                "C": "Mmanwu",
+                "D": "Atilogwu"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "248",
+            "question_text": "<p>What is the purpose of the cartilage rings in the trachea?</p>",
+            "options": {
+                "A": "To conduct gas exchange",
+                "B": "To keep the trachea open",
+                "C": "To produce mucus",
+                "D": "To filter air"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "247",
+            "question_text": "<p>Which muscle helps in the movement of the shoulder and is known as the shoulder pad?</p>",
+            "options": {
+                "A": "Deltoid",
+                "B": "Trapezius",
+                "C": "Latissimus dorsi",
+                "D": "Rhomboid major"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "250",
+            "question_text": "<p>What does NUGA stand for?</p>",
+            "options": {
+                "A": "National Union of Gymnastics Associations",
+                "B": "National University Games Association",
+                "C": "National Unified Games Association",
+                "D": "National Undergrad Games Alliance"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "253",
+            "question_text": "<p>What is a direct benefit of maintaining good mental health?</p>",
+            "options": {
+                "A": "Increased incidence of mental health disorders",
+                "B": "Reduced work efficiency",
+                "C": "Increased susceptibility to stress",
+                "D": "Improved emotional stability and resilience"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "252",
+            "question_text": "<p>Which medication class is commonly used to treat epilepsy?<br/>\r\n\u00a0</p>",
+            "options": {
+                "A": "Antihistamines",
+                "B": "Antidepressants",
+                "C": "Antipyretics",
+                "D": "Anticonvulsants"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "251",
+            "question_text": "<p>What is the primary difference between strength training and power training?</p>",
+            "options": {
+                "A": "Strength training requires no equipment, while power training uses weights",
+                "B": "Strength training aims to increase muscle size, while power training focuses on explosive strength",
+                "C": "Strength training focuses on high reps, while power training focuses on low reps",
+                "D": "Strength training and power training are the same"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        }
+    ]
+}

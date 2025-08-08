@@ -1,0 +1,2162 @@
+{
+    "total_questions": 181,
+    "questions": [
+        {
+            "question_number": "1",
+            "question_text": "<p>Le principal personnage de sans famille, c'est</p>",
+            "options": {
+                "A": "joli-coeur",
+                "B": "r\u00e9mi",
+                "C": "m\u00e9re Barberin",
+                "D": "vitalis"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "B"
+        },
+        {
+            "question_number": "3",
+            "question_text": "<p>Dans Sans famille, on trove que Monsieur et Madame Droscoll sont des</p>",
+            "options": {
+                "A": "aristocrates",
+                "B": "marins",
+                "C": "voleurs"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "A"
+        },
+        {
+            "question_number": "4",
+            "question_text": "<p>\"Enfermer la femme, ca ne sert \u00e0\u00a0 rien\"! Qui dit ceci dans Chaque chose en son temps?</p>",
+            "options": {
+                "A": "El-Hadji",
+                "B": "Dr. Mariama",
+                "C": "z\u00e9nabou",
+                "D": "fatou"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "B"
+        },
+        {
+            "question_number": "2",
+            "question_text": "<p>Un genre litt\u00e9raire qui s'\u00e9rit sous forme de dialogue s'appelle</p>",
+            "options": {
+                "A": "un conte",
+                "B": "un pi\u00e9ce",
+                "C": "un roman",
+                "D": "un po\u00e9me"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "B"
+        },
+        {
+            "question_number": "5",
+            "question_text": "<p>Qui est l'auteur de Chaque chose en son temps?</p>",
+            "options": {
+                "A": "Margaret Kwakwa",
+                "B": "Camara Laye",
+                "C": "Tunde Ajiboye",
+                "D": "Lynn Mbuko"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "10",
+            "question_text": "<p>La f\u00eate nationale francaise est c\u00e9l\u00e9br\u00e9e</p>",
+            "options": {
+                "A": "le 14 juillet",
+                "B": "le 4 juillet",
+                "C": "le 2 juillet",
+                "D": "le 20 juillet"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "A"
+        },
+        {
+            "question_number": "9",
+            "question_text": "<p>Nicolas Sarkozy a succed\u00e9 ...en France</p>",
+            "options": {
+                "A": "F. Mitterand",
+                "B": "G. d'Estaing",
+                "C": "J. Chirac",
+                "D": "J.M. Lepen"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "8",
+            "question_text": "<p>Un pays francophone de l'Afrique de l'ouest est</p>",
+            "options": {
+                "A": "e Ghana",
+                "B": "le Kenya",
+                "C": "le Gabon",
+                "D": "e S\u00e9n\u00e9gal"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "7",
+            "question_text": "<p>Dans laquelle de cas villes se trouve C.F. T. D au Nigeria?</p>",
+            "options": {
+                "A": "Ilorin",
+                "B": "Jos",
+                "C": "Badagry",
+                "D": "Keffi"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "B"
+        },
+        {
+            "question_number": "6",
+            "question_text": "<p>La monnaie unique de la zone francophone de l'Afrique de l'ouest c'est</p>",
+            "options": {
+                "A": "la livre",
+                "B": "le cedi",
+                "C": "le FF",
+                "D": "le CFA"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "11",
+            "question_text": "<p>L'auteur \u00e9tait g\u00e0t\u00e9 surtout</p>",
+            "options": {
+                "A": "pendant  les vacances",
+                "B": "\u00e0 l'\u00e2ge adulte",
+                "C": "\u00e0 l'\u00e9cole",
+                "D": "pendant son enfance"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "14",
+            "question_text": "<p>Slon texte, I'auteur \u00e9tait un enfant</p>",
+            "options": {
+                "A": "intelligent",
+                "B": "frustr\u00e9",
+                "C": "paresseux",
+                "D": "idiot"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "A"
+        },
+        {
+            "question_number": "15",
+            "question_text": "<p>Le p\u00e9re de l'auteur \u00e9tait g\u00e9n\u00e9ralement</p>",
+            "options": {
+                "A": "m\u00e9chant",
+                "B": "avare",
+                "C": "ravailleur",
+                "D": "triste"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "B"
+        },
+        {
+            "question_number": "13",
+            "question_text": "<p>Au momeut de l' histoire parents de l'auteur</p>",
+            "options": {
+                "A": "\u00e9taient tr\u00e9s avares",
+                "B": "\u00e9taient tri\u00e9s riches",
+                "C": "avaient beaucoup d' enfants",
+                "D": "avaient un seul enfant"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "12",
+            "question_text": "<p>L'auteur \u00e9tait g\u00e0t\u00e9 surtout</p>",
+            "options": {
+                "A": "pendant  les vacances",
+                "B": "\u00e0 l'\u00e2ge adulte",
+                "C": "\u00e0 l'\u00e9cole",
+                "D": "pendant son enfance"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "17",
+            "question_text": "<p>Badagry...<em> </em>Ikeja appartiennent au m\u00eame \u00c9tat</p>",
+            "options": {
+                "A": "ni",
+                "B": "ou",
+                "C": "et",
+                "D": "ne"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "16",
+            "question_text": "<p>L'auteur pr\u00e9f\u00e9rait travailler \u00e0 la ferme avec son grand-p\u00e0re parce qu'il</p>",
+            "options": {
+                "A": "s'y sentaitmieux",
+                "B": "y dormait bien",
+                "C": "s'y reposait mieux",
+                "D": "y mangeait beaucoup"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "19",
+            "question_text": "<p>e veux seulement ces chaises - l\u00e0; ... sont trop ch\u00e9res</p>",
+            "options": {
+                "A": "celle-ci",
+                "B": "ceux-ci",
+                "C": "celles-ci",
+                "D": "celui-ci"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "18",
+            "question_text": "<p>... robe portez- vous?</p>",
+            "options": {
+                "A": "Quel",
+                "B": "Qu'elles",
+                "C": "Quoi",
+                "D": "Quelle"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "20",
+            "question_text": "<p>Notre \u00e9cole vient d'acheter des tables modernes ... bois</p>",
+            "options": {
+                "A": "le",
+                "B": "en",
+                "C": "au",
+                "D": "de"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "B"
+        },
+        {
+            "question_number": "23",
+            "question_text": "<p>Les ouvriers ...la plantation avant le coucher du soleil</p>",
+            "options": {
+                "A": "avez quitt\u00e9",
+                "B": "aviez quitt\u00e9",
+                "C": "avait quitt\u00e9",
+                "D": "avaient quitt\u00e9"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "22",
+            "question_text": "<p>II faut que nous ...</p>",
+            "options": {
+                "A": "nous d\u00e9p\u00eachons",
+                "B": "d\u00e9p\u00eachions",
+                "C": "nous d\u00e9p\u00eachions",
+                "D": "d\u00e9p\u00eachons"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "21",
+            "question_text": "<p>l\u00e0, c'est ... oncle, un professeur au lyc\u00e9e</p>",
+            "options": {
+                "A": "m'",
+                "C": "moi",
+                "D": "mon"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "25",
+            "question_text": "<p>Je regrette ... mon action</p>",
+            "options": {
+                "A": "vive",
+                "B": "vivement",
+                "C": "vivante",
+                "D": "vif"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "B"
+        },
+        {
+            "question_number": "24",
+            "question_text": "<p>Bient\u00f4t Tunde et Dotun changeront ... adresse</p>",
+            "options": {
+                "A": "mon",
+                "B": "son",
+                "C": "leurs",
+                "D": "leur"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "26",
+            "question_text": "<p>Le m\u00e9decin est press\u00e9, mails il doit \u00e9couter ... le melade</p>",
+            "options": {
+                "A": "totalement",
+                "B": "rapidement",
+                "C": "patiemment",
+                "D": "gravement"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "28",
+            "question_text": "<p>Qu'ils ... d'accord ou pas, nous quittons aujourd'hui</p>",
+            "options": {
+                "A": "sont",
+                "B": "aient",
+                "C": "ont",
+                "D": "soient"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "27",
+            "question_text": "<p>Apr\u00e9s le d\u00e9luge, aucune maison n'est rest\u00e9e</p>",
+            "options": {
+                "A": "bas",
+                "B": "dessus",
+                "C": "debout",
+                "D": "haut"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "29",
+            "question_text": "<p>Le soeur de olu est jolie ... ennuyeuse</p>",
+            "options": {
+                "A": "mais",
+                "B": "ou",
+                "C": "et",
+                "D": "donc"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "A"
+        },
+        {
+            "question_number": "30",
+            "question_text": "<p>La r\u00e9union aura lieu ...les d\u00e9l\u00e9gu\u00e9s soient peu nombreux</p>",
+            "options": {
+                "A": "parce que",
+                "B": "pendant que",
+                "C": "quoique",
+                "D": "d\u00e9s que"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "31",
+            "question_text": "<p>II r\u00e9ussira ...qu'il r\u00e9ponde \u00e0 toutes les questions</p>",
+            "options": {
+                "A": "bien que",
+                "B": "parce",
+                "C": "afin",
+                "D": "\u00e0 condition"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "34",
+            "question_text": "<p>Les touristes \u00e9strangers peuvent computer sur le sens ...des Nigerians</p>",
+            "options": {
+                "A": "de la vitesse",
+                "B": "de l'hospitalit\u00e9",
+                "C": "de l'exag\u00e9ration"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "32",
+            "question_text": "<p>IIparle ...affaire impossible</p>",
+            "options": {
+                "A": "de la",
+                "B": "d'un",
+                "C": "d'en",
+                "D": "d'une"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "33",
+            "question_text": "<p>Je n'ai pas visit\u00e9 ...cour royale, mais j'ai fait le tour du monde</p>",
+            "options": {
+                "A": "de la",
+                "B": "le",
+                "C": "du",
+                "D": "la"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "35",
+            "question_text": "<p>Quels aspects du programme avez-vous...?</p>",
+            "options": {
+                "A": "retenus",
+                "B": "retenues",
+                "C": "retenu",
+                "D": "retenez"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "A"
+        },
+        {
+            "question_number": "40",
+            "question_text": "<p>Qui participe au Tour de France? Les</p>",
+            "options": {
+                "A": "chasseurs",
+                "B": "cyclistes",
+                "C": "chauffeurs",
+                "D": "motards"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "B"
+        },
+        {
+            "question_number": "37",
+            "question_text": "<p>D'apr\u00e9s le texte, g\u00e9n\u00e9ralement, les Francais</p>",
+            "options": {
+                "A": "n'aiment pas la chasse",
+                "B": "sont tous sportifs",
+                "C": "sont tous actifs",
+                "D": "ne font pas de sport"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "38",
+            "question_text": "<p>Quelle est la population des p\u00eacheurs francias?</p>",
+            "options": {
+                "A": "2,5 millions",
+                "B": "environ 7,5 millions",
+                "C": "7 millions",
+                "D": "5 millions"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "36",
+            "question_text": "<p>Quel est la s\u00e9quence correcte?</p>",
+            "options": {
+                "A": "Va des bouquets de cueillir rose!",
+                "C": "Des bouquets va cueillir de rose!",
+                "D": "Cueillir va des bouquets de rose!"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "A"
+        },
+        {
+            "question_number": "39",
+            "question_text": "<p>Les joueurs de boules et de p\u00e9tanque sont tr\u00e9s nombreux</p>",
+            "options": {
+                "A": "au nord de la France",
+                "B": "hors de France",
+                "C": "au Sud de la France",
+                "D": "lion de la France"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "43",
+            "question_text": "<p>D'apr\u00e8s un proverbe francias, aide-toi et</p>",
+            "options": {
+                "A": "tes professeurs vont t'aider",
+                "B": "les anges t'aideront",
+                "C": "le siel t'aideront",
+                "D": "et ciel t' aidera"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "42",
+            "question_text": "<p>Le son[o] se trouve dans</p>",
+            "options": {
+                "A": "eut",
+                "B": "eu",
+                "C": "eux",
+                "D": "eau"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "44",
+            "question_text": "<p>Combien de syllabes y-a-t-il dans le mot \"camarade\"</p>",
+            "options": {
+                "A": "3",
+                "B": "4",
+                "C": "5",
+                "D": "6"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "A"
+        },
+        {
+            "question_number": "41",
+            "question_text": "<p>Combien de pays participent au Tournoi de Rugby?</p>",
+            "options": {
+                "A": "Dix",
+                "B": "Quinze",
+                "C": "Cinq",
+                "D": "Quatre"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "48",
+            "question_text": "<p>L'expression au revoir a combien de syllables?</p>",
+            "options": {
+                "A": "3",
+                "B": "4",
+                "D": "5"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "D"
+        },
+        {
+            "question_number": "47",
+            "question_text": "<p>Le son// se trouve \u00e0 la fin du mot</p>",
+            "options": {
+                "A": "valet",
+                "B": "vall\u00e9e",
+                "C": "for\u00e9e",
+                "D": "forcer"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "A"
+        },
+        {
+            "question_number": "49",
+            "question_text": "<p>\"Les trois oiseaux sont sur l'arbre\"; il y a une liason entre</p>",
+            "options": {},
+            "exam_year": "JAMB\n                        2010",
+            "answer": "d"
+        },
+        {
+            "question_number": "50",
+            "question_text": "<p>Quel est le groupment qui correspond \u00e0 une lecture normale?</p>",
+            "options": {
+                "A": "J'admire/sa beat\u00e9 mais je crains son esprit",
+                "B": "J'admire sa beat\u00e9 mais/je crains son esprit",
+                "C": "J'admire sa beat\u00e9/mais je crains son esprit",
+                "D": "J'admire sa beat\u00e9 mais je crains/son esprit"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "46",
+            "question_text": "<p>J'espere que mon ami, Dodo viendra.</p>\n<p>C'est- \u00e0\u00a0 dire: Je ... que Dodo viendra.</p>",
+            "options": {
+                "A": "constate",
+                "B": "demande",
+                "C": "pense",
+                "D": "regrette"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "52",
+            "question_text": "<p>Dans \"Chaque chose en son temps\" I'auteur condamne</p>",
+            "options": {
+                "A": "e marriage au village",
+                "B": "le marriage \u00e0 I'\u00e9cole",
+                "C": "le marriage pr\u00e9coce",
+                "D": "le marriage en ville"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "55",
+            "question_text": "<p>Dans \"Chaque chose en son temps\" Zenabu deviant en fin de compte</p>",
+            "options": {
+                "A": "une femme remari\u00e9e",
+                "B": "une grande institutrice",
+                "C": "une femme \u00e9volu\u00e9e",
+                "D": "une grande commercante"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "54",
+            "question_text": "<p>Dana \"Sans Famille\", J\u00e9rome Barberin a d\u00e9cide de se d barrasser de</p>",
+            "options": {
+                "A": "gerofoli",
+                "B": "signor vitalis",
+                "C": "R\u00e9mi",
+                "D": "Driscoll"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "53",
+            "question_text": "<p>Dans \"Chaque chose en son temps\", Z\u00e9nabou est victime de</p>",
+            "options": {
+                "A": "vial",
+                "B": "l'esclavage",
+                "C": "Marriage pr\u00e9coce",
+                "D": "travail force"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "51",
+            "question_text": "<p>Le son /e/ apparia\u00eet dans</p>",
+            "options": {
+                "A": "m\u00e8re",
+                "B": "fr\u00e8re",
+                "C": "march\u00e9",
+                "D": "peu"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "C"
+        },
+        {
+            "question_number": "45",
+            "question_text": "<p>Quel ...! La temp\u00eate a tout enlev\u00e9</p>",
+            "options": {
+                "A": "piti\u00e9",
+                "B": "bruit",
+                "C": "orage"
+            },
+            "exam_year": "JAMB\n                        2010",
+            "answer": "A"
+        },
+        {
+            "question_number": "57",
+            "question_text": "<p>Qui est pr\u00e9sident actuel de le France?</p>",
+            "options": {
+                "A": "Clinton",
+                "B": "Mitterand",
+                "C": "Sarkozy",
+                "D": "Chirac"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "58",
+            "question_text": "<p>Quelle est la capitale du Burkina Fasso?</p>",
+            "options": {
+                "A": "Bouak\u00e9",
+                "B": "Ouagadougou",
+                "C": "Korhoro",
+                "D": "Koulikoro"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "56",
+            "question_text": "<p>Chaque choes en soon temp' est de quel genre?</p>",
+            "options": {
+                "A": "Le conte",
+                "B": "La po\u00e9sie",
+                "C": "La prose",
+                "D": "Le theater"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "59",
+            "question_text": "<p>Comment s'appelle le premier pr\u00e9sident s\u00e9n\u00e9galais apr\u00e9s I'ind\u00e9pendence?</p>",
+            "options": {
+                "A": "L\u00e9opold S\u00e9dar Senghor",
+                "B": "Abdoulahi Wade",
+                "C": "Abdou Diouf",
+                "D": "Moussa Dieng"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "A"
+        },
+        {
+            "question_number": "60",
+            "question_text": "<p>Leequel de ces noms est une vile francaise</p>",
+            "options": {
+                "A": "Abidjan",
+                "B": "Lyon",
+                "C": "Lom\u00e9",
+                "D": "Libreville"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "64",
+            "question_text": "<p>Notre nouvelle ...est tr\u00e9s grande</p>",
+            "options": {
+                "A": "gibier",
+                "B": "voiture",
+                "D": "chauffeur"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "62",
+            "question_text": "<p>Pour ouvir la bo\u00eete \u00e9lectronique, on doit poss\u00e9der</p>",
+            "options": {
+                "A": "un mot de pass\u00e9",
+                "B": "une cl\u00e9",
+                "C": "une cl\u00e9",
+                "D": "un score"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "A"
+        },
+        {
+            "question_number": "61",
+            "question_text": "<p>Lequel de ces pays a une fronti\u00e9re avec le Togo?</p>",
+            "options": {
+                "A": "Liberia",
+                "B": "B\u00e9nin",
+                "C": "Nigeria",
+                "D": "Niger"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "63",
+            "question_text": "<p>II est tr\u00e9s rare de trouver dans cette zaone d\u00e9setique les</p>",
+            "options": {
+                "A": "\u00e9toiles",
+                "B": "femmes",
+                "C": "fleuves",
+                "D": "ponts"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "67",
+            "question_text": "<p>Elle se sone ...avant de s'embrasser</p>",
+            "options": {
+                "A": "regard\u00e9s",
+                "B": "regard\u00e9",
+                "C": "regard\u00e9es",
+                "D": "regard\u00e9e"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "71",
+            "question_text": "<p>Nous vondrious aller en Frane I'ann\u00e9e prochaine ...avion</p>",
+            "options": {
+                "A": "en",
+                "B": "par",
+                "C": "dans",
+                "D": "avec"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "69",
+            "question_text": "<p>Madame Koko est n\u00e9e ...25 ao \u00fb t 1960</p>",
+            "options": {
+                "A": "la",
+                "B": "les",
+                "C": "du",
+                "D": "le"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "70",
+            "question_text": "<p>Ces animaux-l\u00e0 sont gentils mais ...sont</p>",
+            "options": {
+                "A": "celles-ci",
+                "B": "ceux-ci",
+                "C": "celui-ci",
+                "D": "ceci"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "68",
+            "question_text": "<p>Le syst\u00e9me bancaire est ...dans ce pays</p>",
+            "options": {
+                "A": "corrompu",
+                "B": "corrompt",
+                "C": "corruption",
+                "D": "corrompre"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "A"
+        },
+        {
+            "question_number": "66",
+            "question_text": "<p>II portrait sous ...bras une serviette pleine de choses inutiles</p>",
+            "options": {
+                "A": "ses",
+                "B": "c'est",
+                "C": "se",
+                "D": "ce"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "72",
+            "question_text": "<p>La delegation nig\u00e9rienne est arrive ...voiture</p>",
+            "options": {
+                "A": "par",
+                "B": "pia",
+                "C": "en",
+                "D": "avec"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "65",
+            "question_text": "<p>Donne-moi ce decument; j' ...ai besoin</p>",
+            "options": {
+                "A": "y",
+                "B": "en",
+                "C": "on",
+                "D": "un"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "75",
+            "question_text": "<p>Ma maison se trove ...du port</p>",
+            "options": {
+                "A": "sous",
+                "B": "sur",
+                "C": "\u00e0 c\u00f4t\u00e9",
+                "D": "\u00e0 moins"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "73",
+            "question_text": "<p>...seriat d'abandonner ce project</p>",
+            "options": {
+                "A": "bien",
+                "B": "le mieux",
+                "C": "la bonne",
+                "D": "pis"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "74",
+            "question_text": "<p>Les enfants jouent dans la ...de l'ecole</p>",
+            "options": {
+                "A": "cours",
+                "B": "courte",
+                "C": "court",
+                "D": "cour"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "80",
+            "question_text": "<p>Je souhaite que vous ...beaucoup d'argent</p>",
+            "options": {
+                "A": "avez",
+                "B": "soies",
+                "C": "soyez",
+                "D": "ayez"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "78",
+            "question_text": "<p>Laquelle de ces phrases est correcte?</p>",
+            "options": {
+                "A": "N'aime pas la salade il?",
+                "B": "La salade il n'aime pas?",
+                "C": "il n'aime pas la salade?",
+                "D": "il la salade n'aime pas"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "79",
+            "question_text": "<p>En po\u00e9sie, nous parlous de --</p>",
+            "options": {
+                "A": "ver",
+                "B": "verts",
+                "C": "verre",
+                "D": "vers"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "77",
+            "question_text": "<p>Elle prend ...caf\u00e9 tous les jours</p>",
+            "options": {
+                "A": "du",
+                "B": "d'un",
+                "C": "de",
+                "D": "d'en"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "A"
+        },
+        {
+            "question_number": "76",
+            "question_text": "<p>Je peux vous accompagner ...cela ne vous derange pas</p>",
+            "options": {
+                "A": "\u00e0 cause",
+                "B": "quel que",
+                "C": "\u00e0 condition que",
+                "D": "pour"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "84",
+            "question_text": "<p>Quelle est la lecture normale de cette expression?</p>",
+            "options": {
+                "A": "un \u00e0/un",
+                "B": "un \u00e0 un",
+                "C": "un/\u00e0 un",
+                "D": "un/\u00e0/un"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "85",
+            "question_text": "<p>Le mot \"notamment\" a combine de syllables?</p>",
+            "options": {
+                "A": "2",
+                "B": "3",
+                "C": "5",
+                "D": "4"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "81",
+            "question_text": "<p>Cette rue est sens unique, les automobilists doivent</p>",
+            "options": {
+                "A": "faire attention au pi\u00e9tons",
+                "B": "se munir de leurs permis de conduire",
+                "C": "conduire dans une seule direction",
+                "D": "\u00eatre sensibles aux dangers"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "82",
+            "question_text": "<p>Quel est le groupement correct de ce mot?</p>",
+            "options": {
+                "A": "pro/fes/seur",
+                "B": "pro/fesseur",
+                "C": "profe/sseur",
+                "D": "pro/fess/eur"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "A"
+        },
+        {
+            "question_number": "83",
+            "question_text": "<p>Lequel de ces mots a le son /t/ finale?</p>",
+            "options": {
+                "A": "petite",
+                "B": "part",
+                "C": "petit",
+                "D": "patient"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "A"
+        },
+        {
+            "question_number": "89",
+            "question_text": "<p>Quelle est la liason correcte de cette expression?</p>",
+            "options": {
+                "A": "pas/\u00e0 pas",
+                "B": "pas/\u00e0/pas",
+                "C": "pas \u00e0/pas",
+                "D": "pas \u00e0 pas.\\"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "d"
+        },
+        {
+            "question_number": "86",
+            "question_text": "<p>Le son [ ] se trouve dans le mot</p>",
+            "options": {
+                "A": "pour",
+                "B": "peut",
+                "C": "puit",
+                "D": "par"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "90",
+            "question_text": "<p>Le mot \"fatigue\" se\u00a0 pronunce comme</p>",
+            "options": {
+                "A": "fatiguais",
+                "B": "fatigue",
+                "C": "fatiguee",
+                "D": "fatigaient"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "87",
+            "question_text": "<p>Parmi ces options, /k/ est pronounc\u00e9e dans</p>",
+            "options": {
+                "A": "ciel",
+                "B": "coup",
+                "C": "chef",
+                "D": "ceux"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "88",
+            "question_text": "<p>Trouvez la syllabation correcte</p>",
+            "options": {
+                "A": "in/con/testa/blement",
+                "B": "incon/testa/ble/ment",
+                "C": "in/con/tes/ta/ble/ment",
+                "D": "in/contestable/ment"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "94",
+            "question_text": "<p>La radioth\u00e9rapie est une technique ...dans le traitement du cancer du sein</p>",
+            "options": {
+                "A": "compl\u00e9te",
+                "B": "compl\u00e9mentaire",
+                "C": "totale",
+                "D": "d\u00e9mod\u00e9e"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "92",
+            "question_text": "<p>L'op\u00e9ration partielle permet de</p>",
+            "options": {
+                "A": "ne pas toucher le sein",
+                "B": "couper compl\u00e9tement le sein",
+                "C": "d\u00e9truire toutes les cellules du sein",
+                "D": "garder une partied u sein"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "91",
+            "question_text": "<p>Dans quell mot entend-on le son /w/?</p>",
+            "options": {
+                "A": "mourir",
+                "B": "tu",
+                "C": "fou",
+                "D": "choix"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "95",
+            "question_text": "<p>Le deuxi\u00e9me type de traitement peut</p>",
+            "options": {
+                "A": "faire r\u00e9apparaitre le cancer",
+                "B": "conduire \u00e0 la perte du sein",
+                "C": "reconstituer la glande mammaire",
+                "D": "render inpossible la reconstruction"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "93",
+            "question_text": "<p>Ce quit est commun aux deux types d'op\u00e9ration est</p>",
+            "options": {
+                "A": "qu'ils se font suivre d'une autre op\u00fbration",
+                "C": "qu'ils sont parties",
+                "D": "qu'ils cherchent \u00e0 envlever toutes les traces du cancer"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "98",
+            "question_text": "<p>Ammuku \u00e9tait un coureur de jupons, c'est \u00e0 dire qu'il</p>",
+            "options": {
+                "A": "aimait les femmes",
+                "B": "avait beaucoup de jupons",
+                "C": "courait tous les jours",
+                "D": "\u00e9tait un grand athlete"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "A"
+        },
+        {
+            "question_number": "97",
+            "question_text": "<p>Le p\u00e9re d' Amuku s'est enrichi \u00e0 cause de sa</p>",
+            "options": {
+                "A": "gentillesse dans le myst\u00e9r\u00e9",
+                "B": "connaissance du syst\u00e9me financier",
+                "C": "malhonn\u00eatet\u00e9",
+                "D": "promotion"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "C"
+        },
+        {
+            "question_number": "100",
+            "question_text": "<p>Quel \u00e9tait le d\u00e9sir d'Amuku? C'etait ...</p>",
+            "options": {
+                "A": "de fair de longs vovages",
+                "B": "de courur apr\u00e8s les femmes",
+                "C": "de d\u00e9cevoir ses parents",
+                "D": "de faire du sport"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "96",
+            "question_text": "<p>\"La tumeur est enlev\u00e9e avec un certain degree de securit\u00e9 auxorgans importants\" C'est-\u00e0-dire:</p>",
+            "options": {
+                "A": "la tummeur est la seule partie enlev\u00e9e",
+                "B": "une partie de la tummeur est toujours \u00e9pargn\u00e9e",
+                "D": "la tumeur est enlev\u00e9e avec sagesse"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "D"
+        },
+        {
+            "question_number": "104",
+            "question_text": "<p>From the lettered A E, choose the odd one of the options.<br/>\r\nL'ecole:</p>",
+            "options": {
+                "A": "Un crayon.",
+                "B": "Une fourchette",
+                "C": "Un cahier",
+                "D": "Un tableau."
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "103",
+            "question_text": "<p>Ils (commencer) leur travail apr\u00e8s la match de foot.</p>",
+            "options": {
+                "A": "commence",
+                "B": "Commences",
+                "C": "commen\u00e7ons",
+                "D": "commencent"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "105",
+            "question_text": "<p>From the lettered A - E, choose the odd one of the options.</p>\n<p>Les v\u00eatements:<br/>\r\n\u00a0</p>",
+            "options": {
+                "A": "Une cravat",
+                "B": "Un livre",
+                "C": "Un pantalon",
+                "D": "Une chemise"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "101",
+            "question_text": "<p>L'examen m\u00e9dical avait pour but de voir</p>",
+            "options": {
+                "A": "quell type de maladic il avait",
+                "B": "si amuku n'\u00e9tait pas sourd",
+                "C": "quelles filles il fr\u00e9quentait",
+                "D": "si Amuku n'\u00e9tait pas fou"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "A"
+        },
+        {
+            "question_number": "99",
+            "question_text": "<p>Amuku n'\u00e9coutait pas les conseils des parents</p>",
+            "options": {
+                "A": "parce qu'il \u00e9tait laid",
+                "B": "parce qu'il \u00e9tait t\u00eatu",
+                "C": "parce qu'il \u00e9tait ambitieux",
+                "D": "parce qu'il \u00e9tait sourd"
+            },
+            "exam_year": "JAMB\n                        2011",
+            "answer": "B"
+        },
+        {
+            "question_number": "102",
+            "question_text": "<p>Jevais \u00e0 Lagos _____ les vacances.</p>",
+            "options": {
+                "A": "pendant",
+                "B": "Par",
+                "C": "'contre",
+                "D": "depuis"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "107",
+            "question_text": "<p>From the lettered A - E, choose the odd one of the options.</p>\n<p>Le football:</p>",
+            "options": {
+                "A": "Le marteau",
+                "B": "Le gardien de but",
+                "C": "Le ballon",
+                "D": "Le maillot"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "108",
+            "question_text": "<p>From the lettered A - E, choose the odd one of the options.</p>\n<p>Les boissons:</p>",
+            "options": {
+                "A": "Le jus de fruit",
+                "B": "L'huile de palme",
+                "C": "Le jus d'orange",
+                "D": "Le vin"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "109",
+            "question_text": "<p>Je (aller) au garage du quartier.</p>",
+            "options": {
+                "A": "allons",
+                "B": "allez",
+                "C": "va",
+                "D": "vais"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "110",
+            "question_text": "<p>L'endroit o\u00f9 'on peut acheter des m\u00e9dicaments est un/u................</p>",
+            "options": {
+                "A": "banque",
+                "B": "hospital",
+                "C": "pharmacie",
+                "D": "\u00e9cole"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "106",
+            "question_text": "<p>From the lettered A - E, choose the odd one of the options.</p>\n<p>La cuisine:</p>",
+            "options": {
+                "A": "La marmite",
+                "B": "Le cahier",
+                "C": "Le couteau",
+                "D": "L'assiette"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "113",
+            "question_text": "<p>La soeur de mon p\u00e8re ou de ma m\u00e9r.............................est ma...</p>",
+            "options": {
+                "A": "cousine",
+                "B": "tante",
+                "C": "femme",
+                "D": "grand-m\u00e8re"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "115",
+            "question_text": "<p>Elles ach\u00e8tent un cadeau_leur p\u00e8re.</p>",
+            "options": {
+                "A": "parmi",
+                "B": "dans",
+                "C": "pour",
+                "D": "entre"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "114",
+            "question_text": "<p>L'un des moyens de transport sur la mer est un/une.........</p>",
+            "options": {
+                "A": "metro",
+                "B": "taxi",
+                "C": "chameau",
+                "D": "bateau"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "112",
+            "question_text": "<p>Il attend tous les jours la boulangerie.</p>",
+            "options": {
+                "A": "en",
+                "B": "sous",
+                "C": "de",
+                "D": "devarnt"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "111",
+            "question_text": "<p>Lequel de ces animaux est un animal sauvage?</p>",
+            "options": {
+                "A": "Le lion",
+                "B": "Le chien",
+                "C": "Le cochon",
+                "D": "Le coq"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "119",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentenceDe toutes ces jupes, c'est je pr\u00e9f\u00e8re</p>",
+            "options": {
+                "A": "Celle",
+                "B": "celui-la",
+                "C": "ceu-ci",
+                "D": "Celle-l\u00e0"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "116",
+            "question_text": "<p>Le terrain amenage pour la pratique des sports est unlun..............</p>",
+            "options": {
+                "A": "\u00e9glise",
+                "B": "librairie",
+                "C": "stade",
+                "D": "march\u00e9"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "120",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentenceSi vous cherchez un chien dappartement,prenez.</p>",
+            "options": {
+                "A": "celle",
+                "B": "ceci",
+                "C": "celle-ci",
+                "D": "celle-l\u00e0"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "118",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentenceEst-ce qu'it regarde la fille? Oui il_regarde.</p>",
+            "options": {
+                "A": "I'",
+                "B": "la",
+                "C": "les",
+                "D": "le"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "117",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentence</p>\n<p>Jear n'est pas encore aifive,en retard.</p>",
+            "options": {
+                "A": "nous",
+                "B": "il",
+                "C": "elle",
+                "D": "ils"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "125",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentenceC'est le stylo de__ami.</p>",
+            "options": {
+                "A": "mon",
+                "B": "ses",
+                "C": "tes",
+                "D": "nos"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "121",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentenceLa femme_vient Ici est Belle.</p>",
+            "options": {
+                "A": "ou",
+                "B": "qui",
+                "C": "que",
+                "D": "dont"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "124",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentence<br/>\r\nfille est gentile.</p>",
+            "options": {
+                "A": "Cet",
+                "B": "Cette",
+                "C": "Ces",
+                "D": "Ce"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "123",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentence photo repr\u00e9sente un homme.</p>",
+            "options": {
+                "A": "Cet",
+                "B": "Ces",
+                "D": "Cette"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "122",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentenceC'est non livre! C'est.</p>",
+            "options": {
+                "A": "le miea",
+                "B": "la tinne.",
+                "C": "les tiens",
+                "D": "Je sien"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "129",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentenceJe veux savoir_il a pay\u00e9.</p>",
+            "options": {
+                "A": "que",
+                "B": "quel",
+                "C": "combien",
+                "D": "don't"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "126",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentencels ont une voiture. c'est voiture.</p>",
+            "options": {
+                "A": "ton",
+                "B": "leur",
+                "C": "tes",
+                "D": "nos"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "127",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentenceJ'ai vu_____professeurs.</p>",
+            "options": {
+                "A": "leur",
+                "B": "nos",
+                "C": "tes",
+                "D": "ton"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "128",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentence anglais?</p>",
+            "options": {
+                "A": "Comment",
+                "B": "Chacun",
+                "C": "Quand",
+                "D": "Connbien"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "130",
+            "question_text": "<p>For each question, choose from the options lettered A-E, the most appropriate one to complete the sentenceElle a travaill\u00e9_____la joun\u00e9e.</p>",
+            "options": {
+                "A": "toutes",
+                "B": "tout",
+                "C": "tous",
+                "D": "toute"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "135",
+            "question_text": "<p>L'/L.........est le plus long fleuve d'Afrique.</p>",
+            "options": {
+                "A": "Niger",
+                "B": "Nil",
+                "C": "Congo",
+                "D": "Orange"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "132",
+            "question_text": "<p>On se sertd' un/une.......pour \u00e9crire au tableau noir.</p>",
+            "options": {
+                "A": "craie",
+                "B": "crayon",
+                "C": "r\u00e8gle",
+                "D": "plume"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "134",
+            "question_text": "<p>Dans_____ ville est-ce que Vous habitez?</p>",
+            "options": {
+                "A": "quell",
+                "B": "quelles",
+                "C": "quelle",
+                "D": "que"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "133",
+            "question_text": "<p>Mettez \u00e0 la forme du verbe qui convient Qu'est-ce que vous (choisir)?</p>",
+            "options": {
+                "A": "choisissent",
+                "B": "choisissez",
+                "C": "choisissons",
+                "D": "choisis"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "131",
+            "question_text": "<p>J'ai vu ____ le monde.</p>",
+            "options": {
+                "A": "toute",
+                "B": "tou",
+                "C": "toutes",
+                "D": "tout"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "140",
+            "question_text": "<p>Tu (prendre) un cours de musique.</p>",
+            "options": {
+                "A": "prend",
+                "B": "prenez",
+                "C": "prennent",
+                "D": "prends"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "138",
+            "question_text": "<p>Au Nig\u00e9ria, la plupart des p\u00e8cheurs (vivre) au bord des fleuves.</p>",
+            "options": {
+                "A": "vivez",
+                "B": "vit",
+                "C": "vis",
+                "D": "vivent"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "139",
+            "question_text": "<p>Un......est une personne qui travaillc a la boulangerie.</p>",
+            "options": {
+                "A": "\u00e9picier",
+                "B": "poissonnier",
+                "C": "Boulanger",
+                "D": "boucher"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "141",
+            "question_text": "<p>Elle se brosse les dents d'aller se coucher.</p>",
+            "options": {
+                "A": "depuis",
+                "B": "avarit:",
+                "C": "avec",
+                "D": "derri\u00e8re"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "145",
+            "question_text": "<p>Choisissez l'option justeUn appareil qui sert \u00e0 laire cuire les aliments. cest un/une.</p>",
+            "options": {
+                "A": "Frigidaire",
+                "B": "fer \u00e0 repasser",
+                "C": "cuisini\u00e8re",
+                "D": "radio"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "144",
+            "question_text": "<p>Choisissez l'option justeQuand deux personnes se marient, il y a un/une.</p>",
+            "options": {
+                "A": "bapt\u00eame",
+                "B": "mariage",
+                "C": "accident",
+                "D": "mort"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "143",
+            "question_text": "<p>Choisissez l'option justeUne personne juste......la justice.</p>",
+            "options": {
+                "A": "passe",
+                "B": "d\u00e9sob\u00e9i",
+                "C": "respecte",
+                "D": "donne"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "136",
+            "question_text": "<p>Un homme courageux, c'est un homme qui es.......</p>",
+            "options": {
+                "A": "l\u00e2che",
+                "B": "laid",
+                "C": "beau",
+                "D": "brave"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "137",
+            "question_text": "<p>Une personne qui n'est pas encore marie est. ............</p>",
+            "options": {
+                "A": "c\u00e9libataire",
+                "B": "mari",
+                "C": "neveu",
+                "D": "home"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "146",
+            "question_text": "<p>Choisissez l'option justeLe contraire de finir, c'est.</p>",
+            "options": {
+                "A": "d\u00e9molir",
+                "B": "d\u00e9passer",
+                "C": "arr\u00eater",
+                "D": "commencer"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "150",
+            "question_text": "<p>Choisissez l'option juste Dans la chambre, on se couche sur l'/la/le.</p>",
+            "options": {
+                "A": "lit",
+                "B": "armoire",
+                "C": "rideau",
+                "D": "miroir"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "142",
+            "question_text": "<p>Choisissez l'option juste<br/>\r\nCombien de saisons y a t-il au Nig\u00e9ria?</p>",
+            "options": {
+                "A": "Cing",
+                "B": "Deux",
+                "C": "Trois",
+                "D": "Quatorze"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "149",
+            "question_text": "<p>Choisissez l'option juste Less.......permettent de voir.</p>",
+            "options": {
+                "A": "yeux",
+                "B": "dents",
+                "C": "oreilles",
+                "D": "l\u00e8vres"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "148",
+            "question_text": "<p>Choisissez l'option justeComment s'appelle la femelle du chien?</p>",
+            "options": {
+                "A": "La ch\u00e8vre",
+                "B": "La chienne",
+                "C": "La poule",
+                "D": "La chatte"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "153",
+            "question_text": "<p>Choisissez l'option justele se trouve dans l'eau.</p>",
+            "options": {
+                "A": "poule",
+                "B": "poisson",
+                "C": "chat",
+                "D": "chien"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "154",
+            "question_text": "<p>Choisissez l'option justeOn va chez l'opticien quand on a rma aux.</p>",
+            "options": {
+                "A": "doigts",
+                "B": "cheveux",
+                "C": "nez",
+                "D": "Dyeux"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "155",
+            "question_text": "<p>Choisissez l'option justeOn joue au volleyball \u00e0 l'/au.</p>",
+            "options": {
+                "A": "\u00e9glise",
+                "B": "\u00e9cole",
+                "C": "cin\u00e9ma",
+                "D": "stade"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "151",
+            "question_text": "<p>Choisissez l'option justej'ai de la fi\u00e8vre. Je vais \u00e0 l'/lla/au.</p>",
+            "options": {
+                "A": "h\u00f6pital",
+                "B": "\u00e9cole",
+                "C": "maison",
+                "D": "cinema"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "152",
+            "question_text": "<p>Choisissez l'option justeLe B\u00e9nin est un/u.................. Afrique occidentale.</p>",
+            "options": {
+                "A": "pays",
+                "B": "continent",
+                "C": "village",
+                "D": "eat"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "147",
+            "question_text": "<p>Choisissez l'option justeUn polsson vit dans.</p>",
+            "options": {
+                "A": "le d\u00e9sert",
+                "B": "le ciel",
+                "C": "la mer",
+                "D": "le champ"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "157",
+            "question_text": "<p>Choisissez l'option justeEn R\u00e9publique du B\u00e9nin, on parle le Comme langue officielle.</p>",
+            "options": {
+                "A": "arabe",
+                "B": "anglais",
+                "C": "fran\u00e7ais",
+                "D": "allemand"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "160",
+            "question_text": "<p>For each question, choose from the options lettered A- E, the one that most appropriately completes the sentence.<br/>\r\nMaman revient de la ville? Qu..... en revient.</p>",
+            "options": {
+                "A": "ils",
+                "B": "Oil",
+                "C": "nous",
+                "D": "elle"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "158",
+            "question_text": "<p>Choisissez l'option justelle.......est un indication du domicile de quelqu'un.</p>",
+            "options": {
+                "A": "avenue",
+                "B": "adresse",
+                "C": "pont",
+                "D": "carrefour"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "159",
+            "question_text": "<p>Choisissez l'option justeEn cas de vol, t\u00e9l\u00e9phonez aux.</p>",
+            "options": {
+                "A": "ma\u00e7ons",
+                "B": "marchands",
+                "C": "avocats",
+                "D": "policiers"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "156",
+            "question_text": "<p>Choisissez l'option justeComment faut-il saluer ton ami quand te donne un cadeau?</p>",
+            "options": {
+                "A": "Bonne journ\u00e9e",
+                "B": "Bonne chance",
+                "C": "Bon app\u00e9tit",
+                "D": "Merci beaucoup"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "162",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.O\u00f9 sont mes lunettes? Tu pos\u00e9es sur la table.</p>",
+            "options": {
+                "A": "les",
+                "B": "l'",
+                "C": "le",
+                "D": "la"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "163",
+            "question_text": "<p>For each question, choose from the options lettered A- E, the one that most appropriately completes the sentence.Je parle aux \u00e9l\u00e8ves. Je parle.</p>",
+            "options": {
+                "A": "les",
+                "B": "la",
+                "C": "leur",
+                "D": "le"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "165",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.Vous avez des enfants? Oui. J'/je...... ai deux.</p>",
+            "options": {
+                "A": "les",
+                "B": "en",
+                "C": "le",
+                "D": "la"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "161",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.Pendant les vacances______ allons visiter Toulouse.</p>",
+            "options": {
+                "A": "nous",
+                "B": "tu",
+                "C": "elle",
+                "D": "il"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "167",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.Voil\u00e0 le journal....... je\u00a0vous ai parl\u00e9.</p>",
+            "options": {
+                "A": "qui",
+                "B": "que",
+                "C": "don't",
+                "D": "\u043e\u0439"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "168",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.C'est la robe de ma sceur C'est.</p>",
+            "options": {
+                "A": "le sien",
+                "B": "la sienne",
+                "C": "la tienne",
+                "D": "le n\u00f4tre"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "169",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.Ne parlons pas de......travail Parlons de v\u00f4tre.</p>",
+            "options": {
+                "A": "A mes",
+                "B": "tes",
+                "C": "sa,",
+                "D": "son"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "170",
+            "question_text": "<p>For each question, choose from the options lettered A- E, the one that most appropriately completes the sentence.Tu bois de la Limonade. ton anniversaire.</p>",
+            "options": {
+                "A": "tous",
+                "B": "chacun",
+                "C": "pendant",
+                "D": "combien"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "164",
+            "question_text": "<p>For each question, choose from the options lettered A- E, the one that most appropriately completes the sentence.Le pere parle aux enfants Il ...... parle.</p>",
+            "options": {
+                "A": "en",
+                "B": "le",
+                "C": "la",
+                "D": "leur"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "166",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.Voici mon sac ! Cest le ....</p>",
+            "options": {
+                "A": "sienne",
+                "B": "mien",
+                "C": "mienne",
+                "D": "tienne"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "171",
+            "question_text": "<p>For each question, choose from the options lettered A- E, the one that most appropriately completes the sentence.C'est la saison s\u00e8che, le soleil brille........les jours.</p>",
+            "options": {
+                "A": "toute",
+                "B": "tout",
+                "C": "toutes",
+                "D": "tous"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "174",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.C'est juste l\u00e0..... j'aimerai aller.</p>",
+            "options": {
+                "A": "quelles",
+                "B": "O\u00f9 C.que",
+                "C": "dont",
+                "D": "qui"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "173",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.Tu pr\u00e9f\u00e8res chemise?</p>",
+            "options": {
+                "A": "que",
+                "B": "quelle",
+                "C": "quelles",
+                "D": "quells"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "175",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.Est-ce que ce fte maison appartient \u00e0 ton oncie Non, c'est.......du chef du village</p>",
+            "options": {
+                "A": "elui-l\u00e0",
+                "B": "celle",
+                "C": "celui",
+                "D": "celles"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "172",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.Voil\u00e0 man parapluie et voila........ma sceur.</p>",
+            "options": {
+                "A": "celle",
+                "B": "celle-l\u00e0",
+                "C": "celles",
+                "D": "celui"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "178",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.Les pays Africains.</p>",
+            "options": {
+                "A": "Ghana",
+                "B": "Italie",
+                "C": "Benin",
+                "D": "Nigeria"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "180",
+            "question_text": "<p>For each question, choose from the options lettered A - E, the one that most appropriately completes the sentence.La maison.</p>",
+            "options": {
+                "A": "La classe",
+                "B": "La cuisine",
+                "C": "La salle de bain",
+                "D": "La chamber"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "179",
+            "question_text": "<p>For each question, choose from the options lettered A- E, the one that most appropriately completes the sentence.Le sport.</p>",
+            "options": {
+                "A": "Le basket-ball",
+                "B": "Le football",
+                "C": "Le rap",
+                "D": "La natation"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "177",
+            "question_text": "<p>For each question, choose from the options lettered A- E, the one that most appropriately completes the sentence.Les v\u00e9tements.</p>",
+            "options": {
+                "A": "Le chapeau",
+                "B": "Le bic",
+                "C": "La robe",
+                "D": "La ceinture"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "181",
+            "question_text": "<p>For each question, choose from the options lettered A- E, the one that most appropriately completes the sentence.Les couleurs.</p>",
+            "options": {
+                "A": "Blanc",
+                "B": "Jaune",
+                "C": "Orange",
+                "D": "Jour"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "176",
+            "question_text": "<p>For each question, choose from the options lettered A- E, the one that most appropriately completes the sentence.From the options lettere A-E, choose the one that is odd. La classe.</p>",
+            "options": {
+                "A": "Une craie",
+                "B": "Une chaise",
+                "C": "Un canard",
+                "D": "Un livre"
+            },
+            "exam_year": "JAMB\n                        2024",
+            "answer": "C"
+        }
+    ]
+}

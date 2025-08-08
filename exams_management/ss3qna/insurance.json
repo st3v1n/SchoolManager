@@ -1,0 +1,1929 @@
+{
+    "total_questions": 173,
+    "questions": [
+        {
+            "question_number": "1",
+            "question_text": "<p>A document issued by an insurer giving temporary protection to the insure is?</p>",
+            "options": {
+                "A": "endorsement",
+                "B": "certificate",
+                "C": "proposal form",
+                "D": "cover note"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "4",
+            "question_text": "<p>one of the steps taken by an insurer in claim settlement is\u00a0to?</p>",
+            "options": {
+                "A": "investigate the loss",
+                "B": "assess the risk",
+                "C": "present a claim",
+                "D": "appoint loss assessor"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "5",
+            "question_text": "<p>A risk considered as sub standard in future can be dealt with by insurers through</p>\n<p>(i)\u00a0premium loading (ii)\u00a0double insurance (iii) excess imposition</p>",
+            "options": {
+                "A": "I and II",
+                "B": "I and III",
+                "C": "II and III",
+                "D": "I,II and III"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "3",
+            "question_text": "<p>full return of premium paid for a contract of insurance is applicable in a situation involving?</p>",
+            "options": {
+                "A": "double insurance",
+                "B": "reduction of cover",
+                "C": "absence of agreement",
+                "D": "financial distress"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "2",
+            "question_text": "<p>The financial interest of the insured in an insurance policy is the</p>",
+            "options": {
+                "A": "subject matter of insurance",
+                "B": "subject matter of the contract",
+                "C": "assignment of the contract",
+                "D": "deed of the contract"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "10",
+            "question_text": "<p>One of the functions of the institute of loss adjuster of Nigeria is to</p>",
+            "options": {
+                "A": "provide a forum to improve insurance business",
+                "B": "prepare the insured's claims",
+                "C": "offer technical services in claim investigation",
+                "D": "adjust loss to suit the insured"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "9",
+            "question_text": "<p>An insured arranges for his premium payment to cease at the age of 70. This is a whole life policy with\u00a0</p>",
+            "options": {
+                "A": "indeterminate premium payment",
+                "B": "limited premium payment",
+                "C": "single premium payment",
+                "D": "modified premium payment"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "6",
+            "question_text": "<p>Non-indemnity insurance policies are referred to as</p>",
+            "options": {
+                "A": "benefit policies",
+                "B": "profit policies",
+                "C": "non-profit policies",
+                "D": "non-benefit policies"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "8",
+            "question_text": "<p>Marine cargo insurance indemnifies the insured for a loss of?</p>",
+            "options": {
+                "A": "vessel",
+                "B": "container",
+                "C": "consignment",
+                "D": "freight"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "15",
+            "question_text": "<p>The right to effect a contract of insurance on the life of a debtor by the creditor is?</p>",
+            "options": {
+                "A": "utmost good faith",
+                "B": "proximate cause",
+                "C": "insurable interest",
+                "D": "contribution"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "14",
+            "question_text": "<p>The method of paying premium in life insurance contract in which premium payable increases as age increases is?</p>",
+            "options": {
+                "A": "natural premium",
+                "B": "level premium",
+                "C": "risk premium",
+                "D": "pure premium"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "13",
+            "question_text": "<p>The use of gas burners for cutting and welding is considered in insurance contract as</p>",
+            "options": {
+                "A": "a favourable morale hazard",
+                "B": "a favourable physical hazard",
+                "C": "an unfavourable morale hazard",
+                "D": "an unfavourable physical hazard"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "11",
+            "question_text": "<p>The legth of time in which a proposer is expected to effect changes in life insurance contract is?</p>",
+            "options": {
+                "A": "days of grace",
+                "B": "cooling off period",
+                "C": "rectification",
+                "D": "endorsement"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "12",
+            "question_text": "<p>modern insurance business was introduced into nigeria by?</p>",
+            "options": {
+                "A": "American merchants",
+                "B": "British merchants",
+                "C": "French merchants",
+                "D": "Portuguese merchants"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "7",
+            "question_text": "<p>insurer XYZ is jointly covered for two lines surplus treaty reinsurance by reinsurers I,J,K and L for a retention limit of N120,000. The amount of cession for reinsurer K if all reinsurers share the risk equally with the sum insured of N360,000 is?</p>",
+            "options": {
+                "A": "N45,000",
+                "B": "N60,000",
+                "C": "N90,000",
+                "D": "N120,000"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "18",
+            "question_text": "<p>claims paid by insurers in the event of loss is irrecoverable when the?</p>",
+            "options": {
+                "A": "average clause is applied",
+                "B": "sum insured has been exhausted",
+                "C": "sum insured has not been exhausted",
+                "D": "payment is and ex gratia basis"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "19",
+            "question_text": "<p>The minimum cover for motorist in nigeria is?</p>",
+            "options": {
+                "A": "''Act'' only",
+                "B": "third party only",
+                "C": "fire and theft",
+                "D": "comprehensive insurance"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "20",
+            "question_text": "<p>The class of insurance under which a visitor who was bitten by her host dog would be compensated is?</p>",
+            "options": {
+                "A": "personal liability insurance",
+                "B": "public liability insurance",
+                "C": "professional indemnity insurance",
+                "D": "employers liability insurance"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "17",
+            "question_text": "<p>Addition of a new building to an existing fire and special perils insurance would be effected through the issuance of?</p>",
+            "options": {
+                "A": "a new policy",
+                "B": "an endorsement",
+                "C": "a specification",
+                "D": "a rectification"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "16",
+            "question_text": "<p>A condition precedent to an insurance contract is the</p>",
+            "options": {
+                "A": "extent of the cover granted",
+                "B": "right to cancel the insurance contract",
+                "C": "right to take possession of damaged property",
+                "D": "existence of the subject matter of insurance"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "24",
+            "question_text": "<p>Extension cover under money insurance policy doesnt include?</p>",
+            "options": {
+                "A": "shortage",
+                "B": "hold-up",
+                "C": "personal injury",
+                "D": "damaged to safe"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "22",
+            "question_text": "<p>one benefit of life insurance policy is that it serves as\u00a0</p>",
+            "options": {
+                "A": "replacement of earnings after injuries",
+                "B": "provision for bad debts",
+                "C": "collateral for loans",
+                "D": "repair cost of damaged properties"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "21",
+            "question_text": "<p>A claimant who is not legally entitled to a claim under an insurance contract may be offered a payment on?</p>",
+            "options": {
+                "A": "constructive total loss basis",
+                "B": "partial loss basis",
+                "C": "advice of loss basis",
+                "D": "ex-gratia basis"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "23",
+            "question_text": "<p>concealment of information considered to be material to the contract of insurance is violating the principle of?</p>",
+            "options": {
+                "A": "subrogation",
+                "B": "indemnity",
+                "C": "insurable  interest",
+                "D": "utmost good faith"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "25",
+            "question_text": "<p>The form of term assurance that operates three options which must be excised before maturity is</p>",
+            "options": {
+                "A": "decreasing term insurance",
+                "B": "increasing term insurance",
+                "C": "level term insurance",
+                "D": "convertible term insurance"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "30",
+            "question_text": "<p>A general question in an insurance proposal form is</p>",
+            "options": {
+                "A": "name of the proposal",
+                "B": "carriage of fare-paying passenger",
+                "C": "description of the proposers' premises",
+                "D": "methods of construction"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "29",
+            "question_text": "<p>insurers requesting for membership of Nigeria Insurers Association is required by law to?</p>\n<p>(i) have been registered with NAICOM (ii)operate with sound insurance principles (iii) hold membership of CHN (iv)\u00a0 ascribe to the policy holding of NIA\u00a0</p>",
+            "options": {
+                "A": "i, ii and iii only",
+                "B": "i, ii and iv",
+                "C": "i, iii and iv",
+                "D": "ii, iii and iv"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "28",
+            "question_text": "<p>The winding up of an insurance is legally required to be based on a petition written from not less than\u00a0</p>",
+            "options": {
+                "A": "30 policy holders",
+                "B": "40 policy holders",
+                "C": "50 policy holder",
+                "D": "60policy holders"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "27",
+            "question_text": "<p>contract of insurance which involves large industrial risks are handled for protection through the completion of?</p>",
+            "options": {
+                "A": "a proposal form",
+                "B": "a policy form",
+                "C": "an endorsement",
+                "D": "a slip"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "26",
+            "question_text": "<p>The document used pending the issuance of certificate in motor insurance policy is</p>",
+            "options": {
+                "A": "a cover note",
+                "B": "a proposal form",
+                "C": "an endorsement",
+                "D": "a slip"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "31",
+            "question_text": "<p>An insurance policy is subject to a franchise of N115,000, how much would an insured who suffered of N120,000 recieve as compwnsation</p>",
+            "options": {
+                "A": "N5,000",
+                "B": "N115,000",
+                "C": "N120,000",
+                "D": "N235,000"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "35",
+            "question_text": "<p>one of the perils of nature is?</p>",
+            "options": {
+                "A": "heating",
+                "B": "earthquake",
+                "C": "civil commotion",
+                "D": "spontaneous combustion"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "34",
+            "question_text": "<p>A loss assessor in a claim settlement process is representing the interest of the?</p>",
+            "options": {
+                "A": "insured",
+                "B": "insurer",
+                "C": "reinsurer",
+                "D": "broker"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "33",
+            "question_text": "<p>A reinsurance cover of N100,000 in excess of N20,000 was entered by insurer K with reinsurer M. In the event of a loss amounting to N120,000, M would pay?\u00a0</p>",
+            "options": {
+                "A": "N20,000",
+                "B": "N120,000",
+                "C": "N80,000",
+                "D": "N100,000"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "32",
+            "question_text": "<p>The insurance professional who assist the third party to evaluate the extent of loss in a motor accident is</p>",
+            "options": {
+                "A": "a loss adjustor",
+                "B": "a loss assessor",
+                "C": "a consultant",
+                "D": "an investigator"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "36",
+            "question_text": "<p>A condition which the insuring public would use to evaluate the financial stability of an insurer is?</p>",
+            "options": {
+                "A": "prompt payment of claims",
+                "B": "adequate reinsurance treaty",
+                "C": "allowance for ex-gratia payment",
+                "D": "settlement of investigated claims"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "37",
+            "question_text": "<p>A factor to be considered before a proposal for endowment assurance is accepted is the proposer's?</p>",
+            "options": {
+                "A": "marital status",
+                "B": "place of birth",
+                "C": "date of birth",
+                "D": "social status"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "39",
+            "question_text": "<p>car plying the road seeking passengers for payment of fares are classified by insurers as?</p>",
+            "options": {
+                "A": "private motor",
+                "B": "commercial vehicle",
+                "C": "motor trade",
+                "D": "general cartage"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "40",
+            "question_text": "<p>The subject matter of insurance in the package is?</p>",
+            "options": {
+                "A": "obinna's life",
+                "B": "the N2,000,000 loan",
+                "C": "musa's life",
+                "D": "the sum assured of N20,000"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "38",
+            "question_text": "<p>payment of compensation under professional indemnity insurance would be influenced by?</p>",
+            "options": {
+                "A": "assault",
+                "B": "trespass",
+                "C": "nuisance",
+                "D": "negligence"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "45",
+            "question_text": "<p>An insurance that could be effected with profit feauture is</p>",
+            "options": {
+                "A": "term insurance",
+                "B": "public liability insurance",
+                "C": "endowment assurance",
+                "D": "personal accident insurance"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "44",
+            "question_text": "<p>A manufacturing company whose production was abruptly stopped by fire incidence would have its claim for loss of earning settled under the class of</p>",
+            "options": {
+                "A": "fire insurance",
+                "B": "all risk insurance",
+                "C": "product liability insurance",
+                "D": "consequential loss insurance"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "43",
+            "question_text": "<p><em>family income benefit </em>effected without <em>capital benefit</em> pays the sum assured from the date of?</p>",
+            "options": {
+                "A": "death of the assured till a specified period",
+                "B": "survival of the assured till a specified period",
+                "C": "survival of the assured till a specified period",
+                "D": "personal accident insurance"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "42",
+            "question_text": "<p>one of the duties of\u00a0 a loss adjustor is</p>",
+            "options": {
+                "A": "advice the claimant on claims processing",
+                "B": "ensure prompt payment of claims",
+                "C": "estimate maximum loss",
+                "D": "investigate the cause of loss"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "41",
+            "question_text": "<p>The peril\u00a0 insured against by musa is\u00a0</p>",
+            "options": {
+                "A": "the loan",
+                "B": "death",
+                "C": "bad debt",
+                "D": "disability"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "46",
+            "question_text": "<p>The effect of the minimum cover on the two vehicles is the the?</p>",
+            "options": {
+                "A": "two vehicles will be repaired by jaguna's insurer",
+                "B": "insurer of each vehicle is responsible for the repairs",
+                "C": "vehicle of Basanya will be repaired by jaguna's insurer",
+                "D": "two vehicles are not entitled to compensation from the insurer"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "49",
+            "question_text": "<p>The right which an insurer has to stand in the place of the insured against a negligent party is?</p>",
+            "options": {
+                "A": "insurable interest",
+                "B": "subrogation",
+                "C": "proximate cause",
+                "D": "contribution"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "48",
+            "question_text": "<p>jaguna's repaired expenses of N75,000 would be paid by</p>",
+            "options": {
+                "A": "jaguna's insurer",
+                "B": "jaguna",
+                "C": "Basanya's insurer",
+                "D": "Basanya"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "47",
+            "question_text": "<p>The compensation would be calculated as</p>",
+            "options": {
+                "A": "N75,000 payable to jaguna",
+                "B": "N80,000 payable to jaguna",
+                "C": "N155,000 payable to basanya",
+                "D": "N230,000 payable to basanya"
+            },
+            "exam_year": "WAEC\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "50",
+            "question_text": "<p>A life policy holder enjoy days of grace</p>",
+            "options": {
+                "A": "at the inception of the policy",
+                "B": "at the renewal time of the policy",
+                "C": "when he surrenders the policy",
+                "D": "when the policy is paid up"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "51",
+            "question_text": "<p>which of the following factors is not considered when calculating premium in life assurance policy</p>",
+            "options": {
+                "A": "expense",
+                "B": "mortality",
+                "C": "interest",
+                "D": "losses"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "53",
+            "question_text": "<p>A method of providing indemnity under glass insurance policy is?</p>",
+            "options": {
+                "A": "cash payment",
+                "B": "repairs",
+                "C": "replacement",
+                "D": "reinstatement"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "C"
+        },
+        {
+            "question_number": "52",
+            "question_text": "<p>A functional reinsurance is that it</p>",
+            "options": {
+                "A": "protects the account of the insurer against large claims",
+                "B": "discourage the spread of risk in the insurance market",
+                "C": "provides protection for uninsured losses",
+                "D": "encourages the insured to make claims from more than one insurer"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "55",
+            "question_text": "<p>information required in a proposal form for employer's liability is insurance include</p>",
+            "options": {
+                "A": "age and health condition of the employees",
+                "B": "the number of employees and the annual wage roll of the proposer",
+                "C": "nature and description of goods to be carried or dispatched",
+                "D": "the extent to which the vehicle of the proposer will be put to private use"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "54",
+            "question_text": "<p>which type of insurance product is appropriate for a young couple who is embarking on a holiday trip abroad?</p>",
+            "options": {
+                "A": "whole life policy",
+                "B": "investment linked policy",
+                "C": "education endowment policy",
+                "D": "term assurance policy"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "D"
+        },
+        {
+            "question_number": "56",
+            "question_text": "<p>The reason for issuing certificate of motor insurance is that , it is</p>",
+            "options": {
+                "A": "required by law for all motor policy holders",
+                "B": "a general practice world wide",
+                "C": "a support to policy document",
+                "D": "a replacement for the policy"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "58",
+            "question_text": "<p>A primary function of insurance is the?</p>",
+            "options": {
+                "A": "creation of a common pool",
+                "B": "provision of security",
+                "C": "stimulation of business enterprises",
+                "D": "loss prevention and control"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "D"
+        },
+        {
+            "question_number": "57",
+            "question_text": "<p>The principle of utmost good faith allows the insured\u00a0</p>",
+            "options": {
+                "A": "to accept all risks proposed for insurance",
+                "B": "the right to sue the insurer",
+                "C": "to make claim from more than one insurer",
+                "D": "to make a full disclosure of the proposed risk"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "D"
+        },
+        {
+            "question_number": "60",
+            "question_text": "<p>The price paid for the purchase of insurance policy is?</p>",
+            "options": {
+                "A": "premium",
+                "B": "claim",
+                "C": "renewal",
+                "D": "benefit"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "59",
+            "question_text": "<p>one of the feature of ''with profit whole life assurance'' is that profit is allocated to the policy?</p>",
+            "options": {
+                "A": "as soon as the policy holder dies",
+                "B": "up to the date of death of the policyholder",
+                "C": "when the insurer decides to pay the policyholder",
+                "D": "as soon as the insured surrenders the policy"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "63",
+            "question_text": "<p>Term insurance benefits are payable\u00a0</p>",
+            "options": {
+                "A": "at surrender",
+                "B": "at death",
+                "C": "before maturity"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "61",
+            "question_text": "<p>The period of insurance in non-life insurance contract is usually</p>",
+            "options": {
+                "A": "one month",
+                "B": "one year",
+                "C": "two years",
+                "D": "three years"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "64",
+            "question_text": "<p>An insurance intermediary that is professionally liable for acts of negligence in the discharge of his duties to his client is an insurance</p>",
+            "options": {
+                "A": "agent",
+                "B": "broker",
+                "C": "consultant",
+                "D": "underwriter"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "62",
+            "question_text": "<p>The demand for payment made by the insured to the insurer following occurence of the event insured against is</p>",
+            "options": {
+                "A": "consideration",
+                "B": "gratification",
+                "C": "commission",
+                "D": "claim"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "D"
+        },
+        {
+            "question_number": "65",
+            "question_text": "<p>life insurance is a contract of?</p>",
+            "options": {
+                "A": "indemnity",
+                "B": "subrogation",
+                "C": "benefit",
+                "D": "contribution"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "C"
+        },
+        {
+            "question_number": "68",
+            "question_text": "<p>Insurance is defined as pooling of risk because many people\u00a0</p>",
+            "options": {
+                "A": "with common interest make claims every year",
+                "B": "with common risk insure with the same company",
+                "C": "with common interest insure with reinsurance company",
+                "D": "form common association to help themselves"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "70",
+            "question_text": "<p>The document that is legally required to be issued by insurers in respect of compulsory insurance is</p>",
+            "options": {
+                "A": "cover note",
+                "B": "endorsement",
+                "C": "certificate",
+                "D": "renewal note"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "66",
+            "question_text": "<p>In an endowment policy, benefits are paid at death or\u00a0</p>",
+            "options": {
+                "A": "a lump  sum is paid on maturity",
+                "B": "regular payments are made after maturity",
+                "C": "regular payments are made before maturity",
+                "D": "no payments is made until the death of the insured."
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "69",
+            "question_text": "<p>The policy of insurance is signed by the?</p>",
+            "options": {
+                "A": "representative of the insured",
+                "B": "representative of the insurer",
+                "C": "insurance broker",
+                "D": "insurance consultant"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "67",
+            "question_text": "<p>The part of the policy that describes the event that could lead to loss in an insurance contract is</p>",
+            "options": {
+                "A": "recital clause",
+                "B": "condition",
+                "C": "specification",
+                "D": "operative clause"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "D"
+        },
+        {
+            "question_number": "71",
+            "question_text": "<p>The class of insurance that does not require a certificate is?</p>",
+            "options": {
+                "A": "motor insurance",
+                "B": "marine insurance",
+                "C": "fire insurance",
+                "D": "aviation insurance"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "72",
+            "question_text": "<p>How many days are allowed in life insurance as days of grace</p>",
+            "options": {
+                "A": "25 days",
+                "B": "30 days",
+                "C": "35 days",
+                "D": "60"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "75",
+            "question_text": "<p>Life policies can be used as a collateral for loan when the policy has?</p>",
+            "options": {
+                "A": "ceased to be life",
+                "B": "been temporary suspended",
+                "C": "acquired surrender value",
+                "D": "been made paid-up"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "C"
+        },
+        {
+            "question_number": "73",
+            "question_text": "<p>The person that buys a life insurance policy is an\u00a0</p>",
+            "options": {
+                "A": "actuary",
+                "B": "assured",
+                "C": "assesor",
+                "D": "agent"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "74",
+            "question_text": "<p>The body that regulates the activities of insurance market in Nigeria</p>",
+            "options": {
+                "A": "National Insurance Commission",
+                "B": "professional reinsurance association of nigeria",
+                "C": "Nigeria insurers Association",
+                "D": "Nigeria council of registered insurance brokers"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "77",
+            "question_text": "<p>The expert who uses statistics to develop the premium payable in a life contract is an</p>",
+            "options": {
+                "A": "adjuster",
+                "B": "actuary",
+                "C": "assesor",
+                "D": "agent"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "80",
+            "question_text": "<p>A policy that covers a trader against the risk of payment default by customer is</p>",
+            "options": {
+                "A": "stock insurance",
+                "B": "trade insurance",
+                "C": "credit insurance"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "C"
+        },
+        {
+            "question_number": "76",
+            "question_text": "<p>The factor which increases the possibility of loss that emanates from the insured attitude is?</p>",
+            "options": {
+                "A": "physical hazard",
+                "B": "moral hazard",
+                "C": "uninsured peril",
+                "D": "excepted peril"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "78",
+            "question_text": "<p>The insured who suffered a loss would be entitled to the amount of compensation payable for the loss under the principle of?</p>",
+            "options": {
+                "A": "insurable interest",
+                "B": "utmost good faith",
+                "C": "indemnity",
+                "D": "contribution"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "C"
+        },
+        {
+            "question_number": "79",
+            "question_text": "<p>A life policy that pays the sum assured if the policy holder dies anytime within the policy period is</p>",
+            "options": {
+                "A": "term assurance",
+                "B": "pure endowment",
+                "C": "whole life insurance",
+                "D": "personal accident insurance"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "85",
+            "question_text": "<p>The policy which covers either death or disability resulting from an injury is</p>",
+            "options": {
+                "A": "personal accident insurance",
+                "B": "fidelity guaranteed",
+                "C": "sickness insurance",
+                "D": "motor insurance"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "81",
+            "question_text": "<p>which of the following professionals is an operator in the reinsurance market?</p>",
+            "options": {
+                "A": "agent",
+                "B": "consultant",
+                "C": "broker",
+                "D": "adjuster"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "C"
+        },
+        {
+            "question_number": "82",
+            "question_text": "<p>The part of a policy that describes the event that led to\u00a0 a loss is</p>",
+            "options": {
+                "A": "operative clause",
+                "B": "recital clause",
+                "C": "heading",
+                "D": "schedule"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "83",
+            "question_text": "<p>The type of life insurance policy where the premium goes towards the policy with no interest element is</p>",
+            "options": {
+                "A": "endowment policy",
+                "B": "whole life insurance",
+                "C": "annuity policy",
+                "D": "term insurance"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "84",
+            "question_text": "<p>The document used by the insurer to ask questions about a risk to be covered is\u00a0</p>",
+            "options": {
+                "A": "certificates",
+                "B": "proposal form",
+                "C": "policy form",
+                "D": "schedule"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "88",
+            "question_text": "<p>The policy cover with musa insurance is</p>",
+            "options": {
+                "A": "averagely insured",
+                "B": "fully insured",
+                "C": "under insured",
+                "D": "over insured"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "90",
+            "question_text": "<p>The claims on kayode's shop would be paid by</p>",
+            "options": {
+                "A": "musa and okon insurance company",
+                "B": "musa insurance company",
+                "C": "okon insurance company",
+                "D": "Mr Adekunle only"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "89",
+            "question_text": "<p>The maximum aount to be paid for kayode's shop\u00a0 that was damged is</p>",
+            "options": {
+                "A": "N15,000",
+                "B": "N30,000",
+                "C": "N45,000",
+                "D": "N60,000"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "87",
+            "question_text": "<p>The insurance cover a businessman who buys goods from lagos and wants to transport it to kano would require is</p>",
+            "options": {
+                "A": "marine insurance",
+                "B": "business interruption insurance",
+                "C": "theft insurance",
+                "D": "goods in transit insurance"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "D"
+        },
+        {
+            "question_number": "86",
+            "question_text": "<p>The first insurance company to establish its branch office in Nigeria is</p>",
+            "options": {
+                "A": "Norwich insurance company",
+                "B": "Royal exchange assurance",
+                "C": "Yorkshire insurance company",
+                "D": "phoenix of Nigeria assurance company"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "B"
+        },
+        {
+            "question_number": "92",
+            "question_text": "<p>The document issued to Eke within one week of the contract is</p>",
+            "options": {
+                "A": "cover note",
+                "B": "proposal form",
+                "C": "satisfaction note",
+                "D": "renewal notice"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "A"
+        },
+        {
+            "question_number": "93",
+            "question_text": "<p>The second document issued to the Eke is</p>",
+            "options": {
+                "A": "satisfaction note",
+                "B": "renewal notice",
+                "C": "proposal form",
+                "D": "certificate of insurance"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "D"
+        },
+        {
+            "question_number": "94",
+            "question_text": "<p>peril in insurance means</p>",
+            "options": {
+                "A": "payment that is made by insurance",
+                "B": "events that lead to a loss",
+                "C": "exposure to no risk at all",
+                "D": "money that is paid for insurance"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "95",
+            "question_text": "<p>The body charged with the responsibility to promote and uphold universally accepted standards in insurance business</p>",
+            "options": {
+                "A": "Nigeria council of registered insurance brokers",
+                "B": "chartered insurance institute of Nigeria",
+                "C": "National insurers association",
+                "D": "Nigeria insurance commission"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "91",
+            "question_text": "<p>What is the premium payable for the comprehensive cover</p>",
+            "options": {
+                "A": "N37,000",
+                "B": "N150,000",
+                "C": "N155,000",
+                "D": "N187,500"
+            },
+            "exam_year": "WAEC\n                        2017",
+            "answer": "D"
+        },
+        {
+            "question_number": "100",
+            "question_text": "<p>An attachment to an insurance policy that modifies the policy is?</p>",
+            "options": {
+                "A": "applicable",
+                "B": "variation list",
+                "C": "log book",
+                "D": "endorsement"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "96",
+            "question_text": "<p>when a policy is cancelled before its expiry date, what is owed to the insured is</p>",
+            "options": {
+                "A": "earned premium",
+                "B": "unearned premium",
+                "C": "return premium",
+                "D": "unpaid premium"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "98",
+            "question_text": "<p>A term insurance policy is cheap because?</p>",
+            "options": {
+                "A": "there is no claim if the insured survives the period",
+                "B": "the claim is small and easy to pay",
+                "C": "there is claim if the insured survives the period",
+                "D": "there is no payment due to the insured"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "99",
+            "question_text": "<p>which of the following benefits will be covered under personal accident insurance</p>",
+            "options": {
+                "A": "burial expenses",
+                "B": "medical expenses",
+                "C": "legal expenses",
+                "D": "mortuary expenses"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "97",
+            "question_text": "<p>The person\u00a0named to recieve the\u00a0life assurance proceeds after the date of the life assured is?</p>",
+            "options": {
+                "A": "beneficiary",
+                "B": "receiver",
+                "C": "administrator",
+                "D": "next of kin"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "104",
+            "question_text": "<p>A ''no claim discount'' will be granted under\u00a0</p>",
+            "options": {
+                "A": "fidelity guarantee insurance",
+                "B": "marine insurance",
+                "C": "life insurance",
+                "D": "motor insurance"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "105",
+            "question_text": "<p>To insure any property, the insured must have</p>",
+            "options": {
+                "A": "insurable interest",
+                "B": "goodwill",
+                "C": "premium",
+                "D": "valuable consideration"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "101",
+            "question_text": "<p>An event sufficiently related to a legally recognizable injury to be the cause of that injury is?</p>",
+            "options": {
+                "A": "hazard",
+                "B": "remote clause",
+                "C": "proximate cause",
+                "D": "peril"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "103",
+            "question_text": "<p>A blanket policy in fidelity guarantee insurance is to cover</p>",
+            "options": {
+                "A": "cashiers handling cash",
+                "B": "all staff that may handle cash",
+                "C": "cash from office to bank",
+                "D": "all receivables of the company"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "102",
+            "question_text": "<p>which of the following professionals assist in determining the actual cost of a loss to be paid by an insurer on a claim</p>",
+            "options": {
+                "A": "loss adjuster",
+                "B": "insurance broker",
+                "C": "actuary",
+                "D": "surveyor"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "107",
+            "question_text": "<p>one of the difference between contract of <em>life assurance and non life insurance</em> is?</p>",
+            "options": {
+                "A": "non-life requires renewal while life does not",
+                "B": "life requires renewal while non-life does not",
+                "C": "life is subject to indemnity while non life is not",
+                "D": "non-life is subject to compensation while life is not"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "109",
+            "question_text": "<p>which class of insurance would be required by a petrol filling station operator whose operation involve high financial\u00a0 transactions?</p>",
+            "options": {
+                "A": "burglary  policy",
+                "B": "public liability policy",
+                "C": "goods-in-transit policy",
+                "D": "money policy"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "110",
+            "question_text": "<p>which of the following conditions must be met before and insurer is under obligation to pay claim</p>",
+            "options": {
+                "A": "loss notification",
+                "B": "premium payment",
+                "C": "completion of proposal form",
+                "D": "submission of policy paper to the insurer"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "108",
+            "question_text": "<p>The duty of a loss assessor is to ensure</p>",
+            "options": {
+                "A": "adequate compensation to the insured",
+                "B": "payment of premium to the insurer",
+                "C": "that risk manager identifies the risk properly",
+                "D": "that insurance broker collects commission"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "106",
+            "question_text": "<p>A motor policy that provides cover for the loss or damage of a vehicle used for farming purposes is</p>",
+            "options": {
+                "A": "private car policy",
+                "B": "agricultural policy",
+                "C": "special type policy",
+                "D": "motor trades policy"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "115",
+            "question_text": "<p>The responsibility of the institute of loss adjuster is to?</p>",
+            "options": {
+                "A": "regulate the activities of its members",
+                "B": "settle disputes among insurance companies",
+                "C": "register all insurance practitioners",
+                "D": "act as intermediaries between government and its members"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "111",
+            "question_text": "<p>A risk classified is uninsurable when the</p>",
+            "options": {
+                "A": "extent of the loss can be calculated",
+                "B": "risk will occur no matter the precaution taken",
+                "C": "risk may not happen",
+                "D": "insurance company cannot pay"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "113",
+            "question_text": "<p>A clause that prevents the insurer from paying under a policy if the insured killed himself is?</p>",
+            "options": {
+                "A": "exceptional clause",
+                "B": "revival clause",
+                "C": "accidental clause",
+                "D": "suicide clause"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "114",
+            "question_text": "<p>A component of an insurance policy document that introduces the parties to the contract is,</p>",
+            "options": {
+                "A": "exceptional clause",
+                "B": "recital clause",
+                "C": "particular clause",
+                "D": "operative clause"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "112",
+            "question_text": "<p>A profefessional charged with the responsibility of assessing loss in insurance</p>",
+            "options": {
+                "A": "underwriter",
+                "B": "adjuster",
+                "C": "actuary",
+                "D": "broker"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "118",
+            "question_text": "<p>A class of insurance that covers policy holders for losses caused by fruadulent employees is?</p>",
+            "options": {
+                "A": "all risk policy",
+                "B": "key-man policy",
+                "C": "fidelity guarantee policy",
+                "D": "money insurance policy"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "120",
+            "question_text": "<p>An insurance cover that protects experts from bearing the cost of negligence arising from their service?</p>",
+            "options": {
+                "A": "fidelity guarantee insurance",
+                "B": "third party liability insurance",
+                "C": "professional indemnity insurance",
+                "D": "product liability insurance"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "119",
+            "question_text": "<p>Risk assumed by more than one insurance company and shared accordingly</p>",
+            "options": {
+                "A": "co-insurance",
+                "B": "joint insurance",
+                "C": "re-insurance",
+                "D": "group insurance"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "116",
+            "question_text": "<p>The process of transfering a risk already taken by an insurer to other insurers is?</p>",
+            "options": {
+                "A": "assurance",
+                "B": "re-investment",
+                "C": "reinsurance",
+                "D": "insurance"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "117",
+            "question_text": "<p>In motor insurance, which of the following covers will take care of all parties that can be involded in an accident</p>",
+            "options": {
+                "A": "comprehensive",
+                "B": "Act only",
+                "C": "third party",
+                "D": "third party, fire and theft"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "124",
+            "question_text": "<p>what is the proximage cause of the damage to the car</p>",
+            "options": {
+                "A": "misrepresentation",
+                "B": "inexperienced driving",
+                "C": "riot",
+                "D": "reckless driving"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "123",
+            "question_text": "<p>what is the effect of the damage by rioters as regards the claim. he will?</p>",
+            "options": {
+                "A": "not get anything",
+                "B": "be paid half",
+                "C": "get money from rioters",
+                "D": "be paid in full"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "121",
+            "question_text": "<p>which of the following policies can be used as security for a loan.</p>",
+            "options": {
+                "A": "key-man policy",
+                "B": "endowment policy",
+                "C": "term insurance policy",
+                "D": "whole life insurance"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "122",
+            "question_text": "<p>the insurance prinsiple that deals with mr adeyem's failure to inform the insurer about his wife's usage of the car is?</p>",
+            "options": {
+                "A": "negligence",
+                "B": "misrepresentation",
+                "C": "untrue statement",
+                "D": "utmost good faith"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "125",
+            "question_text": "<p>surrender value is the amount payable if the insured</p>",
+            "options": {
+                "A": "does not want to continue with the life policy",
+                "B": "does not want to continue with car insurance",
+                "C": "died when a policy is valid",
+                "D": "died when a policy is not valid"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "127",
+            "question_text": "<p>which of the following is a subject matter of insurance in fire policy</p>",
+            "options": {
+                "A": "building",
+                "B": "shares",
+                "C": "corporation",
+                "D": "money"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "130",
+            "question_text": "<p>A guarantee issue by an insurance company to support their client who is applying for a contract is\u00a0</p>",
+            "options": {
+                "A": "performance bond",
+                "B": "bid bond",
+                "C": "retention bond",
+                "D": "advance payment bond"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "128",
+            "question_text": "<p>An insurer will recover claims paid wrongly to an insured if</p>",
+            "options": {
+                "A": "it was ex-gratia payment",
+                "B": "there was a mistake of law",
+                "C": "the premium had not been paid",
+                "D": "it was effected by court order"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "129",
+            "question_text": "<p>The principle of insurance that demands that the insured must stand to loss in the event of a loss before taking a policy is</p>",
+            "options": {
+                "A": "consideration",
+                "B": "insurable interest",
+                "C": "proximate cause",
+                "D": "subrogation"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "126",
+            "question_text": "<p>business interruption claims will only be settled if it is caused by?</p>",
+            "options": {
+                "A": "permanent disability",
+                "B": "machinery breakdown",
+                "C": "sickness",
+                "D": "death"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "133",
+            "question_text": "<p>Ex-gratia payment is made where there is</p>",
+            "options": {
+                "A": "no legal liability obligation",
+                "B": "legal liability obligation",
+                "C": "need to refund a premium",
+                "D": "delay in payment of compensation"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "132",
+            "question_text": "<p>A document used to alter the information contained in the schedule of a policy is?</p>",
+            "options": {
+                "A": "slip",
+                "B": "endorsement",
+                "C": "cover note",
+                "D": "policy form"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "134",
+            "question_text": "<p>the sum assured is the value of the?</p>",
+            "options": {
+                "A": "claim",
+                "B": "policy",
+                "C": "premium",
+                "D": "penalty"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "131",
+            "question_text": "<p>features of insurable risk include?</p>\n<p>(i) fortuity (ii) insurer (iii) utmost good faith (iv) financial value</p>",
+            "options": {
+                "A": "I and ii only",
+                "B": "ii and iii",
+                "C": "iii and iv",
+                "D": "I and iv only"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "135",
+            "question_text": "<p>Hazard in insurance means?</p>",
+            "options": {
+                "A": "a situation that posses a threat to life or property",
+                "B": "a situation where there is no agreement",
+                "C": "event that cannot legally be insured",
+                "D": "event that has been insured in the past"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "138",
+            "question_text": "<p>To assess aviation risks, the underwriter would want to know the</p>",
+            "options": {
+                "A": "size of the airport",
+                "B": "financial capacity of the airline",
+                "C": "age of the aircraft",
+                "D": "staff strength of the airline"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "137",
+            "question_text": "<p>A document used to provide evidence of insurance if the policy document is not imediately available is</p>",
+            "options": {
+                "A": "certificate",
+                "B": "cover note",
+                "C": "proposal form",
+                "D": "endorsement"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "B"
+        },
+        {
+            "question_number": "136",
+            "question_text": "<p>A life insurance contract will be affected by failure to disclose?</p>",
+            "options": {
+                "A": "correct address",
+                "B": "status of assured",
+                "C": "place of work",
+                "D": "correct date of birth"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "140",
+            "question_text": "<p>A life policy where the insured cannot make claim himself because the payment cannot be made in his life time is</p>",
+            "options": {
+                "A": "whole life policy",
+                "B": "annuity policy",
+                "C": "key-man policy",
+                "D": "endowment policy"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "A"
+        },
+        {
+            "question_number": "139",
+            "question_text": "<p>The policy taken to cover loss of income that a business suffers when its facilities are closed due to a disaster is</p>",
+            "options": {
+                "A": "group insurance",
+                "B": "business support",
+                "C": "fire insurance",
+                "D": "business interruption"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "143",
+            "question_text": "<p>what is the term used for the amount payable to mr. Thomas if he chooses to discontinue with the contract</p>",
+            "options": {
+                "A": "premium return",
+                "B": "reinstatement return",
+                "C": "terminal claim",
+                "D": "surrender value"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "145",
+            "question_text": "<p>(a) State three marine perils.</p>\n<p>(b) List and explain three types of cover available under marine insurance.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2016",
+            "answer": "d"
+        },
+        {
+            "question_number": "142",
+            "question_text": "<p>what is the term for the period he will be allowed to reinstate the contract</p>",
+            "options": {
+                "A": "cooling off period",
+                "B": "repayments",
+                "C": "days of grace",
+                "D": "lays days"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "C"
+        },
+        {
+            "question_number": "144",
+            "question_text": "<blockquote>\n<p>PETER CITUKWU'S MOTOR INSURANCE CLAIM Mr. Peter Chukwu owns a Peugeot 406 saloon car which he insured for a value of #2,000,000.00 with Integrity Insurance Plc on comprehensive basis. He uses this vehicle for social, domestic, pleasure purposes and in connection with his business but not for hire and reward. One day, as he was going to the beach with his two children, Emeka and Pauline, he got involved in an accident with another car, a Honda Accord belonging to Mr. Bayo Samuel. Mr. Bayo Samuel was descending a hill at a high speed and consequently hit the back side of Mr. Peter Chukwu's cat damaging the rear bumper, two rear lights and the booth. An argument ensued between Mr. Peter Chukwu and Mr. Bayo Samuel as to how to settle the issue. It was however discovered that Mr. Bayo Samuel had a third party\u00a0motor insurance cover with Adequate Insurance Company Limited. The accident was reported to Integrity Insurance Plc by Mr. Peter Chukwu who subsequently submitted estimate of repairs, in the sum of two hundred and fifth thousand naira (N250,000.00). The insurer of Mr. Peter Chukwu admitted liability and paid the sum of one hundred and eighty thousand naira (#180,000.00) after adjustment and wrote to Adequate Insurance Company Limited for recovery of its outlay. Mr. Peter Chukwu took delivery of the damaged bumper and rear lights from\u00a0his mechanic after fixing his car and took them home with the intention of repairing them for sale.</p>\n</blockquote>\n<p><strong>Required</strong>:</p>\n<p>(a) Identify the principle involved in the case and why?</p>\n<p>(b) Explain the principle identified.</p>\n<p>(c) Who should take the delivery of the damaged parts of the Peugeot 406 car?</p>\n<p>(d) Explain two covers available under the insurance policy held by Mr. Peter Chukwu\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2016",
+            "answer": "d"
+        },
+        {
+            "question_number": "141",
+            "question_text": "<p>what is the sum assured for the policy</p>",
+            "options": {
+                "A": "N26,400",
+                "B": "N44,000",
+                "C": "N300,000",
+                "D": "N528,000"
+            },
+            "exam_year": "WAEC\n                        2016",
+            "answer": "D"
+        },
+        {
+            "question_number": "148",
+            "question_text": "<p>(a) Explain the term \"risk\" in insurance.</p>\n<p>(b) List and explain five features of insurance contracts.\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2016",
+            "answer": "d"
+        },
+        {
+            "question_number": "149",
+            "question_text": "<p>(a) What is endowment policy?</p>\n<p><em>(b) Differentiate between the following terms: </em></p>\n<p>(i) Third party and comprehensive motor insurance;\u00a0(ii) \u2022 Death benefit and maturity benefit; (iii) Contracts of life and non-life insurance.\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2016",
+            "answer": "d"
+        },
+        {
+            "question_number": "150",
+            "question_text": "<p>(a) Differentiate between whole life and endowment assurance.</p>\n<p>(b) State five uses of life assurance.</p>\n<p>(c) List and explain two benefits covered under life assurance.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2016",
+            "answer": "d"
+        },
+        {
+            "question_number": "146",
+            "question_text": "<p><em>Explain the following terms as used in insurance business: </em></p>\n<p>(a) Surrender value</p>\n<p>(b) Days of grace</p>\n<p>\u00a0(c) Ex-gratia payment</p>\n<p>\u00a0(d) Endorsement</p>\n<p>(e) Disclosure.<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2016",
+            "answer": "d"
+        },
+        {
+            "question_number": "147",
+            "question_text": "<p>(a) What is a \"discharge voucher\"?</p>\n<p>(b) State three duties each of the following in insurance claims: (.i) insured; (ii) underwriter.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2016",
+            "answer": "d"
+        },
+        {
+            "question_number": "152",
+            "question_text": "<p><em>(a) Explain the following terms used in insurance. </em><br/>\r\n(i) peril<br/>\r\n(ii) hazard.<br/>\r\n(iii) disclosure.</p>\n<p>(b) Differentiate . between the following classes of risks: (i) pure and speculative risks; particular and fundamental risks; (iii) static and dynamic risks.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2017",
+            "answer": "d"
+        },
+        {
+            "question_number": "154",
+            "question_text": "<p>(a)(i) What is a proposal form?<br/>\r\n(ii) List four general questions that are contained in a proposal form.</p>\n<p>(b) List and explain three documents used in effecting insurance contracts.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2017",
+            "answer": "d"
+        },
+        {
+            "question_number": "155",
+            "question_text": "<p>(a) What is reinsurance?</p>\n<p>(b) Explain four essential features of insurable interest.<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2017",
+            "answer": "d"
+        },
+        {
+            "question_number": "151",
+            "question_text": "<blockquote>\n<p>MADAM SCHOLASTICA'S HAIR SALON Madam Scholastica owns a big salon in centre of Lagos with fifty hair driers and two motorized: generators in a large premise. She had in her employment, sixty staff out of which forty five are professional stylists, five cashiers and ten support staff. The company makes a lot of money from\u00a0high class members of the society who\u00a0are prepared to pay heavily for their services at their convenience, even in their offices or homes. The company has comprehensive insurance cover. on 'all their four vehicles. It also has Employer's Liability Insurance which it Continues to renew for the past five years without making claims. \u00a0The policies were taken from different companies. Recently, a chemical was bought for washing hair which caused damage to .many customers' hair, this.led to the payment of compensation to, some customers while others deserted the salon. The director had been advised to obtain other insurance policies to cover their liabilities to customers and third parties but did *not do anything about it. In the last two weeks of operation, four staff had accident with the Company's car while returning from home service to a customer. Twb of them were seriously injured. A cashier disappeared, with a sum of N21-00;000 cash withdrawn from the company'S bank account.</p>\n</blockquote>\n<p>(a)Under\u00a0what policy will the injured employees be compensated?</p>\n<p>(b) State and explain two policies that the director should have taken to cover their liabilities to customers and third parties.</p>\n<p>(c) What other insurance policies would the company take in future to cover the cashiers that handle cash?</p>\n<p>(d) Explain two other insurance products that will be useful to the company.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2017",
+            "answer": "d"
+        },
+        {
+            "question_number": "153",
+            "question_text": "<p>(a) Explain two factors that could reduce the amount of indemnity under an insurance-contract.</p>\n<p>(b) A property owned by bal\u00a0Ltd was covered by three insurers, A, B and C for the Sum of N150,000, N120,000 and N90,000 respectively. The insured suffered a loss of N60,000. Calculate the liability of each insurer.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2017",
+            "answer": "d"
+        },
+        {
+            "question_number": "156",
+            "question_text": "<p>(a) Outline three types Of policy in motor insurance.</p>\n<p>(b) List and explain three scopes of cover. in motor insurance.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2017",
+            "answer": "d"
+        },
+        {
+            "question_number": "159",
+            "question_text": "<p><em><strong>(a) Explain the following concepts as used in insurance:</strong></em><br/>\r\n(i) subject matter of insurance<br/>\r\n(ii) subject matter of contract.</p>\n<p><em><strong>(b) State when a policy holder is expected to prove his insurable interest in the following classes of insurance:</strong></em><br/>\r\n(i) Burglary insurance<br/>\r\n(ii) Marine insurance<br/>\r\n(iii) Life assurance.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2018",
+            "answer": "d"
+        },
+        {
+            "question_number": "160",
+            "question_text": "<p>(a) Explain a fidelity guarantee insurance policy.</p>\n<p>(b) List and explain the four types of policies in fidelity guarantee insurance.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2018",
+            "answer": "d"
+        },
+        {
+            "question_number": "158",
+            "question_text": "<p><em>\u00a0Read the case below carefully and answer the questions which follow. </em></p>\n<blockquote>\n<p>\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 UNFAVOURABLE BUSINESS ENVIRONMENT<br/>\r\nGarola Kubusa Limited is a Manufacturer of packaging products and has been in operation for several years. The manufacturing industry has been experiencing Challenges and setbacks in recent times, the packaging sector seems to be the worst hit. The operating environment had not been conducive in the areas of power supply, fluctuating value of currency and inconsistent government policies. The plastic packaging sub-sector in which Garola Kubusa operates is not left out in these problems. The company gets its raw materials some of which are polypropylene and wax from a petrochemical plant located in Port Harbey, Rivers State from where they are transported by the company's trailers 'and at times by hired vehicles to the factory site in Asaba, Delta State. The company has not had it smooth due to losses arising from damage to plant and machinery, competition, fire, explosion, pilfering of company's finished products by the employees as well as embezzlement of funds. In severe cases, the company had to shut down for some months before repairs were carried out A good number of the company's customers had absconded with huge debts yet to be paid and left for other companies who are Garola Kubusa's competitors. The company is now considering various alternatives such as importation of raw materials, partly finished goods and finished products in order to restore customers' confidence and meet their demands and tastes while contracting out some of their manufacturing operations as Well to other companies operating in the sector.</p>\n</blockquote>\n<p>(a) Identify and explain four classes of insurance that could help Garola Kubusa Limited in its business operations.</p>\n<p>(b) Should Garola Kubusa Limited take insurance cover against losses arising from competition? Give reason for your answer.</p>\n<p>(c) If the company resort to importation of its raw materials and finished products; recommend and explain the appropriate insurance cover to take to that effect.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2018",
+            "answer": "d"
+        },
+        {
+            "question_number": "157",
+            "question_text": "<p><em>State five duties each of the following. </em></p>\n<p>(a) insurance brokers</p>\n<p>(b) insurance-agents</p>\n<p>(c) Nigerian Insurers Association.\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2017",
+            "answer": "d"
+        },
+        {
+            "question_number": "164",
+            "question_text": "<p>(a) List six experts that would require professional indemnity insurance in their operations.</p>\n<p><em>(b) Explain the cover provided by each of the following insurance 'policies:</em><br/>\r\n(i) personal liability<br/>\r\n(ii) public liability<br/>\r\n(ii) professional indemnity\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2018",
+            "answer": "d"
+        },
+        {
+            "question_number": "163",
+            "question_text": "<p>(a) Who is a loss assessor?</p>\n<p>(b) Explain three roles of a loss assessor.</p>\n<p>(c) State foul-functions of the Chartered Insurance Institute of Nigeria.<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2018",
+            "answer": "d"
+        },
+        {
+            "question_number": "162",
+            "question_text": "<p>(a) Outline three features of life assurance.</p>\n<p><em>(b) State three benefits each of life assurance to the;</em><br/>\r\n(i) individuals<br/>\r\n(ii) government\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2018",
+            "answer": "d"
+        },
+        {
+            "question_number": "161",
+            "question_text": "<p>\u00a0(a) State three roles of National Insurance Commission.</p>\n<p>(b) List and explain three methods of providing indemnity.\u00a0<br/>\r\n\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2018",
+            "answer": "d"
+        },
+        {
+            "question_number": "165",
+            "question_text": "<ul>\n<li>Explain aviation insurance.</li>\n<li>List and explain three covers provided by aviation insurance.</li>\n</ul>\n<ul>\n<li>technical feasibility;</li>\n<li>economic feasibility.</li>\n</ul>",
+            "options": {},
+            "exam_year": "WAEC\n                        2014",
+            "answer": "d"
+        },
+        {
+            "question_number": "167",
+            "question_text": "<ol>\n<li>Outline three properties covered in fire insurance.</li>\n<li>Enumerate six special perils covered in fire insurance.</li>\n<li>Explain three covers provided under standard fire policy.</li>\n</ol>",
+            "options": {},
+            "exam_year": "WAEC\n                        2014",
+            "answer": "d"
+        },
+        {
+            "question_number": "170",
+            "question_text": "<p>(a)Define the term employer's liability in insurance.</p>\n<p>(b)State three benefits that can be covered under employer's liability.</p>\n<p>(c)State three causes of business interruption.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2015",
+            "answer": "d"
+        },
+        {
+            "question_number": "166",
+            "question_text": "<ol>\n<li>(i)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Explain ECOWAS Brown Card.</li>\n</ol>\n<p>(ii)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 State\u00a0<strong>two\u00a0</strong>conditions under which ECOWAS Brown Card is issued</p>\n<p>2. List and explain\u00a0<strong>three</strong>\u00a0types of policies available under motor insurance.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2014",
+            "answer": "d"
+        },
+        {
+            "question_number": "169",
+            "question_text": "<p>Explain the following terms as used in insurance.</p>\n<p>(a)\u00a0re-insurance</p>\n<p>(b)\u00a0Loss adjusters</p>\n<p>(c)\u00a0underwriters</p>\n<p>(d) brokers</p>\n<p>(e)\u00a0assessor</p>\n<p>\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2015",
+            "answer": "d"
+        },
+        {
+            "question_number": "168",
+            "question_text": "<p>List and explain five principles of insurance.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2015",
+            "answer": "d"
+        },
+        {
+            "question_number": "172",
+            "question_text": "<p>List and explain three types of endowment policy.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2015",
+            "answer": "d"
+        },
+        {
+            "question_number": "171",
+            "question_text": "<p>Explain the following terms under marine insurance:</p>\n<p>(a)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0hull policy</p>\n<p>(b)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0cargo policy</p>\n<p>(c)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0freight policy</p>\n<p>(d)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 marine perils</p>\n<p>(e)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0average</p>\n<p>\u00a0</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2015",
+            "answer": "d"
+        },
+        {
+            "question_number": "173",
+            "question_text": "<p>(a)List seven contents of a certificate of insurance.</p>\n<p>(b)State four characteristics of a cover note.</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2015",
+            "answer": "d"
+        }
+    ]
+}

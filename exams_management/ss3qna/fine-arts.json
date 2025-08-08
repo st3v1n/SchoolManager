@@ -1,0 +1,605 @@
+{
+    "total_questions": 50,
+    "questions": [
+        {
+            "question_number": "1",
+            "question_text": "<p>The glory of the Gothic Cathedrals is their</p>",
+            "options": {
+                "A": "use of colour marbels",
+                "B": "simple architectural rendering",
+                "C": "use of magnificent stained glass",
+                "D": "complex architectural rendering"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "4",
+            "question_text": "<p>The first tertiary institution in Nigeria to have an art curriculum was</p>",
+            "options": {
+                "A": "Yaba College of Technology, Lagos",
+                "B": "Institute of Management Technology, Enugu",
+                "C": "University of Nigerua, Nsukka",
+                "D": "Ahmadu Bello University, Zaria"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "3",
+            "question_text": "<p>In traditional Nigerian art, there is a cultural and artistic connection between</p>",
+            "options": {
+                "A": "Nok and Ife",
+                "B": "Benin and Igala",
+                "C": "Nok Benin",
+                "D": "Ife and Benin"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "2",
+            "question_text": "<p>Dyes are colourants most suitable for</p>",
+            "options": {
+                "A": "printing on fabrics",
+                "B": "painting on walls",
+                "C": "drawing on canvas",
+                "D": "printing on papers"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "5",
+            "question_text": "<p>In lettering one of the principles is that round characters are placed</p>",
+            "options": {
+                "A": "apart",
+                "B": "closely",
+                "C": "at an angle",
+                "D": "overhead"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "6",
+            "question_text": "<p>Prehistoric cave paintings reflected</p>",
+            "options": {
+                "A": "animals",
+                "B": "building",
+                "C": "plants",
+                "D": "people"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "10",
+            "question_text": "<p>A spatula can be inprovised using</p>",
+            "options": {
+                "A": "feather",
+                "B": "wood",
+                "C": "charcoal",
+                "D": "clay"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "9",
+            "question_text": "<p>In Nigerua, thorn carving is practised in</p>",
+            "options": {
+                "A": "Shagamu and Oshogbo",
+                "B": "Owo and Ado -Ekiti",
+                "C": "Ado-Ekiti and Ilesha",
+                "D": "Owo and Shagamu"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "7",
+            "question_text": "<p>Captions used to enhance television announcements would be more understandable if produced as</p>",
+            "options": {
+                "A": "collage",
+                "B": "graphics",
+                "C": "painting",
+                "D": "mosaics"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "8",
+            "question_text": "<p>Which of the following does a textile artist use to form patterns?</p>",
+            "options": {
+                "A": "motif",
+                "B": "posters",
+                "C": "yam",
+                "D": "logo"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "13",
+            "question_text": "<p>Dogo of Mali is renown for its</p>",
+            "options": {
+                "A": "textile",
+                "B": "masks",
+                "C": "engravings",
+                "D": "decorations"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "12",
+            "question_text": "<p>Varninsh is essential for the protection of</p>",
+            "options": {
+                "A": "water colour painting",
+                "B": "pastel painting",
+                "C": "oil painting",
+                "D": "gouache painting"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "14",
+            "question_text": "<p>In computer graphics the name given to a device used in navigating the window environment is</p>",
+            "options": {
+                "A": "pencil",
+                "B": "ruling pen",
+                "C": "keyboard",
+                "D": "mouse"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "11",
+            "question_text": "<p>An armature is essential to the artists in executing large works in</p>",
+            "options": {
+                "A": "ceramics",
+                "B": "craft",
+                "C": "sculpture",
+                "D": "carving"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "15",
+            "question_text": "<p>Byzantine art emerged in the 4thcentury in</p>",
+            "options": {
+                "A": "Constantinople",
+                "B": "Crete",
+                "C": "Rome",
+                "D": "Paris"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "16",
+            "question_text": "<p>The use of lines to describe an object is known as</p>",
+            "options": {
+                "A": "drawing",
+                "B": "pottery",
+                "C": "painting",
+                "D": "graphics"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "17",
+            "question_text": "<p>Which of the following pigments can be obtained locally from clay?</p>",
+            "options": {
+                "A": "lemon yellow",
+                "B": "yellow ochre",
+                "C": "green",
+                "D": "blue"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "19",
+            "question_text": "<p>Which of the following is best arranged in order of softness?</p>",
+            "options": {
+                "A": "2B, H and 3B",
+                "B": "3B, 2B, H and HB",
+                "C": "H, HB, 2B and 3B",
+                "D": "3B, HB, H and 2B"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "18",
+            "question_text": "<p>Pointillism become more popular during</p>",
+            "options": {
+                "A": "the Renaissance",
+                "B": "Modern Art",
+                "C": "Classicsm",
+                "D": "Impressionism"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "20",
+            "question_text": "<p>Which of the following is regarded as the founder of Nigerian museums?</p>",
+            "options": {
+                "A": "Kenneth Murray",
+                "B": "William Faggs",
+                "C": "Jimoh Akolo",
+                "D": "Ben Enwonwu"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "21",
+            "question_text": "<p>In the pictorial composition given, the eye level is represented by line</p>",
+            "options": {
+                "A": "GH",
+                "B": "KL",
+                "C": "EF",
+                "D": "IJ"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "22",
+            "question_text": "<p>If the shape illustrated above is a mould, which of the following will best fit into it?</p>\n<p>i.</p>\n<p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABOCAYAAADM6VOKAAABKklEQVR4nO3XQWrDMABFQd3/0u4iBEpphLNo9RTNA++88NeAsceldGP1A2geoHiA4gGKBygeoHiA4gGKBygeoHiA4gGKBygeoHiA4gGKBygeoHiA4gGKlwYaI/14/1L6BAAtABpj3Dr4u/d9ektO4Hn4M4A795zQsvXfAX5DAPRo6foZEqBHKaDZdWrLlwOal1gO6XWJ1e+86k6DSqx9F+gkqG0+Ek4FW/6j+hfXJ7V8DZx5uUWng/wsu/B0mGfppYDiQNf1GumUtlgKaIMAxQO0QScibbcS0AYB2iBAG3QC0ucv3DxA8QDFAxQPUDxA8QDFAxQPUDxA8QDFAxQPUDxA8QDFAxQPUDxA8QDFAxQPUDxA8QDFAxQPUDxA8QDFAxQPUDxA8QDF+wKsm+baRtwgogAAAABJRU5ErkJggg==\"/></p>\n<p>ii.</p>\n<p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABFCAYAAAD+UTBQAAAA9ElEQVR4nO3Xyw7CMAwFUf//T5sFk/KQKgTUiavOrIHrnB2RlpmZsfqALglBQpAQJAQJQUKQECQECUFCkBC0HCJi+QmZuRgiIoTIfEB0wBBi3LJ0XIhXBCGEEOI++obQAUOIcdO0oZ3HdwEpWf3m0V1gylaOxqgGEWLcW/rjJwDYbp0y0hhgu3HKiBBPQ00BtvumDQnB0M6DLwXx6bEdMJZA/PqZyoQY++UDXzzwMhAVnz+qaRDV3/m38v8aZ0kIOs+lxQlBQpAQJAQJQUKQECQECUFCkBAkBAlBQpAQJAQJQUKQECQECUFCkBAkBAlBQpAQdAPM1C+N6UyWZAAAAABJRU5ErkJggg==\"/></p>\n<p>iii.</p>\n<p>\u00a0<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAA5CAYAAABphkbpAAAA4klEQVRoge3X0QrDIAwFUP//p8+eOsYYG11NjXAv+GQoyUHEDomxuoEOCYIgIAgIAoKAICAICAKCgCAgCAgCgoAgIAgIAoKAYoQxhjH6O9+C0B0iCCYjfBp6B4jpnb0O/b66pqSz3SCCoPBi3AliCcKvdXeC4ALClSE7ATDpJOwMQOFjaYfhn31P/dhmwx+Z1smOJ+DI0juhS4JgAsLZoTtCXOri20D/7q3IlMdSxf6dKf+LnFFXnaUIr7UrU4pwpn5lWiCszj6dFiYIgoAgIAgIAoKAICAICAKCgCAgCAgCeADCx/r8B1X/5wAAAABJRU5ErkJggg==\"/></p>\n<p>iv.</p>\n<p>\u00a0<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABHCAYAAACkuwGSAAAEjUlEQVR4nO3Y/0/UZQDAcf8JOdgd97nDQ8tpfsEvCYZmI50uaKSzudaipcuRGYqIX/rByvyCyNxFFKYg4ixbfunLKqqVk1Wb1oZoCQjmgQsGWyF3HNx9nufdD4CBBzzUvLuk5709P9xttz332vN5ns/nMwHdqE2I9gT+62kgRRpIkQZSpIEUaSBFGkiRBlKkgRRpIEUaSJEGUqSBFGkgRRpIkQZSpIEUaSBFGkiRBlKkgRRpIEURA5JSDh2ibwhTIIWM1DT+cREDEkLg9/vxer00NTVx6eJFXt+1i3dKimlu9iClRAiBlEOxTNMkEAiEfB+pInqJDSAIIfB6u8hev45tWzfTeL0eIUzq6q7R0FCP3+8P+c3/AmggKSVXai+zKjODFUvTuHD+O253/sHO7XmUFLvxer3RmNawRQ2ovOwIKQvm4nIanDhewfGKMhanJlNUWEBX1+1oTGvYogAkCQYCvLwhG5czHsMWyzNrVrM0bQmO+DgKC/bR2fln5Kc1QlEBqq/7lVWZGRg2C4bNgiM+FsNmwW6NoehgAV5vV+SnNUJR2aQ/PPU+jz6SfAdoMFRJsZve3t5ITmvUInofJITgl6u1PPfsGhIT7CFAhtXC228doqfH339yDQwJUoL8+34qUoUVaPCNYXe3j4pj5SxcMBe7NSYEx26NwbDGMC9pBk+vXsn6F9eSm5tDYeF+jh49THnZe5SXHebTT87R0twcMaSwA3V3d/PxuTOkL1+Gy2HHsMWGrpzBUMMNq4XJLicrM5/k5IlK2lp/vz+BpJSYpklHRwfnv/2Ggwf2sTg1mUmGFcPadwmNhtM3YvpXU9/n2TOmkrMxmx9/+J5gIHjnpvG+BfJ4PGRlZbEoNYWU5HkkuhzYB19GYwSaM2s6e/e8wc2bNzDNAFKKeznVMXfPL7E7jxPSRIgg7e1tfHCygtVPpfNAomNMQFNcdt4tcWOaQQQggGg9zoYF6O4hpCBo9lJx7AgpDycpgQybhfXrnufqlcuYQiCkHB9AUkp6enpC9gcBBIMB3IeKmJv00JCTa2DcfaK5nDa2b8vD4/FE7UEVwgAkROheIYAbvzXxxIplQ/ajyZPsbH4lm88/O8uB/btZuGAOxiCs+fOSqKysHD9AIxXo7SF/yyamTUnAYZ2IMz6OtS9kUV19AZ/PB/Th1tTUsHPHdubPmYlhm4jTbmHnjjza29vG9+uOr6uqWLwwGUf/0b0lN4fGxush73mklASDQb6q+pKM9OXYrTGkLUnl7JmPhl2ZkSjsN4pCCDZueIkHExNw2uJ4c/drtNxqGXHjHfhNff01Xt2xldmzppGfn0dbW2tUVlHYgRoaGnj8sUXMnD6Vgr17uNXSMubV4PN1cfr0KfLzc6mq+iIqbxbDDuR2u9mUs5Gff7pEb/8JN9Y/KaVACJPq6guUlpZSW1s7/oBaW1vx+byYpvmv/9zgd9njCmg8pIEUaSBFGkiRBlKkgRRpIEUaSJEGUqSBFGkgRRpIkQZSpIEUaSBFGkiRBlKkgRRpIEUaSJEGUqSBFGkgRRpIkQZS9BcxIq77IeARNgAAAABJRU5ErkJggg==\"/></p>\n<p>\u00a0\u00a0</p>",
+            "options": {
+                "A": "i",
+                "B": "ii",
+                "C": "iii",
+                "D": "iv"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "25",
+            "question_text": "<p>Wood carving in Yorubaland was primarily meant for</p>",
+            "options": {
+                "A": "royalty",
+                "B": "economic purpose",
+                "C": "ceremony",
+                "D": "religious purpose"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "24",
+            "question_text": "<p>An atomizer is most ideal in the application of</p>",
+            "options": {
+                "A": "fixative",
+                "B": "polymer",
+                "C": "linseed oil",
+                "D": "poster colours"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "23",
+            "question_text": "<p>Which of the following are characteristics of Egyptian arts?</p>",
+            "options": {
+                "A": "Rigidity and frontality",
+                "B": "use of bright and raw colours",
+                "C": "short feet and small thighs",
+                "D": "roundness of shoulder"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "26",
+            "question_text": "<p>i.\u00a0 <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAABhCAYAAACj6z3cAAABf0lEQVR4nO3XUWrDMBAGYd0fesFcRn0pRrg21CGj/aXOgF+9ux8h4NYNq1UvsHPigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigi2D21q7fJLL3u6nO9h05Mythv4Cmwqct9HQE1hxH/YUNw04a5tT4oKJCyYunLhwqwLnbHLRO38LSdBxuJ8ATcGOwaVRK5AjcGfDzgIux62CnQFcilsNSwOX4VaDbotbjSnuBsDTcasRxRX3zYEBkDNgexd3L9zes4DRO9G33w0NQKVhe//HHxFTbpwy5W74pqjHfVOnXS2wIepxW8nUU7uhHneVTj+1A+hYziZDK4OOZW7V+y+0FTDPrbHlookLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDiUr2+xCUTF0xcMHHBxAUTF0xcMHHBQNwX9+pF8pcLJi6YuGDign0DzfCUYk98EEwAAAAASUVORK5CYII=\" style=\"height:95px; width:85px\">\u00a0\u00a0 ii. <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABLCAYAAADj9dDIAAABV0lEQVR4nO3ZwQ6CMBAA0f7/T9eTxhiJirPbXTqTcPAALS8kFjqmIY3VE7hKQkIJCSUklJBQQkIJCSUklJBQQkIJCSUklJBQQkIJCSUkVGvIMcbjWN36GZzsGbACZmvI198rMVtCHqGtxGwH+QlrFWYryG+RVmC2gfwVR8g3nX3CMjHbQJ49LwuzPOS/GFmYpSEphAzMspD0zUdjloSMuunId/NykOFPzk6QGWPQ45SCTF2uXBlyzrxFtJDQGEJCY2wBGb543uFfe86cJRB+TfyKQJGQ26wj70W+3US0FWTokx5yVaiIDxdRlYacs8+ntPKQc/b4uNsKsvKWQwvIe2dA3Go46Ne9bTe/PvQMdXSkzid1tKBWAj7msGTUCyYklJBQQkIJCSUklJBQQkIJCSUklJBQQkIJCSUklJBQQkIJCSUklJBQQkIJCSUklJBQQkIJCSUk1A0BYVPW6MOy2wAAAABJRU5ErkJggg==\" style=\"height:75px; width:66px\">iii.<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABICAYAAACOVhllAAABxUlEQVR4nO2Y247DIAwF8/8/TZ9YVcihBsZgVmekKIm5lExxIX2KWOY5PYD/gCQCSCKAJAJIIoAkAkgigCQCSCKAJAJIIoAkAkgigCQCSCKAJAJIIoAkAkgigCQCXCHxeR73cWR8Rz7VwYi404LTSew9eBt7qzPSJzJmvMcF2gedEdkTFSUyjUTv7LNiMyJJUkgcnX1W7KTIdBKt+15stJ+3tiscl0imsbdOLz5DCon1fEIkwVGJK2k8utXxbodmOCZxJY2t2KxYglCJ7SbX2vSuiuzV8dwThEm0Zlr07PPUab9AghCJ1oyzyj2xX21XRKaVuLLF8Ij11ptdsWcIl/gWq/GZtkSqXyExUpA31qtDCSwlSGI9ZxR5lcR6vUPQzEGC9jaywnrb9tLxtLy/MeEdDv7A/4pHpyLBloVlReSOmbRKqERaZFZC03l2AfmOZxdYSuBrXz0TIrMT+u7cXlvlb7FbBJay4V+c9toqb2M3CSwlUGIp9p7OKrfq30T4aHsid26II9k24hNvEru4e/RJkEQASQSQRABJBJBEAEkEkEQASQSQRABJBJBEAEkEkEQASQSQRABJBJBEAEkEkEQASQT4AN+JhiXS9XldAAAAAElFTkSuQmCC\">iv. <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAABKCAYAAADdV4jdAAABgklEQVR4nO3Z0U6EMBQGYd7/pY9XJIQsKYXa+bs7k3jharbHr40gbmVYGz3ALyc+mPhg4oOJDyY+mPhg4oOJDyY+mPhg4oOJDyY+mPhg4oOJDyY+mPhg4oOJDxaPv21b82PVoidvAa++CbET96KuuAlxk75BXG0DoqYchbfKBsRMOOLEt15LK2K6T/A9cFcbl74B+GRX8E8utr1fo0Onap3YUWjif1p80qkU/7zwRHjxj4tOBBH/uOBkDPH3xR5cSFvff+c9xa9np3AUfuIGTMc/fz4C7g5s4gZMm2bG/fzdGVI2AcXfX5/ZT+Mn/PAJM1SBt5o9/6EasXFXz4/I8L9wex+ovbljEv88wIOT3fv4+PzeCfBVAfhPevPsPgW+alH8qv7f4SkX+2M5k3TWe9LT4Ku+GD8ZfS9zqpv9xy3pzPInvNEq2OfWm/iLEh9MfDDxwcQHEx9MfDDxwcQHEx9MfDDxwcQHEx9MfDDxwcQHEx9MfDDxwcQHEx9MfDDxwf4ADOgL1YpLgVsAAAAASUVORK5CYII=\"/></img></img></img></p>\n<p>From the diagram above, the effect of solidity is best exhibited in?</p>",
+            "options": {
+                "A": "iii",
+                "B": "i",
+                "C": "iv",
+                "D": "ii"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "30",
+            "question_text": "<p>Literary art involves</p>",
+            "options": {
+                "A": "poetry and prose",
+                "B": "drama",
+                "C": "architecture",
+                "D": "painting and sculpture"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "29",
+            "question_text": "<p>The Zaria Art School is known for its</p>",
+            "options": {
+                "A": "motif design",
+                "B": "natural synthesis",
+                "C": "unnatural synthesis",
+                "D": "freedom of expression"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "27",
+            "question_text": "<p>Which of the following grades of pencils is good for making marks?</p>",
+            "options": {
+                "A": "4B",
+                "B": "2H",
+                "C": "4H",
+                "D": "HB"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "28",
+            "question_text": "<p>Artworks that are produced to serve a utilitarian purpose are classified as?</p>",
+            "options": {
+                "A": "theatre arts",
+                "B": "liberal arts",
+                "C": "applied arts",
+                "D": "fine arts"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "31",
+            "question_text": "<p>A permanent pattern made on the skin is called</p>",
+            "options": {
+                "A": "graffito",
+                "B": "body painting",
+                "C": "body design",
+                "D": "tatoo"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "33",
+            "question_text": "<p>Ikogosi Warm Spring is decribed as a natural phenomenon because it</p>",
+            "options": {
+                "A": "occurs naturally in the wet season",
+                "B": "occurs naturally",
+                "C": "is artificially kept warm",
+                "D": "is naturally warm in the dry season"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "32",
+            "question_text": "<p>Which of the following supports was used by Roman painters for expression?</p>",
+            "options": {
+                "A": "Walls",
+                "B": "Canvas",
+                "C": "Metal panels",
+                "D": "Wooden panels"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "35",
+            "question_text": "<p>In corel draw application, ruler guide is used to get the</p>",
+            "options": {
+                "A": "accurate size of a given object",
+                "B": "lower size of a given object",
+                "C": "top size of a given object",
+                "D": "inaccurate size of a given object"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "34",
+            "question_text": "<p>Which of the following towns is famous for the production of calabash?</p>",
+            "options": {
+                "A": "Jos",
+                "B": "Nok",
+                "C": "Oyo",
+                "D": "Benin"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "36",
+            "question_text": "<p>The Egyptian sculptural piece that is hald animal is the</p>",
+            "options": {
+                "A": "Nefetiti",
+                "B": "Masteba",
+                "C": "Sphinx",
+                "D": "Mummy"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "38",
+            "question_text": "<p>The starch used for designing in adire-eleko is boiled with</p>",
+            "options": {
+                "A": "indigo dye and white alum",
+                "B": "yellow dye and white alum",
+                "C": "red dye and white alum",
+                "D": "green dye and white alum"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "39",
+            "question_text": "<p>The Mbari artists were mainly based in</p>",
+            "options": {
+                "A": "Esie",
+                "B": "Oshogbo",
+                "C": "Lagos",
+                "D": "Ibadan"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "40",
+            "question_text": "<p>Mosaic art of decoration was introduced during the</p>",
+            "options": {
+                "A": "Romanesque period",
+                "B": "Gothic period",
+                "C": "prehistoric period",
+                "D": "Medieval period"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "37",
+            "question_text": "<p>Calligraphy pen can be preserved after use by</p>",
+            "options": {
+                "A": "steaming in hot water",
+                "B": "oiling",
+                "C": "greasing",
+                "D": "rinsing in cold water"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "44",
+            "question_text": "<p>i.\u00a0 <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAABhCAYAAACj6z3cAAABf0lEQVR4nO3XUWrDMBAGYd0fesFcRn0pRrg21CGj/aXOgF+9ux8h4NYNq1UvsHPigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDigi2D21q7fJLL3u6nO9h05Mythv4Cmwqct9HQE1hxH/YUNw04a5tT4oKJCyYunLhwqwLnbHLRO38LSdBxuJ8ATcGOwaVRK5AjcGfDzgIux62CnQFcilsNSwOX4VaDbotbjSnuBsDTcasRxRX3zYEBkDNgexd3L9zes4DRO9G33w0NQKVhe//HHxFTbpwy5W74pqjHfVOnXS2wIepxW8nUU7uhHneVTj+1A+hYziZDK4OOZW7V+y+0FTDPrbHlookLJi6YuGDigokLJi6YuGDigokLJi6YuGDigokLJi6YuGDiUr2+xCUTF0xcMHHBxAUTF0xcMHHBQNwX9+pF8pcLJi6YuGDign0DzfCUYk98EEwAAAAASUVORK5CYII=\" style=\"height:95px; width:85px\">\u00a0\u00a0 ii. <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABLCAYAAADj9dDIAAABV0lEQVR4nO3ZwQ6CMBAA0f7/T9eTxhiJirPbXTqTcPAALS8kFjqmIY3VE7hKQkIJCSUklJBQQkIJCSUklJBQQkIJCSUklJBQQkIJCSUkVGvIMcbjWN36GZzsGbACZmvI198rMVtCHqGtxGwH+QlrFWYryG+RVmC2gfwVR8g3nX3CMjHbQJ49LwuzPOS/GFmYpSEphAzMspD0zUdjloSMuunId/NykOFPzk6QGWPQ45SCTF2uXBlyzrxFtJDQGEJCY2wBGb543uFfe86cJRB+TfyKQJGQ26wj70W+3US0FWTokx5yVaiIDxdRlYacs8+ntPKQc/b4uNsKsvKWQwvIe2dA3Go46Ne9bTe/PvQMdXSkzid1tKBWAj7msGTUCyYklJBQQkIJCSUklJBQQkIJCSUklJBQQkIJCSUklJBQQkIJCSUklJBQQkIJCSUklJBQQkIJCSUk1A0BYVPW6MOy2wAAAABJRU5ErkJggg==\" style=\"height:75px; width:66px\">iii.<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABICAYAAACOVhllAAABxUlEQVR4nO2Y247DIAwF8/8/TZ9YVcihBsZgVmekKIm5lExxIX2KWOY5PYD/gCQCSCKAJAJIIoAkAkgigCQCSCKAJAJIIoAkAkgigCQCSCKAJAJIIoAkAkgigCQCXCHxeR73cWR8Rz7VwYi404LTSew9eBt7qzPSJzJmvMcF2gedEdkTFSUyjUTv7LNiMyJJUkgcnX1W7KTIdBKt+15stJ+3tiscl0imsbdOLz5DCon1fEIkwVGJK2k8utXxbodmOCZxJY2t2KxYglCJ7SbX2vSuiuzV8dwThEm0Zlr07PPUab9AghCJ1oyzyj2xX21XRKaVuLLF8Ij11ptdsWcIl/gWq/GZtkSqXyExUpA31qtDCSwlSGI9ZxR5lcR6vUPQzEGC9jaywnrb9tLxtLy/MeEdDv7A/4pHpyLBloVlReSOmbRKqERaZFZC03l2AfmOZxdYSuBrXz0TIrMT+u7cXlvlb7FbBJay4V+c9toqb2M3CSwlUGIp9p7OKrfq30T4aHsid26II9k24hNvEru4e/RJkEQASQSQRABJBJBEAEkEkEQASQSQRABJBJBEAEkEkEQASQSQRABJBJBEAEkEkEQASQT4AN+JhiXS9XldAAAAAElFTkSuQmCC\">iv. <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAABKCAYAAADdV4jdAAABgklEQVR4nO3Z0U6EMBQGYd7/pY9XJIQsKYXa+bs7k3jharbHr40gbmVYGz3ALyc+mPhg4oOJDyY+mPhg4oOJDyY+mPhg4oOJDyY+mPhg4oOJDyY+mPhg4oOJDxaPv21b82PVoidvAa++CbET96KuuAlxk75BXG0DoqYchbfKBsRMOOLEt15LK2K6T/A9cFcbl74B+GRX8E8utr1fo0Onap3YUWjif1p80qkU/7zwRHjxj4tOBBH/uOBkDPH3xR5cSFvff+c9xa9np3AUfuIGTMc/fz4C7g5s4gZMm2bG/fzdGVI2AcXfX5/ZT+Mn/PAJM1SBt5o9/6EasXFXz4/I8L9wex+ovbljEv88wIOT3fv4+PzeCfBVAfhPevPsPgW+alH8qv7f4SkX+2M5k3TWe9LT4Ku+GD8ZfS9zqpv9xy3pzPInvNEq2OfWm/iLEh9MfDDxwcQHEx9MfDDxwcQHEx9MfDDxwcQHEx9MfDDxwcQHEx9MfDDxwcQHEx9MfDDxwf4ADOgL1YpLgVsAAAAASUVORK5CYII=\"/></img></img></img></p>\n<p>The illustration reflects contrast of</p>",
+            "options": {
+                "A": "tone and size",
+                "B": "size and texture",
+                "C": "shape and size",
+                "D": "tone and shape"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "42",
+            "question_text": "<p>Plasticine is an art medium that can be used in place of</p>",
+            "options": {
+                "A": "wood",
+                "B": "ivory",
+                "C": "mud",
+                "D": "clay"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "D"
+        },
+        {
+            "question_number": "41",
+            "question_text": "<p>Emphasis in a composition, means that attention is drawn to</p>",
+            "options": {
+                "A": "the entire surface of the composition",
+                "B": "certain parts than others",
+                "C": "colour harmony",
+                "D": "colours predominantly used"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "43",
+            "question_text": "<p>The effect produced by the combination of light, shape and colour is</p>",
+            "options": {
+                "A": "shading",
+                "B": "painting",
+                "C": "plating",
+                "D": "serigraphy"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "45",
+            "question_text": "<p>The famous artist who worked with Suzanne Wenger was</p>",
+            "options": {
+                "A": "Twin Seven Seven",
+                "B": "Ulli Beier",
+                "C": "Jimoh Buraimoh",
+                "D": "Jimoh Akolo"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "B"
+        },
+        {
+            "question_number": "48",
+            "question_text": "<p>Architecture, an important feature of the built environment, is an example of</p>",
+            "options": {
+                "A": "Literary Art",
+                "B": "Coptic Art",
+                "C": "Visual Art",
+                "D": "Performing Art"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "47",
+            "question_text": "<p>The design above is composed of</p>",
+            "options": {
+                "A": "elliptical forms",
+                "B": "elliptical shapes",
+                "C": "basic shapes",
+                "D": "basic forms"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "C"
+        },
+        {
+            "question_number": "50",
+            "question_text": "<p>An abstract art is a realistic representation of</p>",
+            "options": {
+                "A": "distorted representation of an art",
+                "B": "still life drawings",
+                "C": "drawing of human figures",
+                "D": "nature"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "46",
+            "question_text": "<p>The annual Igwe Festival is celebrated in</p>",
+            "options": {
+                "A": "Benin",
+                "B": "Akure",
+                "C": "Ondo",
+                "D": "Warri"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        },
+        {
+            "question_number": "49",
+            "question_text": "<p>A work of art is successful if the</p>",
+            "options": {
+                "A": "elements are well organized",
+                "B": "colours are sharp",
+                "C": "surface is bright",
+                "D": "work is monumental"
+            },
+            "exam_year": "JAMB\n                        2018",
+            "answer": "A"
+        }
+    ]
+}

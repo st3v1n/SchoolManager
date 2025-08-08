@@ -1,0 +1,781 @@
+{
+    "total_questions": 68,
+    "questions": [
+        {
+            "question_number": "1",
+            "question_text": "<p>B\u00ed aago m\u00e9l\u00f2\u00f3 ni awak\u00f2 t\u00f3\u00f3 so p\u00e9 \u00f2un k\u00f2 le lo m\u00f3?</p>",
+            "options": {
+                "A": "M\u00e9w\u00e0\u00e1",
+                "B": "M\u00e9je",
+                "C": "M\u00e1r\u00f9n-\u00fan",
+                "D": "M\u00e9rin"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "2",
+            "question_text": "<p>oj\u00fa oj\u00f3 t\u1ec9 \u0144 'po firf t\u00fam\u00f2 s\u0128 p\u00e9</p>",
+            "options": {
+                "A": "ile ti \u0144 \u015f\u00fa",
+                "B": "oj\u00fam\u00f3 ti \u0144 m\u00f3",
+                "C": "\u00e0\u00e0jin ti \u0144 jin",
+                "D": "\u00f2\u00f2r\u00f9n ti \u0144 kan \u00e0t\u00e0r\u00ed"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "3",
+            "question_text": "<p>\u015eeun f\u00e9\u00e9 yera f\u00fan eni t\u00ed\u00f3 j\u00ed r\u00ed nitori\u00a0</p>",
+            "options": {
+                "A": "\u00f2j\u00f2 r\u00f2",
+                "B": "awak\u00f2 k\u00f2 m\u1ecd ok\u00f2 w\u00e0 d\u00e1ad\u00e1a",
+                "C": "\u00f3 gb\u00e0 p\u00e9 \u00f2un ni \u00f3 k\u00f3 \u00f2si b\u00e1 \u00f2un",
+                "D": "il\u00e8 \u015f\u00fa"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "4",
+            "question_text": "<p>\u015eeun gb\u00e0 p\u00e9 \u00f2un ti \u015fi rin nitor\u00ed p\u00e9</p>",
+            "options": {
+                "A": "ok\u00f2 ti b\u00e0j\u00e9 k\u00ed w\u00f3n t\u00f3\u00f3 d\u00e9 \u015e\u00e0g\u00e1m\u016f",
+                "B": "oj\u00fa oj\u00f3 po fir\u00ed k\u00ed \u00f3 t\u00f3\u00f3 d\u00e9 \u00ecd\u1ea7nr\u00e8",
+                "C": "\u00f3 w\u00e1 ok\u00f2 f\u00fan odidi w\u00e1k\u00e0t\u00ed kan",
+                "D": "\u00f3 ko op\u00f2lopo i\u015f\u00f2ro n\u00ed oj\u00fa \u00f2n\u00e0 r\u00e8 s\u00ed \u00edd\u00e0nr\u00e8"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "5",
+            "question_text": "<p>\u00c0kol\u00e9 t\u00ed \u00f3 b\u00e1 \u00e0yok\u00e0 yii mu j\u00f9 l\u1ecd ni</p>",
+            "options": {
+                "A": "Ok\u1ef3 b\u00e0j\u00e9 s\u00ed \u1ef3n\u00e0 \u015e\u00e0g\u00e1m\u00f9",
+                "B": "\u00d6j\u00f2 t\u00ed\u00f3 r\u00f2 n\u00ed Or\u00e8",
+                "C": "Oj\u00f3 kan t\u00ed \u0144 k\u00f2 l\u00e8 gb\u00e0gb\u00e9",
+                "D": "\u0130rin-\u00e0j\u00f2 s\u00ed Ogbol\u00fa"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "10",
+            "question_text": "<p>B\u00e1wo ni eni t\u00ed \u00f3 b\u00edmo se j\u00e9 s\u00ed Ad\u00e9ol\u00e1?</p>",
+            "options": {
+                "A": "Egb\u00f3n r\u00e8",
+                "B": "Or\u00e9 r\u1ec7",
+                "C": "\u0130y\u00e1 r\u00e8",
+                "D": "Ab\u00far\u00f2 r\u00e8"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "8",
+            "question_text": "<p>Okan n\u00edn\u00fa \u00e0w\u1ecdn ibeji n\u00e1\u00e0 j\u00e9 Ain\u00e1 n\u00edtor\u00ed p\u00e9 \u00f3</p>",
+            "options": {
+                "A": "doj\u00fa bol\u00e8 w\u00e0 s\u00e1y\u00e9",
+                "B": "gb\u00e9 ibi k\u00f3r\u00f9n",
+                "C": "j\u00e9 ob\u00ecnrin",
+                "D": "j\u00e9 ok\u00f9nrin"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "9",
+            "question_text": "<p>Okan l\u00e1ra ohun-\u00e8l\u00f2 isomol\u00f3r\u00fako t\u00ed y\u00f3\u00f2 bi ik\u00fa d\u00e0n\u1ee7 ni</p>",
+            "options": {
+                "A": "or\u00f3gb\u00f3",
+                "B": "ataare",
+                "C": "ir\u00e8k\u00e9",
+                "D": "obi"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "7",
+            "question_text": "<p>A m\u00e1a \u0144 s\u1ecd omobinrin l\u00f3r\u00fako n\u00ed oj\u00f3</p>",
+            "options": {
+                "A": "k\u0119f\u00e0",
+                "B": "keje",
+                "C": "k\u0119jo",
+                "D": "k\u0119s\u00e0n-\u00e1n"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "6",
+            "question_text": "<p>a ni \u00f3 d\u00e9 b\u00e1 T\u00e1y\u00e9 \u00e0ti Ad\u00e9ol\u00e1 n\u00edbi t\u00ed w\u00f3n ti \u0144 sor? s\u00e1y\u00e9.</p>",
+            "options": {
+                "A": "Ab\u00f3s\u00e8d\u00e9",
+                "B": "\u0100j\u00e0y\u00ed",
+                "C": "Ol\u00e1id\u00e9",
+                "D": "Ain\u00e1"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "11",
+            "question_text": "<p>\u00d2kan l\u00e1ra igb\u00e9s\u00e8 ti \u00f3 ya kik\u1ecd l\u00e9t\u00e0 \u00e0igbagb\u00e8f\u00e9 s\u00f3t\u00f2 ni.</p>",
+            "options": {
+                "A": "ik\u00e1dii",
+                "B": "d\u00e9\u00e8ti",
+                "C": "\u00e0dir\u00e9si akol\u00e9t\u00e0",
+                "D": "\u00e0kol\u00e9 l\u00e9t\u00e0"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "15",
+            "question_text": "<p>\u00c8wo ni k\u00f2 t\u00f2n\u00e0? ni</p>",
+            "options": {
+                "A": "Ob\u00e8",
+                "B": "\u0130g\u00f2",
+                "C": "Ak\u00fan",
+                "D": "Ol\u00e8"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "14",
+            "question_text": "<p>\"Ow\u00f3 l\u00e8gb\u00f3n, omo l\u00e0b\u00far\u1edd\", l\u00e8 j\u00e9 or\u00ed-or\u00f2 f\u00fan \u00e0r\u00f2ko</p>",
+            "options": {
+                "A": "a\u015f\u00e0p\u00e8j\u00fawe",
+                "B": "A\u015f\u00e0r\u00edy\u00e0njiy\u00e0n",
+                "C": "asot\u00e0n",
+                "D": "ajem\u00f3-isipay\u00e1"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "12",
+            "question_text": "<p>\"ij\u00e0nb\u00e1 ok\u00f2 kan ti \u00f3 s\u00f3j\u00fa mi\", l\u00e8 j\u00e9 or\u00ed-or\u00f2 f\u00fan \u00e0r\u00f2ko\u00a0</p>",
+            "options": {
+                "A": "ajem\u00f3-isipay\u00e1",
+                "B": "a\u015f\u00e0p\u00e8j\u00fawe",
+                "C": "asot\u00e0n",
+                "D": "A\u015f\u00e0riy\u00e0njiy\u00e0n"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "13",
+            "question_text": "<p>\"Il\u00e9 ay\u00e9\", l\u00e8 j\u00e9 or\u00ed-\u00f2r\u00f2 f\u00fan \u00e0r\u00f2ko</p>",
+            "options": {
+                "A": "a\u015f\u00e0p\u00e8j\u00fawe",
+                "B": "ajem\u00f3-isipay\u00e1",
+                "C": "A\u015f\u00e0r\u00edy\u00e0njiy\u00e0n",
+                "D": "as\u00f2t\u00e0n"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "19",
+            "question_text": "<p>K\u00f3\u0144s\u00f3n\u00e1\u0148ti t\u00ed \u00e0 \u0144 fi \u00e0j\u00e0-enu \u00e0ti \u00e0\u00e0rin ah\u00f3n p\u00e8 ni\u00a0</p>",
+            "options": {
+                "A": "[f]",
+                "B": "[s]",
+                "C": "[j]",
+                "D": "[g]"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "18",
+            "question_text": "<p>Ewo ni on\u00e0 i\u015fenup\u00e8 r\u00e8 j\u00e9 \u00e0s\u00e9\u00e8s\u00e9t\u00e1n?</p>",
+            "options": {
+                "A": "[w]",
+                "B": "[d]",
+                "C": "[r]",
+                "D": "[I]"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "16",
+            "question_text": "<p>F\u00e1w\u00e8li \u00e0r\u00e1nm\u00fap\u00e8, \u00e0h\u00e1nup\u00e8 iw\u00e1j\u00fa ni</p>",
+            "options": {
+                "A": "i",
+                "B": "an",
+                "C": "in",
+                "D": "u"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "20",
+            "question_text": "<p>\"B\u00f3\u0144d\u00f9r\u00f9\" j\u00e9 \u00f2r\u00f2 \u00e0y\u00e1l\u00f2 t\u00ed a y\u00e1 n\u00edpas\u00e8</p>",
+            "options": {
+                "A": "\u00f2l\u00e0j\u00fa",
+                "B": "oro-aj\u00e9",
+                "C": "\u00e8t\u00f2-\u00e8k\u00f3",
+                "D": "\u00e8sin"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "17",
+            "question_text": "<p>M\u00f3fim\u00f9 m\u00e9l\u00f2\u00f3 l\u00f3 w\u00e0 n\u00edn\u00fa '\u00f2p\u00e9l\u00e9\u0144g\u00e9?</p>",
+            "options": {
+                "A": "M\u00e9ji",
+                "B": "M\u00e9ta",
+                "C": "M\u00e9rin",
+                "D": "M\u00e1r\u00f9n-\u00fan"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "23",
+            "question_text": "<p>N\u00edin\u00fa \"Op\u1ed9\u00a0\u00e8niy\u00e0n l\u00f3 w\u00e0 n\u00edb\u0117, \u0121p\u00f2 j\u00e9 \u00f2ro oruko\u00a0</p>",
+            "options": {
+                "A": "ibikan",
+                "B": "asoye",
+                "C": "\u00e0fih\u00e0n",
+                "D": "igba"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "25",
+            "question_text": "<p>\u00c5p\u00f3l\u00e0 or\u00fak\u1ecd t\u00ed k\u00f2 n\u00ed \u00e0p\u00f3nl\u00e9 \u00e8y\u00e1n n\u00edn\u00fa ni</p>",
+            "options": {
+                "A": "il\u00e9 nl\u00e1 m\u00e9ji",
+                "B": "iy\u00e0w\u00f3 kan \u015fo\u015fo",
+                "C": "omi t\u00fat\u00f9 nini",
+                "D": "eni m\u00e9ji p\u00e9r\u00e9"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "21",
+            "question_text": "<p>\u00c8y\u00ed t\u00ed \u00f3 n\u00ed a\u015f\u00e1\u00e1j\u00fa or\u00e0-i\u015fe n\u00edn\u00fa ni</p>",
+            "options": {
+                "A": "\u00d3 p\u00e0d\u00e9\u00e8 mi",
+                "B": "\u1ede r\u00f2 mi ro ire",
+                "C": "\u00d3 \u0144 f\u00e9\u00e9 l\u1ecd",
+                "D": "\u00d3 \u015fe mi l\u00f3ore"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "24",
+            "question_text": "<p>N\u00edn\u00fa \"\u00f3 p\u00e0d\u00e9 mi\", p\u00e5d\u00e9 j\u1ec7 \u00f2r\u1ef3-i\u015fe</p>",
+            "options": {
+                "A": "al\u00e1il\u00e9n\u00ed",
+                "B": "al\u00e1p\u00e8pad\u00e0",
+                "C": "\u00e0k\u00e0nm\u00f3r\u00fako",
+                "D": "agb\u00e8r\u00fan"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "22",
+            "question_text": "<p>\u0130sodor\u00fako \u00e8l\u00f2 ni\u00a0</p>",
+            "options": {
+                "A": "ipara",
+                "B": "el\u00e9g\u00e0n",
+                "C": "\u00e0ll\u00f3w\u00f3",
+                "D": "osoose"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "29",
+            "question_text": "<p>They greeted him with little enthusiasm.</p>",
+            "options": {
+                "A": "W\u00f3n k\u00ed i g\u00e1n-\u00fan",
+                "B": "W\u00f3n y\u00f3\u00f2 ki g\u1ea3n-\u00fan",
+                "C": "W\u00f3n l\u00e8 k\u00ed i g\u00e1n-\u00fan",
+                "D": "W\u00f3n f\u00e9\u00e9 k\u00ed i g\u00e1n-\u00fan"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "27",
+            "question_text": "<p>We had just finished our evening mean when he entered.</p>",
+            "options": {
+                "A": "A s\u00e8s\u00e8 je o\u00fanje al\u00e9 t\u00e1n ni \u1ecf wol\u00e9.",
+                "B": "A\u0144 je o\u00fanje al\u00e9 l\u00f3w\u00f3 ni \u00f3 wol\u00e9.",
+                "C": "A f\u00e9\u00e9 par\u00ed o\u00fanje al\u00e9 ni.\u00f3 wol\u00e9.",
+                "D": "O\u00fanje al\u00e9 wa ti f\u00e9\u00e9 t\u00e1n k\u00ed \u00f3 t\u00f3\u00f3 wol\u00e9."
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "30",
+            "question_text": "<p>Do not disturb my students</p>",
+            "options": {
+                "A": "M\u00e1 j\u00e9 k\u00ed in\u00fa \u00e0w\u1ecdn ak\u00e9ko\u00f3 mi b\u00e0j\u00e9.",
+                "B": "M\u00e1 y\u00ed ir\u00eds\u00ed \u00e0won ak\u00e9k\u00f2\u00f3 pad\u00e0.",
+                "C": "M\u00e1 j\u00e9 k\u00ed \u00e0w\u1ecdn ak\u00e9k\u00f2\u00f3 jin\u00e0 s\u00ed mi.",
+                "D": "M\u00e1 da \u00e0won ak\u00e9k\u00f2\u00f3 mi l\u00e1\u00e0m\u00fa."
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "26",
+            "question_text": "<p>Apeere gb\u00f3l\u00f3h\u00f9n \u00e0b\u00f2d\u00e9 ni</p>",
+            "options": {
+                "A": "A k\u00ed i s\u00f9gb\u00f3n k\u00f2 d\u00e1h\u00f9n",
+                "B": "\u00d3r\u00ed Ol\u00fa n\u00ed \u00e0n\u00e1",
+                "C": "Mo f\u00e9 k\u00ed o w\u00e1 sil\u00e9",
+                "D": "W\u00e1 lo ra ata n\u00ed oj\u00e0"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "28",
+            "question_text": "<p>I have no intention of coming to your house.\u00a0</p>",
+            "options": {
+                "A": "Mi \u00f2 ti \u00e8 gb\u00e8r\u00f2 l\u00e1ti l\u1ecd si il\u00e9 r\u00e8",
+                "B": "Mi \u00f2 gb\u00e8r\u00f2 l\u00e1ti w\u00e1 s\u00ed il\u00e9 re.",
+                "C": "Mi \u00f2 ni\u00ed gb\u00e8r\u00f2 l\u00e1ti w\u1ea3 s\u00ed il\u00e9 re",
+                "D": "Mi\u00f2 gb\u00e8r\u00f2 l\u00e1ti l\u1ecd s\u00ed il\u00e9 r\u00e8."
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "33",
+            "question_text": "<p>\"Aw\u00f2l\u00fam\u00e1t\u00e8\u00e9, iw\u00f2n ara r\u00e8 l\u00f3 m\u1edd\", j\u00e9 \u00e0p\u0119\u0119r\u0119</p>",
+            "options": {
+                "A": "\u00e8g\u00f2",
+                "B": "\u00d2we",
+                "C": "of\u00f2",
+                "D": "\u00e8f\u00e8"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "32",
+            "question_text": "<p>\u0130b\u00e1d\u00f3gba gb\u00f3l\u00f3h\u00f9n jeyo n\u00edn\u00fa</p>",
+            "options": {
+                "A": "Kurum\u00ed On\u00e0l\u00fa, ir\u00f3 \u00c0gbow\u00e1, oko iroko",
+                "B": "\u00ccr\u00f9 \u00f2k\u00e9r\u00e9 k\u00f2 j\u00f3mi ob\u00e0 \u00f3 t\u00f2r\u00f2",
+                "C": "j\u00f3 n\u00ed j\u00f3, ay\u00f2 n\u00edf yo",
+                "D": "Emi \u00f2 b\u00e1 on\u00edk\u00e0\u00e1m\u00f3g\u00fan nil\u00e9"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "31",
+            "question_text": "<p>\"Af\u00e9f\u00e9 t\u00ed \u0144 f\u00e9 rel\u00e9 Ol\u00f3kun, m\u00e1 j\u00e9\u00e9 \u0144 r\u00e1h\u00f9n l\u00f3ni\u00ed, \u00c8r\u00fauf\u00f9 t\u00ed \u0144 rel\u00e9 ol\u00f3\u015f\u00e0, M\u00e1a j\u00e9\u00e9 \u0144 r\u00e1h\u00f9n ...\".<br/>\n<br/>\r\n\u00c0yol\u00f2 \u00f2k\u00e8 yif j\u00e9 \u00e0p\u0119\u0119r\u0119</p>",
+            "options": {
+                "A": "\u00e0w\u00edt\u00fanw\u00ed",
+                "B": "\u00e0fiw\u00e9 el\u00e9lo\u00f3",
+                "C": "\u00e0d\u00e0p\u00e8",
+                "D": "\u00e0fiw\u00e9 t\u00e0\u00e0r\u00e0"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "35",
+            "question_text": "<p>________\u00a0ni \u00f3 k\u00f3k\u00f3 fura p\u00e9 j\u00e0p\u00e1 k\u00f2 s\u00ed n\u00ed ibi t\u00ed w\u00f3n ti gb\u00e9 k\u00e0nga.</p>",
+            "options": {
+                "A": "Ol\u00f3gb\u00f2",
+                "B": "Igal\u00e0",
+                "C": "Etu",
+                "D": "Egbin"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "34",
+            "question_text": "<p>\"Na p\u00e1p\u00e1 bora\" t\u00famo s\u00ed</p>",
+            "options": {
+                "A": "g\u00e9 oko",
+                "B": "\u015fe \u00e0i\u015fe",
+                "C": "s\u00e1 l\u1ecd",
+                "D": "t\u00fa \u00e0\u015f\u00edr\u00ed"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "39",
+            "question_text": "<p>\u00d2k\u00fa tia gb\u00e9 woj\u00e0 t\u00ed k\u00f2 t\u00e0 t\u00e1 a k\u00e1\u015fo l\u00e9 l\u00f3r\u00ed l\u00e0 \u0144 p\u00e8 n\u00ed</p>",
+            "options": {
+                "A": "L\u00e1b\u00f9d\u00e0n\u00f9",
+                "B": "\u00d4g\u00f2g\u00f2",
+                "C": "E\u00e9g\u00fan",
+                "D": "Ol\u00f3ta"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "38",
+            "question_text": "<p>Ta ni ak\u00e9wi so p\u00e9 \u00f3 moj\u016f \u00f2k\u00edti?</p>",
+            "options": {
+                "A": "In\u00e1",
+                "B": "\u00c0gb\u00e8",
+                "C": "Oj\u00f3",
+                "D": "ole"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "36",
+            "question_text": "<p>Eranko ti \u00f3 k\u00f6k\u00f3 s\u00f3 k\u00e0nga ni</p>\n<p>\u00a0</p>",
+            "options": {
+                "A": "Erin",
+                "B": "Ef\u00f2n",
+                "C": "\u0130gal\u00e0",
+                "D": "Ol\u00f3gb\u00f2"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "40",
+            "question_text": "<p>N\u00edn\u00fa or\u00edki \u0130ran )k\u00f2m\u00ed, l\u00e1ra ohun t\u00ed ij\u00f2y\u00e8 fi \u0144 \u015fe \u00f2\u015f\u00f3 ni</p>",
+            "options": {
+                "A": "\u00e0d\u00e1",
+                "B": "\u00f2k\u00f2",
+                "C": "ib\u1ecdn",
+                "D": "id\u00e0"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "d"
+        },
+        {
+            "question_number": "37",
+            "question_text": "<p>Nin\u00fa it\u00e0n \"ij\u00e0p\u00e1 k\u00f3 gbogbo ogb\u00f3n ay\u00e9 sin\u00fa k\u00e8ngb\u00e8, ta ni \u00f3 k\u00f3 Ij\u00e0p\u00e5 n\u00ed ogb\u00f3n ti \u00f3 fi gb\u1ebb ak\u00e8\u0127gb\u00e8 r\u00e8 gun igi?</p>",
+            "options": {
+                "A": "Y\u00e5nnibo",
+                "B": "Olorun",
+                "C": "ol\u00f3de",
+                "D": "Tir\u00f3k\u00f2"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "42",
+            "question_text": "<p>Agb\u00e8gb\u00e8 wo ni w\u00f3n t\u1ec9 \u0144 k\u1ecd orin senwel\u0119?</p>",
+            "options": {
+                "A": "\u0130b\u00e0d\u00e0n",
+                "B": "\u0130lorin",
+                "C": "ij\u00e8s\u00e0",
+                "D": "\u0130j\u00e8b\u00fa"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "44",
+            "question_text": "<p>K\u00edni \u00f3 se at\u00f3n\u00e0 M\u00f3rem\u00ed tit\u00ed t\u00ed \u00f3 fi d\u00e9 il\u00fa il\u00e1 \u00d2r\u00e0ng\u00fan?</p>",
+            "options": {
+                "A": "Ek\u00f2l\u00f3 g\u00f2d\u00f2gb\u00e0",
+                "B": "Op\u00e1 \u00e0\u015fe",
+                "C": "Od\u00f2 Esinmirin",
+                "D": "E\u015fin funfun"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "43",
+            "question_text": "<p>Ey\u00ed t\u00ed \u00f3 je y\u1ecd n\u00edn\u00fa oriki oril\u00e8 Owu ni</p>",
+            "options": {
+                "A": "omo-o-b\u00f3og\u00f9n bo\u00f2g\u00f9n",
+                "B": "omo-\u00e8p\u00e8-\u00f2-j\u00e0",
+                "C": "omo-il\u00e8 \u0144 y\u00f2 porangandan",
+                "D": "omo Ep\u00ednr\u00edn t\u00ed \u0144 ta d\u00edd\u00f9n"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "41",
+            "question_text": "<p>Eni t\u00ed okorin k\u00ec n\u00ed Omo k\u00e0l\u00e1 ogun n\u00edn\u00fa ogun\" ni</p>",
+            "options": {
+                "A": "Ajijol\u00e1",
+                "B": "O\u015f\u00f3l\u00f9ad\u00e9",
+                "C": "Ak\u00ednt\u00f2\u0144d\u00e9.",
+                "D": "L\u00e1b\u00e9rinjo"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "45",
+            "question_text": "<p>M\u00f3rem\u00ed \u00e0ti ta ni \u00f3 te il\u00e9 il\u00e1 d\u00f3?</p>",
+            "options": {
+                "A": "On\u00edf\u00e1d\u00e9",
+                "B": "El\u00fajoba",
+                "C": "Ok\u00e0nb\u00ed",
+                "D": "Ol\u00e1lom\u00ed"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "50",
+            "question_text": "<p>K\u00ed ni won fi \u015fe \u00e0lej\u00f2 b\u00e0b\u00e1 \u00e0gb\u00e0 n\u00edgb\u00e0 t\u00ed \u00f3 w\u00e1 t\u00faf?</p>",
+            "options": {
+                "A": "Eran",
+                "B": "Omi",
+                "C": "Eb\u00e0",
+                "D": "B\u00far\u00e9di"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "49",
+            "question_text": "<p>Nin\u00fa ewi \"M\u00e1 Y\u00f2 Mi\", ir\u00fagbin wo ni ak\u00e9wi so p\u00e9 \u00f3 l\u00e8 k\u00f3?</p>",
+            "options": {
+                "A": "Og\u00f3m\u00f2",
+                "B": "Il\u00e1",
+                "C": "I\u015fin",
+                "D": "Ewe"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "48",
+            "question_text": "<p>L\u00e1ra k\u00ed ni a ti l\u00e8r\u00ed awo?</p>",
+            "options": {
+                "A": "K\u00f2l\u00f2k\u00f2l\u00f2",
+                "B": "Ig\u00fan",
+                "C": "A\u00f2ni",
+                "D": "Agb\u00f2"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "47",
+            "question_text": "<p>Ta ni agb\u00e1ra \u0144 pa b\u00ed ot\u00ed?</p>",
+            "options": {
+                "A": "Od\u00e9sanm\u00ed",
+                "B": "Omidan",
+                "C": "B\u00e0b\u00e1",
+                "D": "Aw\u00e1\u00e1y\u00e9k\u00fa"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "46",
+            "question_text": "<p>N\u00edbo ni Ol\u00far\u00f3nb\u00ed r\u00f2 p\u00e9 \u00e0won Ugb\u00f3 ti pa D\u00e9l\u00e0j\u00e0?</p>",
+            "options": {
+                "A": "Oko",
+                "B": "En\u00faw\u00e0",
+                "C": "L\u00e0g\u00e8r\u00e8",
+                "D": "\u00d6k\u00e8r\u00e8w\u00e8"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "53",
+            "question_text": "<p>\u00c0k\u00f3b\u00ed om\u1ecd l\u00f3k\u00f9nrin n\u00ed \u00e0\u00e0fin ni</p>",
+            "options": {
+                "A": "b\u00e9\u00e9r\u00e8",
+                "B": "\u00e0r\u00e8mo",
+                "C": "iw\u00e0l\u0117",
+                "D": "d\u00e1\u00f3d\u00f9"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "52",
+            "question_text": "<p>Ta ni \u00f3 j\u00e9ri\u00ed s\u00ed ow\u00f3 t\u00ed Ad\u00fa gb\u00e9 f\u00fan D\u0117jo?</p>",
+            "options": {
+                "A": "\u00c0b\u00e8n\u00ed",
+                "B": "B\u00f2s\u00edp\u00f2",
+                "C": "\u00c1di\u00f3",
+                "D": "Bayo"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "55",
+            "question_text": "<p>Om\u1ecd wo ni \u00e0 \u0144 ki b\u00e1yi\u00ed: \"B\u00ed iy\u00e1 l\u00e8 k\u00fa, k\u00f3 k\u00fa..?</p>",
+            "options": {
+                "A": "Ig\u00e8",
+                "B": "Ain\u00e1",
+                "C": "Aj\u00e0yi",
+                "D": "D\u00e0da"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "51",
+            "question_text": "<p>\u00c0Won woni \u00f3 m\u00e1a \u0144 ra \u00e0w\u00f2r\u00e1n n\u00ed egb\u00e9l\u00e9gb\u00e8 n\u00e1ir\u00e0?</p>",
+            "options": {
+                "A": "T\u00e1l\u00e1k\u00e0",
+                "B": "On\u00ed\u015f\u00f2w\u00f2",
+                "C": "Ol\u00f3w\u00d3",
+                "D": "Al\u00e1k\u00f2w\u00e9"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "54",
+            "question_text": "<p>_________\u00a0ni \u00e0 \u0144 k\u00ed n\u00ed '\u00c0bor\u00faboy\u00e8</p>",
+            "options": {
+                "A": "Qd\u0119",
+                "B": "Ol\u00f3s\u00e0n-\u00e1ny\u00ecn",
+                "C": "Babal\u00e1wo",
+                "D": "Ak\u1ef3p\u0119"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "57",
+            "question_text": "<p>Ohun in\u00ed \u00f2k\u00fa ni \u00e0 \u0144 p\u00e8 n\u00ed</p>",
+            "options": {
+                "A": "oro",
+                "B": "og\u00fan",
+                "C": "ol\u00e1",
+                "D": "ik\u00f3gun"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "B"
+        },
+        {
+            "question_number": "60",
+            "question_text": "<p>\".. l\u00e1k\u00e1ay\u00e9, O\u015finmol\u0117\", j\u00e9 \u00e0r\u00e0 oriki</p>",
+            "options": {
+                "A": "Es\u016f",
+                "B": "\u00d6g\u00fan",
+                "C": "Ob\u00e0t\u00e1l\u00e1",
+                "D": "Or\u00fanmil\u00e0"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "56",
+            "question_text": "<p>A m\u00e1a \u0144 pa \u00e0\u00e0l\u00e8 l\u00e9 ohun in\u00ed eni l\u00e1ti</p>",
+            "options": {
+                "A": "m\u1ecd iye \u00e8niy\u00e0n t\u00f3 k\u1ecdj\u00e1 n\u00edb\u00e8.",
+                "B": "m\u00fa ohun in\u00ed n\u00e1\u00e0 p\u00e9 l\u00f3wo eni.",
+                "C": "d\u00e9kun ol\u00e8 jj\u00e0.",
+                "D": "fi Opin s\u00ed a\u00e1wo."
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "C"
+        },
+        {
+            "question_number": "59",
+            "question_text": "<p>______ j\u00e9 \u00f2kan l\u00e1ra \u00e0w\u1ecdn ohun \u00e8l\u00f2 f\u00fan h\u00edhun</p>",
+            "options": {
+                "A": "Igi ew\u00e9 iran",
+                "B": "Igi oparun",
+                "C": "Igi op\u0119",
+                "D": "Igi ew\u00e9 ak\u00f2ko"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "A"
+        },
+        {
+            "question_number": "58",
+            "question_text": "<p>\u00c4j\u00f3t\u00e0p\u00e1 ni a m\u00e1a \u0144 j\u00f3</p>",
+            "options": {
+                "A": "g\u00e1ngan",
+                "B": "k\u0119r\u00edkeri",
+                "C": "b\u00e8nhb\u00e9",
+                "D": "b\u00e0t\u00e1"
+            },
+            "exam_year": "WAEC\n                        2024",
+            "answer": "D"
+        },
+        {
+            "question_number": "63",
+            "question_text": "<p>\u00c0f\u00e0yg aw\u00e9-gb\u00f3l\u00f3h\u00f9n afarah\u0119 \u00e0ti \u00e8y\u00e0 awe-gbolohun</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2024",
+            "answer": "d"
+        },
+        {
+            "question_number": "62",
+            "question_text": "<p>\u00e0kiy\u00e8s\u00ed: i\u00f2 \u00e0mi oh\u00f9n pon dandan\u00a0</p>\n<p>\u00c0b\u00e1j\u00e1de lilo igb\u00e9s\u00e8 fon\u00f3l\u00f3ji \u00e0r\u00e0nm\u00f3 l\u00f3ri \u00e0won w\u00fanr\u00e8n</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2024",
+            "answer": "d"
+        },
+        {
+            "question_number": "61",
+            "question_text": "<p>D\u00e1h\u1ee7n ib\u00e9er\u0117 m\u00e9ta p\u00e9r\u00e9 n\u00edn\u00fa ip\u00edn yi<br/>\r\n\u00a0</p>\n<p>A.\u00a0L\u00e1ibiri\u00a0iioba ib\u00edl\u00e8 mi\u00a0<br/>\r\nB. Ibi lser\u00e9 kan t\u00ed mo lo n\u00ed od\u00fan t\u00ed \u00f3 koja<br/>\r\nC. Iwa\u00a0ib\u00e0j\u00e9<br/>\r\nD.\u00a0\u00c8d\u00e8 G\u00e8\u00e9si gbayi iu \u00e8d\u00e8 ab\u00ednib\u00ed lo</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2024",
+            "answer": "d"
+        },
+        {
+            "question_number": "64",
+            "question_text": "<p>\u00c0p\u0119\u0119r\u0119 ir\u00faf\u00e9 oro-or\u00fako \u00e0ti ilo w\u1ecdn n\u00edn\u00fa gb\u00f3l\u00f3h\u00f9n</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2024",
+            "answer": "d"
+        },
+        {
+            "question_number": "65",
+            "question_text": "<p>B\u00cd \u0130j\u00e0p\u00e1 \u015fe m\u1ecd \u00e0\u015f\u00edr\u00ed \u00c0\u015f\u00e0 n\u00edn\u00fa \"\u00cct\u00e0n ij\u00e0p\u00e1 \u00e0ti \u00c0\u015f\u00e1\":</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2024",
+            "answer": "d"
+        },
+        {
+            "question_number": "66",
+            "question_text": "<p>K\u00f3k\u00f3\u00a0oro\u00a0t\u00ed \u00f3 j\u0119 y\u1ecd n\u00edn\u00fa or\u00edki \"\u00ccran\u00a0Ii\u1ed9k\u00f3\"</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2024",
+            "answer": "d"
+        },
+        {
+            "question_number": "67",
+            "question_text": "<p>Iy\u00e0t\u00f2 l\u00e1\u00e0rin \u00c8g\u00e8 Did\u00e5 \u00e0ti R\u00e1r\u00e0 Sisun:<br/>\r\nIjora t\u00ed 6 w\u00e0 l\u00e1\u00e0rin \u00c8g\u00e8 D\u00edd\u00e1 \u00e0ti R\u00e1r\u00e0 Sisun:</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2024",
+            "answer": "d"
+        },
+        {
+            "question_number": "68",
+            "question_text": "<p>B\u00cd \u00e0won w\u00fand\u00ed\u00e1 \u00f2k\u00e8r\u00e8w\u00e8 \u015fe fi \u00e8h\u00f3n\u00fa w\u1ecdn h\u00e0n l\u00f3r\u00ed iw\u00e0 ir\u00e9nij\u0119 t\u00ed ol\u00f3y\u00e8 Om\u00edyal\u00e9 h\u00f9:</p>",
+            "options": {},
+            "exam_year": "WAEC\n                        2024",
+            "answer": "d"
+        }
+    ]
+}

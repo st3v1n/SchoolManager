@@ -380,15 +380,17 @@ def results(request):
 
     if role == 'student': results = ExamResult.objects.filter(student=request.user)
     # elif role == 'teacher': results = ExamResult.objects.filter(exam__subject__in=request.user.teaching_subjects.all())
-    else: results = ExamResult.objects.all()
+    else: results = ExamResult.objects.all()    
 
+            # move this params to filter instead of search 
+            # add date and time filters
+            # Q(student__student_profile__grade_level__icontains=search_query) |
+            # Q(exam__paper_type__icontains=search_query) |
     if search_query:
         results = results.filter(
             Q(student__first_name__icontains=search_query) |
             Q(student__last_name__icontains=search_query) |
             Q(student__email__icontains=search_query) |
-            Q(student__student_profile__grade_level__icontains=search_query) |
-            Q(exam__paper_type__icontains=search_query) |
             Q(exam__subject__name__icontains=search_query)
         )
 
