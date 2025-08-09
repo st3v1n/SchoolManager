@@ -3,7 +3,6 @@ import subprocess
 import sys
 import platform
 from pathlib import Path
-
 class AppInstaller:
     def __init__(self):
         self.project_dir = Path(__file__).resolve().parent
@@ -138,7 +137,6 @@ while ($true) {
                 print(f"STDOUT: {e.stdout}")
             if e.stderr:
                 print(f"STDERR: {e.stderr}")
-
 
     def create_service_runner(self):
         """Create a service runner script"""

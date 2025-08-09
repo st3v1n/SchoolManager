@@ -186,7 +186,6 @@ def update_student_question_limit(request, exam_id):
         response['HX-Trigger'] = "StudentLimitUpdate"
         return response
     
-
 def delete(request, exam_id):
     if request.method == "DELETE":
         exam = get_object_or_404(Exam, id=exam_id)

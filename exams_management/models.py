@@ -22,48 +22,19 @@ class Folder(models.Model):
     def __str__(self):
         return self.name
 
-# class QuestionOption(models.Model):
-#     question = models.ForeignKey('Question', on_delete=models.CASCADE, related_name='options')
-#     option_text = models.TextField(null=True, blank=True)
-#     media = models.FileField(upload_to='questions/options/media/', null=True, blank=True)
-#     is_correct = models.BooleanField(default=False)
-
-#     def __str__(self):
-#         return self.option_text or f"Option for {self.question.id}"
-
-# class Question(models.Model):
-#     question_text = models.TextField()
-#     question_type = models.CharField(max_length=50, choices=[
-#         ('multiple_choice', 'Multiple Choice'),
-#         ('true_false', 'True/False'),
-#         ('FIB', 'Fill in the Blanks'),
-#         ('essay', 'Essay'),
-#     ])
-#     marks = models.PositiveIntegerField(default=1)
-#     media = models.FileField(upload_to='questions/', null=True, blank=True)
-#     # correct_option = models.ForeignKey(QuestionOption, on_delete=models.SET_NULL, null=True, blank=True)
-
-#     def clean(self):
-#         if self.question_type == 'multiple_choice' and not self.correct_option:
-#             raise ValidationError("Multiple-choice questions must have a correct option.")
-#         if self.correct_option and self.correct_option.question != self:
-#             raise ValidationError("Correct option must be one of the provided options.")
-
-#     def __str__(self):
-#         return self.question_text
-
-
 class Question(models.Model):
     question_text = models.TextField()
     question_type = models.CharField(max_length=50, choices=[
         ('multiple_choice', 'Multiple Choice'),
-        ('true_false', 'True/False'),
+        # ('true_false', 'True/False'),
         ('FIB', 'Fill in the Blanks'),
         ('essay', 'Essay'),
     ])
     marks = models.PositiveIntegerField(default=1)
     media = models.FileField(upload_to='questions/', null=True, blank=True)
-
+    exam_board = models.ForeignKey('ExamBoard', on_delete=models.SET_NULL, null=True, blank=True)
+    exam_year = models.PositiveIntegerField(null=True, blank=True)
+    
     def clean(self):
         if self.question_type == 'multiple_choice' and not self.options.filter(is_correct=True).exists():
             raise ValidationError("Multiple-choice questions must have a correct option.")
@@ -167,4 +138,52 @@ class ExamAnswer(models.Model):
         
     def __str__(self):
         return f"{self.attempt.student.username} - {self.question.question_text[:30]}"
+
+class ExamBoard(models.Model):
+    name = models.CharField(max_length=50, unique=True)
+    abbreviation = models.CharField(max_length=20, unique=True)  # e.g., WAEC
+    country = models.CharField(max_length=100, blank=True, null=True)
+    description = models.TextField(blank=True, null=True)
+    logo = models.ImageField(upload_to='exam_boards/logos/', blank=True, null=True)
+
+    def __str__(self):
+        return self.name
+
+
+
+
+
+
+
+
+# class QuestionOption(models.Model):
+#     question = models.ForeignKey('Question', on_delete=models.CASCADE, related_name='options')
+#     option_text = models.TextField(null=True, blank=True)
+#     media = models.FileField(upload_to='questions/options/media/', null=True, blank=True)
+#     is_correct = models.BooleanField(default=False)
+
+#     def __str__(self):
+#         return self.option_text or f"Option for {self.question.id}"
+
+# class Question(models.Model):
+#     question_text = models.TextField()
+#     question_type = models.CharField(max_length=50, choices=[
+#         ('multiple_choice', 'Multiple Choice'),
+#         ('true_false', 'True/False'),
+#         ('FIB', 'Fill in the Blanks'),
+#         ('essay', 'Essay'),
+#     ])
+#     marks = models.PositiveIntegerField(default=1)
+#     media = models.FileField(upload_to='questions/', null=True, blank=True)
+#     # correct_option = models.ForeignKey(QuestionOption, on_delete=models.SET_NULL, null=True, blank=True)
+
+#     def clean(self):
+#         if self.question_type == 'multiple_choice' and not self.correct_option:
+#             raise ValidationError("Multiple-choice questions must have a correct option.")
+#         if self.correct_option and self.correct_option.question != self:
+#             raise ValidationError("Correct option must be one of the provided options.")
+
+#     def __str__(self):
+#         return self.question_text
+
         
