@@ -494,6 +494,9 @@ if __name__ == '__main__':
         print("The Django service has been completely removed.")
         return True
 
+    def pull_updates(self):
+        #edge cases 1. update without git  2. 
+
     def update(self):
         """Update the service with new code changes"""
         self.print_header("Update")
@@ -513,6 +516,7 @@ if __name__ == '__main__':
 
         # Update steps
         steps = [
+            ("Pulling updates", self.pull_updates)
             ("Installing/updating dependencies", self.install_requirements),
             ("Running database migrations", self.run_migrations),
             ("Collecting static files", self.collect_static),

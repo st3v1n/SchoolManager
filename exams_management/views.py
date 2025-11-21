@@ -285,8 +285,12 @@ def submit_exam(request, attempt_id):
                               student=request.user,
                               submitted_at__isnull=True)
     
-    # Check if time has expired
-    if attempt.has_expired():
+    # Check if time has expired (skip for autosave to allow saving last minute work, or enforce? 
+    # Usually autosave should still work, but final submission checks time. 
+    # Let's allow autosave even if slightly over time, but final submission enforces it.)
+    is_autosave = request.GET.get('autosave') == 'true'
+    
+    if not is_autosave and attempt.has_expired():
         attempt.score = attempt.calculate_score()
         attempt.submitted_at = timezone.now()
         attempt.save()
@@ -301,27 +305,73 @@ def submit_exam(request, attempt_id):
         data = json.loads(request.body)
         answers = data.get('answers', {})
         
-        for question_id, option_id in answers.items():
-            question = attempt.exam.questions.get(id=question_id)
-            option = QuestionOption.objects.get(id=option_id)
-            if not question.options.filter(id=option.id).exists():
-                return JsonResponse({'status': 'error', 'message': 'Invalid option selected.'}, status=400)
+        if not answers:
+             return JsonResponse({'status': 'success', 'message': 'No answers to save.'})
 
-            ExamAnswer.objects.update_or_create(
-                attempt=attempt,
-                question=question,
-                defaults={'selected_option': option}
-            )
+        # 1. Security Fix: Validate that all submitted questions belong to this attempt
+        submitted_question_ids = set(str(k) for k in answers.keys())
+        allowed_question_ids = set(str(q.id) for q in attempt.questions.all())
         
-        attempt.score = attempt.calculate_score()
-        attempt.submitted_at = timezone.now()
-        attempt.save()
+        if not submitted_question_ids.issubset(allowed_question_ids):
+            return JsonResponse({'status': 'error', 'message': 'Invalid question submitted.'}, status=400)
+
+        # 2. Performance Fix: Bulk fetch and update
+        # Fetch all relevant questions and options in one go
+        questions_map = {str(q.id): q for q in attempt.questions.filter(id__in=submitted_question_ids)}
+        options_map = {str(o.id): o for o in QuestionOption.objects.filter(id__in=answers.values())}
         
-        return JsonResponse({
-            'status': 'success',
-            'score': attempt.score,
-            'redirect_url': f'/exam/results/{attempt_id}/'
-        })
+        # Prepare ExamAnswer objects
+        existing_answers = {
+            str(a.question.id): a 
+            for a in ExamAnswer.objects.filter(attempt=attempt, question__id__in=submitted_question_ids)
+        }
+        
+        to_create = []
+        to_update = []
+        
+        for q_id, o_id in answers.items():
+            question = questions_map.get(str(q_id))
+            option = options_map.get(str(o_id))
+            
+            if not question or not option:
+                continue # Should be caught by security check, but safety net
+                
+            # Validate option belongs to question (Security/Data Integrity)
+            if option.question_id != question.id:
+                 return JsonResponse({'status': 'error', 'message': 'Invalid option for question.'}, status=400)
+
+            if str(q_id) in existing_answers:
+                answer_obj = existing_answers[str(q_id)]
+                if answer_obj.selected_option_id != option.id:
+                    answer_obj.selected_option = option
+                    to_update.append(answer_obj)
+            else:
+                to_create.append(ExamAnswer(
+                    attempt=attempt,
+                    question=question,
+                    selected_option=option
+                ))
+        
+        if to_create:
+            ExamAnswer.objects.bulk_create(to_create)
+        if to_update:
+            ExamAnswer.objects.bulk_update(to_update, ['selected_option'])
+        
+        if not is_autosave:
+            attempt.score = attempt.calculate_score()
+            attempt.submitted_at = timezone.now()
+            attempt.save()
+            
+            return JsonResponse({
+                'status': 'success',
+                'score': attempt.score,
+                'redirect_url': f'/exam/results/{attempt_id}/'
+            })
+        else:
+            # Update last activity
+            attempt.save() # Updates auto_now field
+            return JsonResponse({'status': 'autosaved'})
+
     except Exception as e:
         return JsonResponse({'status': 'error', 'message': str(e)}, status=400)
 
@@ -333,40 +383,77 @@ def exam_results(request, attempt_id):
         messages.error(request, "This exam has not been submitted yet.")
         return redirect('dashboard')
     
-    user_answers = {}
-    correct_question_ids = {}
+    # Fetch all answers for this attempt
+    user_answers_map = {}
     try:
-        answers = ExamAnswer.objects.filter(attempt=attempt)
+        answers = ExamAnswer.objects.filter(attempt=attempt).select_related('selected_option')
         for answer in answers:
-            user_answers[str(answer.question.id)] = str(answer.selected_option.id)
+            if answer.selected_option:
+                user_answers_map[answer.question_id] = answer.selected_option.id
     except Exception as e:
         messages.error(request, f"Error retrieving answers: {str(e)}")
-        user_answers = {}
     
     total_questions = attempt.questions.count()
     correct_answers = 0
     
-    # Count correct answers
-    for question in attempt.exam.questions.all():
-        question_id_str = str(question.id)
-        if question_id_str in user_answers:
-            selected_option_id = user_answers[question_id_str]
-            is_correct = question.options.filter(id=selected_option_id, is_correct=True).exists()
-            correct_question_ids[question_id_str] = is_correct
+    # Prepare questions with context for the template
+    questions_with_context = []
+    correct_question_ids = {} # For navigator
+    
+    # Prefetch options to avoid N+1 in the loop
+    questions = attempt.questions.prefetch_related('options').all()
+    
+    for question in questions:
+        user_selected_id = user_answers_map.get(question.id)
+        question.user_selected_id = user_selected_id
+        
+        is_question_correct = False
+        
+        # Annotate options
+        # We need to iterate options to determine question correctness and style options
+        options = list(question.options.all()) # Evaluate queryset
+        for option in options:
+            option.is_selected = (option.id == user_selected_id)
+            
+            if option.is_selected and option.is_correct:
+                is_question_correct = True
+            
+            # Styling logic
+            if option.is_correct:
+                option.style_class = 'bg-green-100'
+                option.icon_class = 'bg-green-500 text-white'
+                option.status_text = '(Correct Answer)'
+                option.text_class = 'text-green-600'
+            elif option.is_selected and not option.is_correct:
+                option.style_class = 'bg-red-100'
+                option.icon_class = 'bg-red-500 text-white'
+                option.status_text = '(Your Answer)'
+                option.text_class = 'text-red-600'
+            else:
+                option.style_class = ''
+                option.icon_class = 'border border-gray-300'
+                option.status_text = ''
+                option.text_class = ''
+        
+        if is_question_correct:
+            correct_answers += 1
+            correct_question_ids[question.id] = True
         else:
-            correct_question_ids[question_id_str] = False
-    percentage = (attempt.score / attempt.exam.total_marks) * 100 if attempt.exam.total_marks > 0 else 0
-    correct_answers = sum(1 for correct in correct_question_ids.values() if correct)
+            correct_question_ids[question.id] = False
+            
+        question.annotated_options = options
+        questions_with_context.append(question)
 
+    percentage = (attempt.score / attempt.exam.total_marks) * 100 if attempt.exam.total_marks > 0 else 0
     
     context = {
         'attempt': attempt,
-        'selected_questions': attempt.questions.all(),
+        'selected_questions': questions_with_context, # Use the annotated list
         'exam': attempt.exam,
         'total_questions': total_questions,
         'correct_answers': correct_answers,
         'percentage': percentage,
-        'user_answers': user_answers,
+        'user_answers': user_answers_map, # Kept for backward compat if needed, but mostly unused now
         'correct_question_ids': correct_question_ids,
     }
     
@@ -377,9 +464,12 @@ def results(request):
 
     search_query = request.GET.get('search', '')
 
-    if role == 'student': results = ExamResult.objects.filter(student=request.user)
-    # elif role == 'teacher': results = ExamResult.objects.filter(exam__subject__in=request.user.teaching_subjects.all())
-    else: results = ExamResult.objects.all()    
+    # FIX: Default to empty or self-only
+    if role == 'admin' or role == 'teacher':
+        results = ExamResult.objects.all()
+    else:
+        # Default for students AND anyone else (safety first)
+        results = ExamResult.objects.filter(student=request.user)
 
             # move this params to filter instead of search 
             # add date and time filters

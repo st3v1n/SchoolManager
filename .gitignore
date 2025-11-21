@@ -165,3 +165,27 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 *staticfiles/
+
+*.pyc
+__pycache__/
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.swp
+.DS_Store
+*.env
+*.venv
+*.tox
+*.coverage
+.mypy_cache/
+*.pyo
+*.db
+*.sqlite3
+*.pkl
+node_modules/
+.env/
+private_key.pem
+# Migrations should be included, but sometimes you might exclude temporary ones:
+# The line below can be used to ignore migration files when needed:
+# migrations/*.py

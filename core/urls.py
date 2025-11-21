@@ -1,7 +1,11 @@
 from django.urls import path
 from . import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
+
+    path('', views.home, name='home'),
     path('signup/', views.signup_view, name='signup'),
     path('login/', views.login_view, name='login'),
     path('logout/', views.ulogout, name='logout'),
@@ -15,3 +19,7 @@ urlpatterns = [
     path('role_results/', views.role_results, name='role_results'),
     path('api/users/search/', views.search_users, name='search_users'),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

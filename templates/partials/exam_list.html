@@ -54,9 +54,11 @@
                                     hx-post="{% url 'exam:update_student_question_limit' exam.id %}"
                                     hx-trigger="change" 
                                     hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
-                                <span class="text-sm text-gray-700">out of <strong>{{ q_no }}</strong> total questions</span>
+                                <span class="text-sm text-gray-700">out of <strong>{{ q_no }}</strong> available questions</span>
+                                <br>
                                 <label class="text-sm font-medium text-gray-700 ml-auto">For total marks of:</label>
                                 <input name="total_marks" hx-post="{% url 'exam:update_student_question_limit' exam.id %}" hx-trigger="change" hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}' type="number" value="{{ exam.total_marks }}" class="w-20 border border-gray-300 rounded px-2 py-1">
+                                <label class="text-sm font-medium text-gray-700">Marks</label>
                             </div>
                         {% endwith %}
                 </div>
@@ -70,8 +72,8 @@
             </button>
             <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-200"
                 hx-get="{% url 'exam:question_info' exam.id %}"
-                hx-target="#exam-display-area">
-                View Questions >
+                hx-target="#exam-details-{{ exam.id }}" onclick="toggleDropdown('exam-details-{{ exam.id }}')">
+                View Questions ▼
             </button>
         </div>
 

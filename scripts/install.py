@@ -84,7 +84,7 @@ class AppInstaller:
         script_path = self.project_dir / "open_sms_in_browser.ps1"
 
         content = r'''
-$knownIpPath = "$env:LOCALAPPDATA\last_opened_ip.txt"
+$knownIpPath = "f'{self.log_dir}\last_opened_ip.txt"
 
 function Get-CurrentIp {
     Get-NetIPAddress -AddressFamily IPv4 |
@@ -105,7 +105,7 @@ while ($true) {
         }
 
         if ($ip -ne $lastIp) {
-            Start-Process "http://$ip:8000"
+            Start-Process ("http://" + $ip + ":8000")
             Set-Content -Path $knownIpPath -Value $ip
         }
     }

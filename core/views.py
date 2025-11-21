@@ -10,6 +10,7 @@ from django.http import JsonResponse
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
 
+def home(request): return render(request, 'home.html')
 def test(request): return render(request, 'test.html')
 
 def role_results(request):
